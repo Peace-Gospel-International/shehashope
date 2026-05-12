@@ -1,0 +1,26 @@
+---
+title: "13 new rescues now living at the 'She Has Hope' rehabilitation home in Nepal; spotlight on one young woman's story of rescue and hope"
+date: "2017-09-15"
+slug: "13-new-rescues-now-living-at-the-she-has-hope-rehabilitation-home-in-nepal-spotlight-on-one-young-womans-story-of-rescue-and-hope"
+featured_image: "https://cdn.shopify.com/s/files/1/1151/8374/files/PicFrame_14c597d9-1f31-4ee4-a8a3-fc259bffa1a2_large.jpg?v=1505512873"
+---
+
+Photo: Girls at our rehabilitation home learn several skills such as knitting, crafts making, jewelry making, tailoring, cooking, and gardening.
+
+We are very thankful to report that in August 4 new girls (ages 17-22) were rescued from the Nepal-China border by local volunteer groups and were brought to live in the safety of our She Has Hope rehabilitation home. This brings our current enrollment to 13 rescued girls who are now receiving counseling and medical aid and safe room & board. They are also becoming skillful in several craft-making, seamstress, and cooking and gardening techniques, and are receiving support in basic literacy through daily coursework offered by our loving, full-time teachers. The girls are currently learning to make popular Nepalese dresses and how to knit sweaters, and they are growing beans and tomatoes in the rehabilitation home garden. All of these benefits and blessings will change the course of their lives forever, providing a future of hope, peace, confidence, and economic independence.
+
+Today we want to share the powerful story of one of our new rescues living at the rehabilitation home as reported by our Executive Director, Kirby Trapolino, who just visited the home this past week:
+
+At the age of 16, Kavinya’s* family was told by traffickers that she could get a good job in China. The offer seemed legitimate, and so they sent her with the men proposing the job offer in their small village, along with some other girls. Her family is extremely poor, living off of subsistence farming, barely making ends meet. So when they heard about the prospect of their daughter being able to earn good money in a neighboring country with a much stronger economy, their hope eclipsed their fears, and they fell prey to the scam. Sadly, there is a mass exodus of youth in the villages of Nepal, as most are leaving to find jobs in other countries. This has created an epidemic of exposure and vulnerability to trafficking on an unprecedented scale.
+
+Kavinya was no exception, unfortunately. Once her traffickers managed to get her and the other girls across the porous China border at a remote checkpoint in the Himalayas, they took her papers. Not knowing the local language or where she was, she had no recourse once she discovered the frightening reality that the supposed employment representatives were not taking her to China for any normal job and that she was not going to earn any money. Whether she realized it or not, she had at that point become a slave. She was forced to stay in a dingy hotel room in China, and the human rights violations she endured while there we cannot document here.
+
+Thankfully, when Kavinya reached the age of 17, an anonymous tip led to a raid on her hotel where she had been held against her will for several months. She was freed and sent back to Nepal by the Chinese authorities. At that point, because the She Has Hope home is registered with the Nepali government as a certified safe house and rehabilitation home for girls recovering from trafficking, she was sent to us where we gladly received her. She is now happy to be in recovery with us as she receives medical and counseling care for her frequent panic attacks, nutritious meals, security, and training in several skill-development courses offered at the home.
+
+The joy that Kavinya has already experienced with us is apparent, as her bright smile lights up the room. She gets along well with the other girls as they draw from each others' strengths in recovery. It is clear that they lift each other up while the other is down, sharing a common experience as survivors. Her new home is very colorful and clean, with several windows that allow sunlight to flood the spaces with light. It's a stark contrast to her previous living conditions, and she could not be any more happy to have found this new chance at life and freedom. She is clearly very grateful to be a part of our program, and we are beyond thrilled to have her with us.
+
+Photo inset: (Top-left): Learning different skills such as jewelry making provides the girls in our rehabilitation home with hope for their future. (Top-right): Our native team in Nepal recently organized a trafficking awareness counseling class at a local high school. (Center-right): Children in our Nepal orphan home had fun painting flower pots and planting flowers in them. (Bottom-right): Our children from the orphan home are doing well since starting back to school earlier this summer. (Bottom-left): Girls at our rehabilitation home are currently learning to make popular Nepalese dresses as part of their seamstress coursework, providing them with the skills needed for economic independence upon graduation.
+
+* Story names are changed to protect our program participants.
+
+© 2026 She Has Hope. Powered by Shopify

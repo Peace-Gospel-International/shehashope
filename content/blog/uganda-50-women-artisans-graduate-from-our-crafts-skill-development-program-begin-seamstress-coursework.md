@@ -1,0 +1,26 @@
+---
+title: "Uganda: 50 women artisans graduate from our crafts skill development program, begin seamstress coursework"
+date: "2016-07-01"
+slug: "uganda-50-women-artisans-graduate-from-our-crafts-skill-development-program-begin-seamstress-coursework"
+featured_image: "https://cdn.shopify.com/s/files/1/1151/8374/files/07_2016UgandaPicFrame_large.jpg?16813487693790356375"
+---
+
+Photo: Some of the women enrolled in our crafts program took time out to pose for a group photo on our main campus in rural southeastern Uganda.
+
+We are happy to report that 50 women recently graduated from our 6-month ‘She Has Hope’ crafts school where they learned to make handmade necklaces, earrings, paper beads, beaded purses, and baskets which are for sale at SheHasHope.org. Now these women are qualified to move on to the next 6-month course of their training in a tailoring and sewing class where they will learn to make school uniforms, sweaters, school bags, simple cloth packing bags, and women’s purses, and they will also learn how to mend damaged clothing and bags. With your support we were able to purchase 10 sewing machines for the women to use in this class, and we are now seeking to purchase 40 more new sewing machines which cost around $120 each. Our goal is to provide each woman in the class with a machine of her own upon graduation.
+
+We are also seeking to raise sufficient funds to construct a new, large building for our women’s training center which will house the crafts school, the seamstress class, the catering services business program, and some other small business classes that will help the women learn how to live self-sustainably. For now, the women enrolled in our crafts school are learning how to make jewelry, fashion accessories, and baskets under a shady tree, and we will move the 10 new sewing machines into the small building that currently serves as the humble base of operations for the school. The women enrolled in the tailoring and sewing class will learn in shifts of 10 at a time since our space is limited.
+
+Photo inset: (Top-left): Our Uganda crafts school currently is held outdoors; we are seeking to raise funds for a larger building which will house the program. (Top-right): The skills learned in our crafts program ensures that at-risk mothers have a way to provide for their families, which provides protection from trafficking. (Bottom-left): Women enrolled in our crafts school learn to make handmade necklaces, earrings, paper beads, beaded purses, and baskets. (Bottom-right): The women in our crafts program proudly display their handmade goods and the skills they have mastered.
+
+We’d like to introduce you to one woman, Irene, who is benefitting from these programs. She became a widow after her husband died in the civil war in Northern Uganda in 2005. Since then, she has lived a very miserable life after her husband's relatives disowned her. Irene has seven children and raising them, feeding them, and paying their tuition fees has been a great challenge. Irene joined our local church in 2008 after she learned of our work from an outreach to people in her community. She is just one of the many women who suffered in similar ways until our native team started the crafts school and sewing and tailoring class where they are now receiving love, help, and support. Irene and the other women are finding healing from painful emotions and memories of their past, they have been given a beautiful social life as they work together with other women, and learning to sew and make crafts helps them discover their worth and potential as they see what they can create with their own hands.
+
+Revenue generated from sales of the women’s crafts allows them to enroll their daughters in school, and education is the first step in preventing their daughters from the lure of human trafficking. If mothers are earning their own income and their girls are enrolled in school, it eliminates two of the major links in the trafficking cycle: one, the desperation of parents which leads them to believe a false offer of employment from a trafficker for their daughter. And two, the young girl lacking the promise of better employment opportunities when she is of age, due to a lack of education. If we can ensure that at-risk mothers like Irene have a way to provide for themselves financially and to purchase the necessary supplies to enroll their daughters in school, then we are breaking two of the major pathways to which young girls can often fall into trafficking situations in Uganda.
+
+We look forward to reporting back about our progress with these programs. We are thankful for your generous support which makes these improvements and projects possible, blessing the lives of women and their daughters in our community.
+
+Take Action: donate toward our women’s training center construction fund | shop Amazon through this link — as an Amazon Associate we earn from qualifying purchases
+
+Take a Closer Look: view more photos from this project and others
+
+© 2026 She Has Hope. Powered by Shopify

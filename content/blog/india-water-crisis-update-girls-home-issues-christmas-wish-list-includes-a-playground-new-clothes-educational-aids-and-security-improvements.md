@@ -1,0 +1,20 @@
+---
+title: "India water crisis update; Girls Home issues Christmas wish list, includes a playground, new clothes, educational aids, and security improvements"
+date: "2017-12-01"
+slug: "india-water-crisis-update-girls-home-issues-christmas-wish-list-includes-a-playground-new-clothes-educational-aids-and-security-improvements"
+featured_image: "https://cdn.shopify.com/s/files/1/1151/8374/files/PicFrame_ffcc395d-ef27-4b60-8c9c-52cc8e2171c9_large.jpg?v=1512167908"
+---
+
+Photo: The girls at our girls home are happy to have a steady supply of cool, safe drinking water thanks to our recent water well improvements.
+
+Today we are sharing an update from our native team in India who have been dealing with the effects of a severe drought in the area since June, which is when the annual monsoons were supposed to occur. The monsoons provide a natural irrigation source for the land, and also provide drinking water in the water table for our well, so by August, we were experiencing a devastating water crisis. In addition, our clean water well had run to a trickle, and we were receiving only a very small amount of water through our pipeline because it had been recently damaged during some government road work. The pipeline exists to run the water from the well to the campus, which is 768 meters (about a half-mile) away from the well. The pipeline was breaking because it was constructed of weak plastic materials, which was making the flow of water impossible to reach our campus.
+
+Thanks to your generous donations we raised $6,500 to replace the pipeline with a stronger metal material that will ensure the continual steady flow of water to our campus, and construction was completed last week. Now the water easily reaches the campus, and it is stored on the rooftop and then run through our reverse osmosis filtration system for added purity. In August, we were also able to successfully drill our well deeper to reach a deep water source, and it has been a huge blessing to our team and children because we have received a very good supply of water, even better than our previous supply. In the words of our field director: “Now we have sufficient water to drink, really it is a miracle for our campus!” The area has recently received some rain, but we ask for your prayers for heavier rains this month so that our neighbors in the region will have an abundance of clean drinking water as well.
+
+Our ground level and rooftop box gardens also suffered because of the drought — most of our crops died due to inadequate amounts of water. But we are happy to report that this month we will be planting tomatoes, eggplant, okra, cucumbers, and curry leaves which will be harvested in January or February. This month will be an ideal planting month as there will be a wide coverage of fog over the land, and the humid wet air will keep the gardens hydrated. We are optimistic that we will draw a good profit (in savings) from the gardens, and we are thankful that the harvests of organic vegetables from our gardening projects add nutritious ingredients to the children’s meals.
+
+In other news, our India team is facing heightened administrative challenges as the Indian government is tightening standards and requirements for orphan homes, but we are happy to report we have submitted all the requested paperwork and passed all inspections. We only have one requirement that they are asking us to improve upon at this time. The new requirement is that our campus security wall be heightened, but we need to raise $5,000 to meet this requirement as it is quite an extensive wall and will require much work.
+
+Our India team also has an important Christmas wish list in order to bless the children living at our Girls Home during special Christmas celebrations. With your support we hope to:
+
+© 2026 She Has Hope. Powered by Shopify

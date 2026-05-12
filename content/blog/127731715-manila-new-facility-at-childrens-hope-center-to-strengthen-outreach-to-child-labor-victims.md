@@ -1,0 +1,24 @@
+---
+title: "Manila: New facility at Children's Hope Center to strengthen outreach to child labor victims"
+date: "2016-05-27"
+slug: "127731715-manila-new-facility-at-childrens-hope-center-to-strengthen-outreach-to-child-labor-victims"
+featured_image: "https://cdn.shopify.com/s/files/1/1151/8374/files/05_2016PhilippinesPicFrame_large.jpg?18157452187400072719"
+---
+
+Photo: Our Manila Director seen with some of the girls in our program, in front of the construction site for their new Children’s Hope Center facility.
+
+Deep in the heart of one of Manila’s most hazardous slums, our Children’s Hope Center is shining a bright light into the darkness of child labor and malnutrition. Situated on the edge of a huge city landfill, the Payatas Colony is a living nightmare where children play in contaminated drainage and are working in unthinkable, hazardous conditions as young as age 5. Through the Hope Center, we are seeking to offer families an alternative to child labor, and meet the core needs of the community through our current program. It is currently operated part-time and focuses on getting the children enrolled in local schools by providing them with school supplies and the fees needed to enroll in school, along with nutrition support and hygiene assistance — we provide the children with hygiene kits which contain soap, a toothbrush and toothpaste, shampoo, and rubbing alcohol.
+
+Thanks to your support, we plan to expand the program into an after-school care program, where the children can come to find help with their homework, work on the computers, and get snacks and a fresh-cooked meal before going home for the day. We hope to raise $900 in new monthly support — $450 for food and $450 to pay our workers and tutors, to fund the program. Our faithful director Malaya — a single mother who has a huge heart for these children — and our 5 volunteers will help the children with their homework, computer tutoring, and cooking. By keeping the children successfully enrolled in school we can keep them out of the extremely hazardous child labor that goes on in the Payatas colony, and also give them much better chances of avoiding the perils of human trafficking which currently plague Manila. It is estimated that over 60,000 children are involved in child prostitution in metro Manila, with its staggering population of 23 million.
+
+Photo inset: (Top-left): The children love playing with their One World ultra-durable soccer balls provided by our Manila Hope Center. (Top-right): Our Hope Center provides after-school computer tutoring to at-risk children in the slums. (Bottom-left): Included in the after-school program are snacks and a fresh-cooked meal for the children before they go home for the day. (Bottom-right): Two of our Hope Center volunteers, one of whom came through our program as a child and is now giving back to serve her community.
+
+We are happy to report that construction is well underway to build a permanent building for our Children’s Hope Center in the Payatas Colony. Right now our construction efforts are focused on the first floor which will include a study hall and the kitchen. The main structure is now complete. We have recently purchased window grills, tiles, and doors to finish out the project, and we are on target to complete construction before the rainy season. The new building will reduce our standing overhead since we will no longer need to rent our old facility. The new building will also enhance our ability to conduct VBS style activities during the rainy season in the summer. The children of the community have come to love the activities of the program which include group games, art, singing, dancing, and learning how to make crafts for their parents. The Hope Center program is based on our successful model of educational support, tutoring, and nutrition aid we developed in Hyderabad, India. We currently have about 70 children (ages 4-12) who benefit from the program and will enjoy the improved facilities in Manila.
+
+Thank you for your prayers and support which enable Malaya and the rest our native team to continue their hard work — enriching the lives of our children, breaking the cycle of poverty, and rescuing them from child labor by helping us finally reach our vision of a fully operational and properly equipped after-school care program.
+
+Take Action: donate toward the construction of our Children’s Hope Center | shop Amazon through this link — as an Amazon Associate we earn from qualifying purchases
+
+Take a Closer Look: view more photos from this project and others
+
+© 2026 She Has Hope. Powered by Shopify

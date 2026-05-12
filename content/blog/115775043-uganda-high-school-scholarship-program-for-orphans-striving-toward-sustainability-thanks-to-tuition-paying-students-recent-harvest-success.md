@@ -1,0 +1,24 @@
+---
+title: "Uganda: High school scholarship program for orphans striving toward sustainability thanks to tuition-paying students; recent harvest success"
+date: "2015-07-25"
+slug: "115775043-uganda-high-school-scholarship-program-for-orphans-striving-toward-sustainability-thanks-to-tuition-paying-students-recent-harvest-success"
+featured_image: "https://cdn.shopify.com/s/files/1/1151/8374/files/07_2015UgandaPicFrame-1024x768_large.jpg?667207625176431785"
+---
+
+Photo: Part of the boarding, nutrition, and education expenses for our orphan girls are paid for by students who are able to afford tuition payments at our high school.
+
+We are happy to report that we currently have 45 paying students enrolled in our high school, and their tuition fees cover 25% of the school operating budget. Their payments also enable some of our orphan girls to attend the high school when they would otherwise not be able to do so. The generosity of our paying students also enables the orphan girls to live on campus in one of the classrooms that we converted to be a dormitory.
+
+All of the girls are enrolled in the high school where they are studying English, mathematics, geography, economics, history, fine art, entrepreneurship, chemistry, physics, biology, and computer. They also have the option to attend a Bible study class, which all enjoy. The girls are very excited to now live in a loving environment where they can acquire a good education. They are also grateful to receive warm, healthy meals and a balanced diet of organic vegetables from our farmland such as sweet potatoes, potatoes, tomatoes, carrots, kale, eggplant, onions, corn, and arrowroot. We recently had a very successful harvest of beans yielding 440 pounds (200 KGs). We are thankful for this harvest because beans are a great source of protein and starch in our children’s diets. The orphan girls also have access to clean water from our water well that we drilled on our main campus, which has significantly reduced the contraction of water-borne diseases that were previously acquired from dirty water.
+
+Photo inset: (Top-left) Students are enjoying their economics class at the high school. (Top-right): Our farmland is nearing harvest time. (Bottom-left): We’re also raising turkeys at the farmland. (Bottom-right): Girls enjoy a break from classes in the courtyard at our high school.
+
+We also raise chickens, turkeys, pigs, and cows, so we are able to provide the girls with important vitamins and nutrients, and protein and fiber, to give them energy and strength. However, we continue to have security concerns on the high school campus — the girls are vulnerable to outsiders who could lure them away from campus and harm them. Our security team cannot keep an eye on every corner of the campus at night and sometimes we do find trespassers on our property. In fact, we have experienced a recent theft from our farmland when 7 young turkeys were stolen. With your support and contributions from our generous donors, we need to raise $20,000 to fence the entire campus so that we can protect the orphan girls and our other students from those who wish to take advantage of them, and also protect our valuable farmland enterprise.
+
+We are also currently facing some challenges to get our high school fully accredited. Our accreditation will enable us to enroll more paying students, give our students confidence that our school will be successful, enable us to save money that would be spent by taking candidate students to other schools for their national exams, and our teachers will be able to go through training to learn how to give the national exams, which will give our school more positive exposure. In order to receive our accreditation, we need to fully equip our science lab with new apparatuses, chemicals, shelves, tables, and chairs ($5,800); construct a new building to house the science lab, school library, computer lab, and an examination hall ($30,000); purchase 30 computers for our students ($7,000); build 2 separate toilets for the comfort and privacy of the boys and girls ($9,400); and cover all license fees and administrative costs ($1,500).
+
+We look forward to reporting back about our progress in the building of the security fence around the high school campus and getting our school fully accredited. We are thankful for your generous support which makes these improvements possible, blessing the lives of our students.
+
+Take Action: donate toward our school accreditation fund | shop amazon through this link — as an Amazon Associate we earn from qualifying purchases
+
+© 2026 She Has Hope. Powered by Shopify

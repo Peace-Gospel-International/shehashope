@@ -1,0 +1,26 @@
+---
+title: "7 Girls rescued from human trafficking, now safe at ‘She Has Hope’ rehabilitation home"
+date: "2015-08-22"
+slug: "91709315-7-girls-rescued-from-human-trafficking-now-safe-at-she-has-hope-rehabilitation-home"
+featured_image: "https://cdn.shopify.com/s/files/1/1151/8374/files/08_2015NepalPicFrame-1024x7681_large.jpg?12772470956665977644"
+---
+
+Photo: A girl rescued from human trafficking is learning to make embroidered purses as part of her skill development coursework at our rehabilitation home.
+
+We are happy to report that 7 girls, ages 15-23 years old, were recently rescued from the dangers of human trafficking thanks to the courageous work of our native team and local authorities in Nepal and India. Three of the girls were rescued in Delhi when they were found during a police raid of suspicious activity being carried out in hotel rooms. They were referred to an NGO that helps Nepali girls get back to Nepal — through a partnership with this NGO, they were safely transported to our rehabilitation home. The other 4 girls, lured away with the promise of well-paying nanny work, were rescued last week — they were found being trafficked at a border crossing as it looked suspicious that a man was alone with 4 teenage girls. The trafficker got away, but these girls are now safe at our rehabilitation home as well.
+
+The girls were scared to live in a new home at first, but they adjusted quickly and now feel at ease thanks to the other girls at the rehabilitation home who have been through similar situations and are so welcoming to the new girls. All of the girls enjoy watching movies, spending time in the garden, talking with each other, cooking, and playing games. They have also been learning to make a new design of clothing, a kurta salwar, which is a shirt and pants combination that is popular among Nepali women.
+
+In other good news, the girls were greatly blessed last week when our Executive Director delivered some special stone, glass, and ornamental Nepali beads which, once made into jewelry during their skill development classes, should raise about $2,000 through our shop. In addition, someone donated over 2,000 pearls and gold-plated clasps for the girls to use in their jewelry designs. Also delivered to the home were finished sample products made by other local, established artisans for the girls’ inspiration. He spoke with our Nepal director and the She Has Hope jewelry and crafts teacher to give an explanation of what he thought the girls could make with the beads, emphasizing that they should be encouraged to choose their own beads and design their own unique creations. The results were stunning. We are so happy with what the girls came up with, and we believe that our She Has Hope crafts shop customers will be excited to support our cause by purchasing these beautiful expressions of the girls’ creative visions.
+
+We have recently implemented a new birthday celebration calendar at the home so that every girl staying with us can have a great memory of her birthday. Last week one of the girls had a birthday and our staff held a celebration for her. Everyone enjoyed the party and the delicious cake.
+
+Photo inset: (Top-left) A newly rescued trafficking survivor learns how to make a necklace in one of her skill development classes. (Top-right): A finished “kurta salwar” sewn by one of our trafficking survivors. (Bottom-left): Staff and girls at the home celebrate a survivor’s birthday. (Bottom-right): Children at our orphan home enjoy time playing together outside.
+
+There is even more good news to report: The house owner of our Girls Home had previously lived with his family on the third floor. They recently vacated the property and we were able to rent out the entire building. This allowed us to stop renting the Boys Home location and move them into the ground floor rooms of the Girls Home. In addition, the house owner had been using the green space around the home for storage. Now all of that is cleared out and the children have twice as much play space, and they are very happy with these new developments. They also now have access to the rooftop covered terrace where they eat meals at two long tables and do homework and other activities when the weather is nice.
+
+In order to supplement funding for our Nepal programs, we’ve equipped our native team with a farmland enterprise, and made the girls’ crafts available for sale online, at the She Has Hope crafts shop. Our farmland is not only providing profits for funding, but also nutritious, organic ingredients for our program participants’ meals. Our native team has been preparing the soil and new shade canopies for the coming planting season when we will plant radishes and tomatoes. We look forward to reporting back about the harvest of these vegetables in 3 months, and we are so grateful for your generous donations and your faithful prayers.
+
+Take Action: shop for the girls’ handmade crafts online | shop amazon through this link — as an Amazon Associate we earn from qualifying purchases
+
+© 2026 She Has Hope. Powered by Shopify

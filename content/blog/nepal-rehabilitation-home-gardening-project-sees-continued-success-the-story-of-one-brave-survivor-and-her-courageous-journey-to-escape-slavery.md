@@ -1,0 +1,36 @@
+---
+title: "Nepal rehabilitation home gardening project sees continued success; the story of one brave survivor and her courageous journey to escape slavery"
+date: "2018-01-19"
+slug: "nepal-rehabilitation-home-gardening-project-sees-continued-success-the-story-of-one-brave-survivor-and-her-courageous-journey-to-escape-slavery"
+featured_image: "https://cdn.shopify.com/s/files/1/1151/8374/files/SHH_PicFrame_ded23574-a626-48b5-ac4a-d80ae06da1e1_large.jpg?v=1516396482"
+---
+
+Photo: Girls recovering from trafficking are happy to learn advanced gardening skills at their beautiful rehabilitation home in central Nepal.
+
+We are happy to report that we recently harvested 66 pounds of green beans at our Nepal ‘She Has Hope’ trafficking rehabilitation home garden project. We are also looking forward to a bountiful harvest of cauliflower this month, and an equally encouraging harvest of onions and garlic in February. The girls’ gardening project not only provides them with nutritious, organic ingredients for their meals, but it also gives them the knowledge of advanced gardening techniques. They leave the home with the ability to start their own gardens to provide for their nutritional needs.
+
+The girls are also learning to make popular Nepalese and Indian fashion designs such as Salwar Kameez and Kurtas for both men and women. Through their seamstress and craft-making work, the girls learn how to sew other various traditional styles of Nepalese and Indian dresses as well, make stuffed animals, and knit sweaters, gloves, and baby hats. They also learn how to make beautiful jewelry, such as necklaces, bracelets, and earrings — learning to create all of these items gives them confidence and a great sense of accomplishment. Many of the girls’ crafts are sold online at SheHasHope.org, and all proceeds directly support their rehabilitation. In other good news, we threw a Christmas party for the girls where we celebrated the good news of the Christmas story, served them festive Nepalese food and drinks, and gave each of the girls a gift. The party was a great blessing to the girls and gave them much joy.
+
+A big part of our mission is to prevent girls from being part of the tragic statistic that 20,000 Nepalese girls are trafficked across the Nepal-India border every year. In 2017 it was reported that over the past five years Nepal has been a source, transit, and destination country for men, women, and children subjected to dangerous forced labor and human trafficking. Nepali women and girls in particular are subjected to trafficking in Nepal, India, the Middle East, Asia, and sub-Saharan Africa in brothels, construction sites, factories, mines, domestic work, and begging. Unregistered migrants — including the large number of Nepalis who travel through India or rely on unregistered recruiting agents — are particularly vulnerable to forced labor and trafficking.
+
+Within Nepal, bonded labor, a type of slavery, exists in agriculture, brick kilns, the stone-breaking industry, and domestic work. Trafficking of Nepali women and girls increasingly takes place in private apartments, rented rooms, guest houses, and restaurants. And some Nepali women who agree to arranged marriages through Nepali companies to men in China and South Korea often experience fraud and are vulnerable to domestic servitude in which their freedom of movement is prohibited. Tragically, many Nepalis, whose home or livelihood was destroyed by the 2015 earthquakes continue to be especially vulnerable to trafficking, also because the natural disaster increased poverty in rural areas and created political instability.
+
+Thus, we regularly organize trafficking awareness counseling classes in public schools where we train local girls how to be aware of and avoid the lies and dangerous practices of human traffickers, such as the increasing utilization of social media and mobile technologies to lure and deceive their victims. Our training classes, which are formatted in a workshop & discussion style, allow the girls to talk about guilt, fear, shame, anger, and their safety — they are encouraged to be open and honest and learn from each other’s experiences. They are also taught to identify different types of problems and dangerous situations, and they are given solutions. Our most recent workshop in such prevention and education occurred last month, where members of our team trained 52 girls (ages 14-18). These are now empowered to recognize the deceit of traffickers and make wise, safe decisions.
+
+Today we want to share the redemptive story of one of the girls living at the rehabilitation home, 17-year-old Dhanvi*:
+
+Dhanvi is from nearby Jhapa which lies in the southeastern part of Nepal. She was only able to complete her government education through the 6th grade. When she was very young, her father passed away, and she and her two older brothers struggled in extreme poverty with their mother barely able to earn enough for them to get by. Then one of her brothers went missing and the other moved and rarely came to visit Dhanvi and her mother. Under these conditions, it was very difficult for them to meet their daily needs. So at the young age of 16, upon hearing of employment opportunities, Dhanvi moved to Kakarbhitta which is in eastern Nepal on the India-Nepal border. She applied for what she thought was a job to wash dishes in a small hotel there.
+
+Upon taking the “job” she was abused and threatened, and forced to work for no pay. In other words, by the brute force and intimidation of the hotel owner, she had become a slave. She was continuously sexually and physically abused and constantly threatened by the hotel owner. She was finally able to get the courage to leave the hotel and ask for help. But she could not take any action against the hotel owner due to lack of proof. She managed to find enough money to take a bus to Kathmandu where she learned of our home through a government office referral. She is now happy to be with us, recovering from her trauma and learning valuable skills that will help her find financial independence for her and her mother. It is because of your support of our programs that Dhanvi now has hope for a much brighter future.
+
+We also threw a Christmas party for the 21 children living at our orphan home. We gave all of the children new clothes and shoes, small purses, pens, and diaries, and we served them special Nepali food traditionally enjoyed during the holidays. The children also enjoyed singing and dancing and enjoyed the party immensely.
+
+We remain extremely grateful for your generous donations and your faithful prayers, helping to improve the lives of our girls, our children, and our native team. Thank you for making all that we do possible.
+
+Take Action: sign up for a monthly donation to help sustain the operating budget of these important programs | shop Amazon through this link — as an Amazon Associate we earn from qualifying purchases
+
+Take a Closer Look: view more photos from this project and others
+
+* Story names are changed to protect our program participants.
+
+© 2026 She Has Hope. Powered by Shopify

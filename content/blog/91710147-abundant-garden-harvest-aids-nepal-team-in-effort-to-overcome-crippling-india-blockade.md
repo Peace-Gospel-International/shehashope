@@ -1,0 +1,26 @@
+---
+title: "Abundant garden harvest aids Nepal team in effort to overcome crippling India blockade"
+date: "2015-11-07"
+slug: "91710147-abundant-garden-harvest-aids-nepal-team-in-effort-to-overcome-crippling-india-blockade"
+featured_image: "https://cdn.shopify.com/s/files/1/1151/8374/files/11_2015NepalPicFrame-1024x768_large.jpg?16138696904022997005"
+---
+
+Photo: Part of the ‘She Has Hope’ coursework for girls recovering from human trafficking is learning advanced gardening techniques.
+
+Today we bring you news from our native team in Kathmandu, who have recently been affected by an economic blockade unofficially imposed on the people of Nepal by their neighboring country of India. They are now six weeks into protests that have blocked the main points of entry for goods from India, such as fuel, cooking gas, and vegetables, thus leading to a crippling shortages of these items in Nepal. The crisis can be traced back to early August, when residents of Nepal’s southern plains bordering India, who are known as Madhesis, began protesting provisions of the country’s new constitution. The Madhesi groups are unhappy with the way the new constitution demarcates states, saying that it will leave them underrepresented in the federal government. They want all plains districts in southeastern Nepal combined into a single state.
+
+As Nepal is surrounded on three sides by India, it is overwhelmingly reliant upon imports from India, including much of its food, consumer goods, and 100 percent of its fuel – aviation fuel, petrol, diesel, and cooking gas. Nepal receives 60% of all the imports and nearly all of its oil and gas from India. Due to the current economic blockade, the entire Kathmandu valley is out of cooking gas and fuel — the disruption to deliveries have rippled through Nepal’s economy. A lack of gasoline means that there are fewer cars on the streets and long lines for rationed fuel. The price of food and other market goods has elevated. We hope that the Nepali government is making an effort to bring its imports from China, Nepal’s northern border, which runs through the Himalayas. The rugged terrain of the mountains makes shipping more difficult, but if China is willing to help, we are praying that the shortages will end in a few weeks.
+
+Photo inset: (Top-left): Girls in our She Has Hope program learn about advanced gardening techniques as part of their coursework. (Top-right): Coursework for the girls in our program also includes learning seamstress skills through daily coursework offered by our full time teachers. (Bottom-left): These girls are thankful to be learning skills that will help support them after graduation from our program. (Bottom-right): A girl in our program is grateful that the gardening techniques she is learning will also provide an abundance of nutritious food for herself and others in our team and programs.
+
+Photo inset: (Top-left): Girls in our She Has Hope program learn about advanced gardening techniques as part of their coursework. (Top-right): Coursework for the girls in our program also includes learning seamstress skills through daily coursework offered by our full time teachers. (Bottom-left): These girls are thankful to be learning skills that will help support them after graduation from our program. (Bottom-right): A girl in our program is grateful that the gardening techniques she is learning will also provide an abundance of nutritious food for herself and others in our team and programs
+
+In the midst of this crisis, we are happy to report that our garden at the ‘She Has Hope’ rehabilitation home is flourishing, thus we have been able to provide the girls and our native team with nutritious, organic meals during the economic blockade. We are growing tomatoes and spinach, which we will harvest again this month, and cauliflower, cabbage, and garlic, which we will harvest again in January. Our garden produce is in addition to our off-site farmland which produces corn, potatoes and several varieties of vegetables. However, our garden is at the rehabilitation home and provides us with quicker access to food, which has proven especially true during the blockade.
+
+In other good news, our 23 orphans are doing very well — they’ve been enjoying playing music, movie nights, and playing soccer. They’ve enjoyed playing music so much, in fact, that we turned our small store room into a musical practice room. Now they have a separate room in which to practice guitar, keyboards, violin, and percussion every day after they finish their homework and assignments. The children are very happy about this new blessing in their lives.
+
+We look forward to reporting back about the end of the economic blockade, and the normal flow of things returning to the lives of our girls, our orphans, and our native team. Thanks for your faithful support and the generous contributions from our donors — every little bit helps to give our girls and orphans a life full of joy and hope.
+
+Take Action: shop for the girls’ handmade crafts online | shop Amazon through this link — as an Amazon Associate we earn from qualifying purchases
+
+© 2026 She Has Hope. Powered by Shopify

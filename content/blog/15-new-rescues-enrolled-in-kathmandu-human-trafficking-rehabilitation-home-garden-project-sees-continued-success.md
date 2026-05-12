@@ -1,0 +1,26 @@
+---
+title: "15 new rescues enrolled in Kathmandu human trafficking rehabilitation home; garden project sees continued success"
+date: "2017-01-20"
+slug: "15-new-rescues-enrolled-in-kathmandu-human-trafficking-rehabilitation-home-garden-project-sees-continued-success"
+featured_image: "https://cdn.shopify.com/s/files/1/1151/8374/files/PicFrame_large.jpg?v=1484941453"
+---
+
+Photo: Part of the path to rehabilitation includes empowering the girls with marketable skills such as jewelry making. Many graduates go on to start their own small businesses.
+
+We are happy to report that we recently rescued 15 Nepalese girls (ages 17-22) from the perils of human trafficking with the help of local hotel owners, our sister NGOs, and a women’s organization at a border town in far western Nepal, who all informed us about the girls’ dangerous situations. Working together, we were able to deliver these girls to safety with the help of local police. Some of the girls and their families were tricked by the lure of a false promise of good jobs in the city, but when they arrived to their destinations, they realized that they were actually being sold to a trafficker. Other girls were lured by the false promise of marriage, or forced to elope, only to find out that the men had plans to sell them to traffickers. Most often without any money and threatened with death if they try to escape, girls trapped in these types of operations are held against their will and awaken in a nightmare of modern day slavery.
+
+Thankfully, all 15 of these girls are now safe, healthy, and happy living in our rehabilitation home where they are learning to make new designs of handmade necklaces and knitted sweaters. Most recently their teacher has introduced them to the skill of crafting popular Nepalese attire such as Chaubandi Cholo and Umbrella Kurta dresses for women, and Daura Suruwals for men. Many of their creations are sold online at the She Has Hope crafts shop where all of the profits go toward the girls’ rehabilitation. Learning these new skills, along with literacy, cooking, craft-making, the seamstress trade, and gardening techniques through daily coursework offered by our full-time teachers, we are helping the girls to become independent economically.
+
+Photo inset: (Top-left): A girl at our rehabilitation home works on mastering a new jewelry design. Craft-making is one of the many skills she will be proficient in upon graduation from the home. (Top-right): Our local team organized trafficking awareness counseling classes for girls in heavily-trafficked “danger zones.” (Bottom-left): The garden at the rehabilitation home provides the girls with both nutritious food and an understanding of advanced gardening techniques. (Bottom-right): The girls in our rehabilitation program are tested on several common Nepali clothing patterns and must commit them to memory in order to receive their seamstress certification.
+
+In other good news, the girls harvested 22 pounds (10 KGs) of spinach from their garden this month along with a small harvest of peas, which will add delicious organic ingredients to their daily meals. The girls are also planning to prepare the soil to plant a variety of vegetables at their garden project in March, and we look forward to a bountiful harvest of this crop. Upon harvest they are able to enjoy the fruits of their work as they use the organic ingredients in their cooking classes and surprise each other with their culinary creations. It gives them joy to experience their own creativity as they serve one another. In addition, the garden project not only provides the girls with nutritious ingredients for their meals, but it also equips them with the understanding of advanced gardening techniques. They leave the home with knowledge of how to start their own gardens to provide for themselves.
+
+Toward the end of 2016 we organized trafficking awareness counseling classes for girls ages 15-18 in areas we’ve found to be heavily-trafficked “danger zones.” We equipped 3,500 teenage girls in 51 schools through our training classes which are styled in a workshop and discussion format. We also reached 226 girls through our door-to-door trafficking awareness program in remote villages in December. Our passion is to reach every girl possible, no matter how remote; our teams are all native and experienced in remote trekking, reaching locations where no vehicle can take them. All of the teachers and students are thankful for our trafficking awareness programs which allow the girls to talk about guilt, fear, shame, anger, and their safety — they are encouraged to open up and learn from each other’s experiences. They are also taught to identify different problems and dangerous situations, and they are given solutions.
+
+As always, we are very thankful for your generous donations and your faithful prayers, helping to improve the lives of our girls and give them a future full of hope.
+
+Take Action: shop for the girls’ handmade crafts online | shop Amazon through this link — as an Amazon Associate we earn from qualifying purchases
+
+Take a Closer Look: view more photos from this project and others
+
+© 2026 She Has Hope. Powered by Shopify

@@ -1,0 +1,24 @@
+---
+title: "Manila: New 'Children's Hope Center' facility applies finishing touches, prepares for relaunch with 110 children enrolled"
+date: "2016-08-05"
+slug: "manila-new-childrens-hope-center-facility-applies-finishing-touches-prepares-for-relaunch-with-110-children-enrolled"
+featured_image: "https://cdn.shopify.com/s/files/1/1151/8374/files/Manila_SOTW_PicFrame_large.jpg?8083743682043323048"
+---
+
+Photo: Children who would otherwise be involved in hazardous child labor gather at our outreach center for education and nutrition assistance.
+
+We are happy to report that construction of a permanent building for our Children’s Hope Center in the Payatas Colony will be finished later this month. Earlier this year we built the study hall and the kitchen, secured the main structure, and purchased window grills, tiles, and doors. Right now our construction efforts are focused on completing the tile work on the entrance of the building and in the kitchen, painting the walls, and installing the electricity. The final phase of opening our new Children’s Hope Center will be to furnish the building with bookshelves, tables, chairs, and ceiling fans. We are very thankful because the new building will reduce our standing overhead since we will no longer need to rent our old facility. Our native team is looking forward to a dedication ceremony at the end of this month to celebrate the opening of this new permanent building with the children and the local community.
+
+Until now, the existing program in Manila has been more focused on nutrition support and Saturday computer classes, but this new center will allow for the daily after-school care program which has proven so successful in our other Children's Hope Centers in Hyderabad, India; Kathmandu, Nepal; Cebu, Philippines; and Kampala, Uganda. We will follow the model of educational support, tutoring, and nutrition aid that we first developed in the slums of Hyderabad in 2011. The children will now be able to find help with their homework, work on the computers, and get snacks and a fresh-cooked meal before going home for the day thanks to our faithful director Malaya — a single mother who has a huge heart for these children — and our 4 volunteers. We currently have 110 children (ages 4-17) enrolled in the program who will enjoy the improved facilities when the Manila Hope Center opens during the first week of September. With your faithful support, we also hope to provide the children with continual nutrition support, notebooks, pencils, and coloring materials that they will use for their school work and other activities.
+
+Photo inset: (Top-left): Manila Hope Center staff pass out afternoon snacks to local children. (Top-right): A neighborhood child is thankful for the nutrition support provided by our Hope Center. (Bottom-left): The children of the community love the activities of the program, which include group games. (Bottom-right): One the goals of our Manila Hope Center is keeping the children successfully enrolled in school, which helps to prevent them from being involved in extremely hazardous child labor or human trafficking.
+
+The new building will also enable us to conduct VBS style activities during the rainy season in the summer. The children of the community have come to love the activities of the program which include group games, art, singing, dancing, and learning how to make crafts for their parents. By keeping the children successfully enrolled in school we can keep them out of the extremely hazardous child labor that goes on in the Payatas colony, and also give them much better chances of avoiding the perils of human trafficking which currently plague Manila. It is estimated that over 60,000 children are involved in child prostitution in metro Manila, with its staggering population of 23 million.
+
+Thank you for your prayers and support which enable Malaya and the rest our native team to continue their hard work — enriching the lives of our children, breaking the cycle of poverty, and rescuing them from child labor by helping us finally reach our vision of a fully operational and properly equipped after-school care program. In Malaya’s own words: “As we want to help them and give them hope, our program is truly a big help to away them from the bad situation. Here in Payatas, you will encounter the hopeless children. We hope to maintain our program until we see their bright future. We will support their studies and nurturing by the words of God.”
+
+Take Action: donate toward the ongoing operations of the Manila Children’s Hope Center | shop Amazon through this link — as an Amazon Associate we earn from qualifying purchases
+
+Take a Closer Look: view more photos from this project and others
+
+© 2026 She Has Hope. Powered by Shopify

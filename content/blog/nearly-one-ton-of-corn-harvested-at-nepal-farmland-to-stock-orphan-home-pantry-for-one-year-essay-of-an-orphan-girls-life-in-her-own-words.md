@@ -1,0 +1,26 @@
+---
+title: "Nearly one ton of corn harvested at Nepal farmland to stock orphan home pantry for one year; essay of an orphan girl's life in her own words"
+date: "2017-11-03"
+slug: "nearly-one-ton-of-corn-harvested-at-nepal-farmland-to-stock-orphan-home-pantry-for-one-year-essay-of-an-orphan-girls-life-in-her-own-words"
+featured_image: "https://cdn.shopify.com/s/files/1/1151/8374/files/PicFrame_3cd399d6-d558-4c06-9051-b16db625a92f_large.jpg?v=1509742367"
+---
+
+Photo: Girls at our orphan home are happy to show you a sample of the recent corn harvest.
+
+We are happy to report that we harvested nearly one ton of corn on our farmland enterprise during the second week of October. This bounty will stock our orphan home pantry for one year, providing our children with added nutrition in their meals. The corn, easy to stockpile, will be ground and made into corn rice which will be mixed with regular rice in the children’s meals. We will also serve the children popcorn, a fun treat which they enjoy. Corn also provides the children with important vitamins and minerals in their diet to sustain their health, such as B vitamins, pantothenic acid, folate, vitamin E, beta-carotene, phosphorous, magnesium, manganese, zinc, iron, copper, and selenium.
+
+In other good news, our orphans recently celebrated the Dashain holidays from September 24th to October 5th. Some of our children went home to visit their families of origin, and the other children enjoyed watching TV, reading books, and the boys took morning walks and went hiking. Now all 21 of our orphans (ages 7-17) are back in school where they are studying their native Nepali language, math, science, English, social studies, health, environmental science, and computer skills. Focusing our efforts on keeping the children successfully enrolled in school is a powerful component in breaking the devastating cycle of extreme poverty, and gives them great hope and an opportunity to change their lives.
+
+Photo inset: (Top-left): Keeping the children in our Nepal orphan home successfully enrolled in school plays an important role in breaking the cycle of extreme poverty in their lives. (Top-right): The girls living at our ‘She Has Hope’ rehabilitation home recently harvested 22 pounds of spinach from their garden and are also growing cauliflower and green beans. (Bottom-right): Since coming to live at our Nepal orphan home, “Laayra”* has overcome her previous life of sickness and extreme poverty; she is now doing well in school with a better future ahead. (Bottom-left): A sample of “Laayra’s”* story which was handwritten in her own words.
+
+Today we want to share the redemptive story of one of the girls living at our orphan home, 17-year-old Laayra*, written in her own words:
+
+When I was in my own house with my family, there were only three members. There was my younger brother, my mother, and me. My daddy died when I was small. I could not remember his face. My family was very much poor. It was very difficult for my mother to raise my brother and me. There was no healthy food, and no clothes to wear. Our house was very small, made of wood and stone. We used to eat only two times in a day. My mother used to send us to a government school where we didn’t have to pay any money. Me and my brother used to go to that school.
+
+The life of my family had too many difficulties. My mother also had a disease. She always used to take medicine, but I am not sure which disease she had. I had so many headaches that one day I was admitted to the hospital, and I used to take a lot of medicine. My family situation was very horrible. My mother used to work in other people’s houses and earn money. My study habits were not good. I was not able to read and study. I didn’t even know how to write my name in English.
+
+But by the grace of God, I came here to the orphan home. When I first came here, I was unknown to everyone and to everything. At first, if was very difficult for me to adjust here. But slowly I came to know God and started to study hard. I asked God for knowledge and wisdom and He answered my each and every prayer. Today I can read and write and also my study habits have improved a lot — that’s why I’m in the 10th grade today.
+
+As I have already mentioned, I had many headaches before coming here. But because of prayer my diseases have been cured. I’m very happy here. I am getting good and healthy food to eat, beautiful dresses, and nice shoes. I’m going to a beautiful and big boarding school [as a day student] where I can learn many things. I am getting a good education. I now have lovely and beautiful family members. I’m getting love and care which I didn’t used to get from my parents. [I received news that] my mother also died when I was studying in the 6th grade. At that time I was 13 years old. I could not remember her face after I came here to the orphan home. But anyways I’m happy here because I have a happy family. And I am trying my best to study hard and be a good leader in the future. I am in the 10th grade now and I am praying to God that I can study science in 2 years. My aim is to be a nurse. So, everything is up to God.
+
+© 2026 She Has Hope. Powered by Shopify
