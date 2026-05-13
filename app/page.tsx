@@ -124,7 +124,7 @@ export default function Home() {
             {/* Image on left */}
             <div className="md:w-2/5 lg:w-1/2 flex-shrink-0">
               <Image 
-                src="/images/monthly-support-cropped-v2.jpg"
+                src="/images/monthly-support-cropped-v3.jpg"
                 alt="Survivors embracing - join The Hope Collective"
                 width={3400}
                 height={3261}
@@ -134,7 +134,7 @@ export default function Home() {
             {/* Content on right */}
             <div className="md:w-3/5 lg:w-1/2 p-8 md:p-12 lg:p-16 flex flex-col justify-center text-left">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 font-sans">
-                Support Survivors Monthly through The Hope Collective
+                Support Survivors Monthly through<br />The Hope Collective
               </h2>
               <p className="text-base md:text-lg mb-6 md:mb-8 opacity-95 font-serif">
                 Join The Hope Collective and provide consistent support for survivors on their journey to freedom and restoration. 
