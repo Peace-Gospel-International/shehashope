@@ -32,6 +32,124 @@ export default function Home() {
       {/* Hero Carousel */}
       <HeroCarousel />
 
+      {/* Mission Statement Section */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6" style={{ color: '#EE0076' }}>
+            She Has Hope
+          </h2>
+          <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
+            She Has Hope programs exist to prevent girls from becoming slaves, to rescue slavery victims from traffickers, 
+            and to rehabilitate survivors with the goal of restoring them to a life full of hope in Asia, Africa, and South America.
+          </p>
+        </div>
+      </section>
+
+      {/* Five Pillars Icons Section */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 md:gap-6">
+            <div className="text-center">
+              <div className="w-20 h-20 md:w-24 md:h-24 mx-auto mb-4 rounded-full flex items-center justify-center text-4xl md:text-5xl" 
+                   style={{ background: 'linear-gradient(135deg, #F2978F 0%, #EE0076 100%)' }}>
+                🛡️
+              </div>
+              <h3 className="text-lg md:text-xl font-semibold text-gray-800">Prevention</h3>
+            </div>
+            <div className="text-center">
+              <div className="w-20 h-20 md:w-24 md:h-24 mx-auto mb-4 rounded-full flex items-center justify-center text-4xl md:text-5xl" 
+                   style={{ background: 'linear-gradient(135deg, #F2978F 0%, #EE0076 100%)' }}>
+                🆘
+              </div>
+              <h3 className="text-lg md:text-xl font-semibold text-gray-800">Rescue</h3>
+            </div>
+            <div className="text-center">
+              <div className="w-20 h-20 md:w-24 md:h-24 mx-auto mb-4 rounded-full flex items-center justify-center text-4xl md:text-5xl" 
+                   style={{ background: 'linear-gradient(135deg, #F2978F 0%, #EE0076 100%)' }}>
+                💝
+              </div>
+              <h3 className="text-lg md:text-xl font-semibold text-gray-800">Rehabilitation</h3>
+            </div>
+            <div className="text-center">
+              <div className="w-20 h-20 md:w-24 md:h-24 mx-auto mb-4 rounded-full flex items-center justify-center text-4xl md:text-5xl" 
+                   style={{ background: 'linear-gradient(135deg, #F2978F 0%, #EE0076 100%)' }}>
+                🌟
+              </div>
+              <h3 className="text-lg md:text-xl font-semibold text-gray-800">Restoration</h3>
+            </div>
+            <div className="text-center col-span-2 md:col-span-1">
+              <div className="w-20 h-20 md:w-24 md:h-24 mx-auto mb-4 rounded-full flex items-center justify-center text-4xl md:text-5xl" 
+                   style={{ background: 'linear-gradient(135deg, #F2978F 0%, #EE0076 100%)' }}>
+                🌱
+              </div>
+              <h3 className="text-lg md:text-xl font-semibold text-gray-800">Sustainability</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Hope Collective CTA Box */}
+      <section className="py-12 md:py-16 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="rounded-xl p-8 md:p-12 lg:p-16 text-center text-white shadow-xl" 
+               style={{ background: 'linear-gradient(135deg, #F2978F 0%, #EE0076 100%)' }}>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6">
+              Support Survivors Monthly through The Hope Collective
+            </h2>
+            <p className="text-base md:text-lg mb-6 md:mb-8 max-w-3xl mx-auto opacity-95">
+              Join The Hope Collective and provide consistent support for survivors on their journey to freedom and restoration. 
+              Your monthly partnership creates sustainable, long-term impact across all our programs.
+            </p>
+            <Link 
+              href="https://peacegospel.org/donate" 
+              className="inline-block bg-white px-8 py-4 rounded-lg font-bold text-lg hover:shadow-2xl transition-all"
+              style={{ color: '#EE0076' }}
+            >
+              Join The Hope Collective
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Where We Work Section */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 md:mb-12 text-center">
+            Where We Work
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <div className="bg-white rounded-lg p-6 md:p-8 text-center shadow-md hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer">
+              <h3 className="text-2xl font-semibold mb-2" style={{ color: '#EE0076' }}>🇮🇳 India</h3>
+              <p className="text-gray-600">Vocational training, orphan care, and anti-trafficking education</p>
+            </div>
+            <div className="bg-white rounded-lg p-6 md:p-8 text-center shadow-md hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer">
+              <h3 className="text-2xl font-semibold mb-2" style={{ color: '#EE0076' }}>🇳🇵 Nepal</h3>
+              <p className="text-gray-600">Prevention programs and survivor rehabilitation</p>
+            </div>
+            <div className="bg-white rounded-lg p-6 md:p-8 text-center shadow-md hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer">
+              <h3 className="text-2xl font-semibold mb-2" style={{ color: '#EE0076' }}>🇲🇲 Myanmar</h3>
+              <p className="text-gray-600">Safe homes and vocational skills development</p>
+            </div>
+            <div className="bg-white rounded-lg p-6 md:p-8 text-center shadow-md hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer">
+              <h3 className="text-2xl font-semibold mb-2" style={{ color: '#EE0076' }}>🇵🇭 Philippines</h3>
+              <p className="text-gray-600">Education support and economic empowerment</p>
+            </div>
+            <div className="bg-white rounded-lg p-6 md:p-8 text-center shadow-md hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer">
+              <h3 className="text-2xl font-semibold mb-2" style={{ color: '#EE0076' }}>🇺🇬 Uganda</h3>
+              <p className="text-gray-600">Community development and child protection</p>
+            </div>
+            <div className="bg-white rounded-lg p-6 md:p-8 text-center shadow-md hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer">
+              <h3 className="text-2xl font-semibold mb-2" style={{ color: '#EE0076' }}>🇦🇷 Argentina</h3>
+              <p className="text-gray-600">Trafficking prevention and survivor support</p>
+            </div>
+            <div className="bg-white rounded-lg p-6 md:p-8 text-center shadow-md hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer lg:col-start-2">
+              <h3 className="text-2xl font-semibold mb-2" style={{ color: '#EE0076' }}>🇨🇴 Colombia</h3>
+              <p className="text-gray-600">Restoration programs and sustainable livelihoods</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Impact Stats */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -109,42 +227,6 @@ export default function Home() {
             >
               View All Stories
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Our Work */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h3 className="text-3xl font-bold text-gray-900 mb-12 text-center">How We Make a Difference</h3>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-rose-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-3xl">🏠</span>
-              </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-3">Orphan Care</h4>
-              <p className="text-gray-600">
-                Safe homes providing love, care, and family for children who have lost everything.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-rose-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-3xl">📚</span>
-              </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-3">Education & Training</h4>
-              <p className="text-gray-600">
-                School supplies, vocational training, and trafficking prevention education for thousands.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-rose-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-3xl">🌾</span>
-              </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-3">Sustainable Farmlands</h4>
-              <p className="text-gray-600">
-                Farm enterprises providing jobs, food security, and economic independence.
-              </p>
-            </div>
           </div>
         </div>
       </section>

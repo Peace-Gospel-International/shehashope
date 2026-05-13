@@ -34,7 +34,7 @@ export default function HeroCarousel() {
   };
 
   return (
-    <div className="relative w-full h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden bg-gray-100">
+    <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden bg-gray-100">
       {/* Slides */}
       <div className="relative w-full h-full">
         {slides.map((slide, index) => (
@@ -48,8 +48,10 @@ export default function HeroCarousel() {
               src={slide.image}
               alt={slide.alt}
               fill
-              className="object-cover"
+              className="object-contain"
+              style={{ objectPosition: 'center' }}
               priority={index === 0}
+              sizes="100vw"
             />
           </div>
         ))}
@@ -58,10 +60,10 @@ export default function HeroCarousel() {
       {/* Previous Button */}
       <button
         onClick={prevSlide}
-        className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-white/80 hover:bg-white p-3 rounded-full shadow-lg transition"
+        className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-20 bg-white/80 hover:bg-white p-2 sm:p-3 rounded-full shadow-lg transition"
         aria-label="Previous slide"
       >
-        <svg className="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-4 h-4 sm:w-6 sm:h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
         </svg>
       </button>
@@ -69,24 +71,24 @@ export default function HeroCarousel() {
       {/* Next Button */}
       <button
         onClick={nextSlide}
-        className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-white/80 hover:bg-white p-3 rounded-full shadow-lg transition"
+        className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-20 bg-white/80 hover:bg-white p-2 sm:p-3 rounded-full shadow-lg transition"
         aria-label="Next slide"
       >
-        <svg className="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-4 h-4 sm:w-6 sm:h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
         </svg>
       </button>
 
       {/* Pagination Dots */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex gap-3">
+      <div className="absolute bottom-4 sm:bottom-6 left-1/2 -translate-x-1/2 z-20 flex gap-2 sm:gap-3">
         {slides.map((_, index) => (
           <button
             key={index}
             onClick={() => goToSlide(index)}
             className={`transition-all ${
               index === currentSlide
-                ? 'bg-white w-8 h-3 rounded-full'
-                : 'bg-white/60 hover:bg-white/80 w-3 h-3 rounded-full'
+                ? 'bg-white w-6 sm:w-8 h-2 sm:h-3 rounded-full'
+                : 'bg-white/60 hover:bg-white/80 w-2 sm:w-3 h-2 sm:h-3 rounded-full'
             }`}
             aria-label={`Go to slide ${index + 1}`}
           />
