@@ -262,13 +262,13 @@ export default function Home() {
       <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center items-center gap-8">
-            <a href="https://www.guidestar.org/profile/76-0659778" target="_blank" rel="noopener noreferrer" className="grayscale hover:grayscale-0 transition">
+            <a href="https://www.guidestar.org/profile/76-0659778" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80">
               <img src="/images/seals/candid-seal.png" alt="Candid Platinum Transparency 2026" className="h-24 w-auto" />
             </a>
-            <a href="https://greatnonprofits.org/org/peace-gospel-international" target="_blank" rel="noopener noreferrer" className="grayscale hover:grayscale-0 transition">
+            <a href="https://greatnonprofits.org/org/peace-gospel-international" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80">
               <img src="/images/seals/great-nonprofits-seal.png" alt="Great Nonprofits 2025 Top-Rated Nonprofit" className="h-24 w-auto" />
             </a>
-            <a href="https://www.charitynavigator.org/ein/760659778" target="_blank" rel="noopener noreferrer" className="grayscale hover:grayscale-0 transition">
+            <a href="https://www.charitynavigator.org/ein/760659778" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80">
               <img src="/images/seals/charity-navigator-seal.png" alt="Charity Navigator Four-Star 2026" className="h-24 w-auto" />
             </a>
           </div>
