@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import HeroCarousel from './components/HeroCarousel';
 
 export default function Home() {
@@ -118,22 +119,37 @@ export default function Home() {
       {/* Hope Collective CTA Box */}
       <section className="py-12 md:py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="rounded-xl p-8 md:p-12 lg:p-16 text-center text-white shadow-xl" 
+          <div className="rounded-xl overflow-hidden text-white shadow-xl flex flex-col md:flex-row" 
                style={{ background: 'linear-gradient(135deg, #F2978F 0%, #EE0076 100%)' }}>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 font-sans">
-              Support Survivors Monthly through The Hope Collective
-            </h2>
-            <p className="text-base md:text-lg mb-6 md:mb-8 max-w-3xl mx-auto opacity-95 font-serif">
-              Join The Hope Collective and provide consistent support for survivors on their journey to freedom and restoration. 
-              Your monthly partnership creates sustainable, long-term impact across all our programs.
-            </p>
-            <Link 
-              href="https://peacegospel.org/donate" 
-              className="inline-block bg-white px-8 py-4 rounded-lg font-bold text-lg hover:shadow-2xl transition-all font-sans"
-              style={{ color: '#EE0076' }}
-            >
-              Join The Hope Collective
-            </Link>
+            {/* Image on left */}
+            <div className="md:w-2/5 lg:w-1/2 flex-shrink-0">
+              <Image 
+                src="/images/monthly-support-cropped.jpg"
+                alt="Survivors embracing - join The Hope Collective"
+                width={3400}
+                height={3261}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            {/* Content on right */}
+            <div className="md:w-3/5 lg:w-1/2 p-8 md:p-12 lg:p-16 flex flex-col justify-center text-left">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 font-sans">
+                Support Survivors Monthly through The Hope Collective
+              </h2>
+              <p className="text-base md:text-lg mb-6 md:mb-8 opacity-95 font-serif">
+                Join The Hope Collective and provide consistent support for survivors on their journey to freedom and restoration. 
+                Your monthly partnership creates sustainable, long-term impact across all our programs.
+              </p>
+              <div>
+                <Link 
+                  href="https://peacegospel.org/donate" 
+                  className="inline-block bg-white px-8 py-4 rounded-lg font-bold text-lg hover:shadow-2xl transition-all font-sans"
+                  style={{ color: '#EE0076' }}
+                >
+                  Join The Hope Collective
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>
