@@ -19,7 +19,7 @@ export default function Home() {
                 <button className="text-gray-700 hover:text-rose-600 font-medium font-sans">
                   Where We Work ▾
                 </button>
-                <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-10">
+                <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                   <Link href="/programs/india" className="block px-4 py-2 text-sm text-gray-700 hover:bg-rose-50 font-sans">India</Link>
                   <Link href="/programs/nepal" className="block px-4 py-2 text-sm text-gray-700 hover:bg-rose-50 font-sans">Nepal</Link>
                   <Link href="/programs/myanmar" className="block px-4 py-2 text-sm text-gray-700 hover:bg-rose-50 font-sans">Myanmar</Link>
@@ -263,13 +263,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center items-center gap-8">
             <a href="https://www.guidestar.org/profile/76-0659778" target="_blank" rel="noopener noreferrer" className="grayscale hover:grayscale-0 transition">
-              <img src="https://shehashope.org/cdn/shop/files/candid-seal-platinum-2026_160x160@2x.png" alt="Candid Platinum Seal" className="h-24 w-auto" />
+              <img src="/images/seals/candid-seal.png" alt="Candid Platinum Transparency 2026" className="h-24 w-auto" />
+            </a>
+            <a href="https://greatnonprofits.org/org/peace-gospel-international" target="_blank" rel="noopener noreferrer" className="grayscale hover:grayscale-0 transition">
+              <img src="/images/seals/great-nonprofits-seal.png" alt="Great Nonprofits 2025 Top-Rated Nonprofit" className="h-24 w-auto" />
             </a>
             <a href="https://www.charitynavigator.org/ein/760659778" target="_blank" rel="noopener noreferrer" className="grayscale hover:grayscale-0 transition">
-              <img src="https://shehashope.org/cdn/shop/files/cn-4star-rating-badge_160x160@2x.png" alt="Charity Navigator 4-Star Rating" className="h-24 w-auto" />
-            </a>
-            <a href="https://give.org/charity-reviews/national/humanitarian-and-service/peace-gospel-international-in-houston-tx-44088" target="_blank" rel="noopener noreferrer" className="grayscale hover:grayscale-0 transition">
-              <img src="https://shehashope.org/cdn/shop/files/bbb-accredited-charity_160x160@2x.png" alt="BBB Accredited Charity" className="h-24 w-auto" />
+              <img src="/images/seals/charity-navigator-seal.png" alt="Charity Navigator Four-Star 2026" className="h-24 w-auto" />
             </a>
           </div>
         </div>
