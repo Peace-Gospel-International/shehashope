@@ -124,10 +124,10 @@ export default function Home() {
             {/* Image on left */}
             <div className="md:w-2/5 lg:w-1/2 flex-shrink-0">
               <Image 
-                src="/images/monthly-support-cropped-v3.jpg"
+                src="/images/monthly-support-final.jpg"
                 alt="Survivors embracing - join The Hope Collective"
-                width={3400}
-                height={3261}
+                width={1080}
+                height={1080}
                 className="w-full h-full object-cover"
               />
             </div>
