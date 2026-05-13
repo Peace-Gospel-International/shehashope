@@ -8,9 +8,9 @@ export default function Home() {
       <header className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex justify-between items-center">
-            <div>
-              <h1 className="text-3xl font-bold text-rose-600 font-sans">She Has Hope</h1>
-              <p className="text-sm text-gray-600 mt-1 font-serif">Preventing trafficking. Restoring lives.</p>
+            <div className="flex items-center gap-3">
+              <img src="/images/she-has-hope-logo.png" alt="She Has Hope" className="h-16 w-auto" />
+              <p className="text-sm text-gray-600 font-serif">Preventing trafficking. Restoring lives.</p>
             </div>
             <nav className="hidden md:flex space-x-8">
               <Link href="/" className="text-gray-700 hover:text-rose-600 font-medium font-sans">Home</Link>
@@ -48,9 +48,9 @@ export default function Home() {
       {/* Mission Statement Section */}
       <section className="py-12 md:py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 font-sans" style={{ color: '#EE0076' }}>
-            She Has Hope
-          </h2>
+          <div className="flex justify-center mb-6">
+            <img src="/images/she-has-hope-logo.png" alt="She Has Hope" className="h-24 w-auto" />
+          </div>
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed font-serif">
             She Has Hope programs exist to prevent girls from becoming slaves, to rescue slavery victims from traffickers, 
             and to rehabilitate survivors with the goal of restoring them to a life full of hope in Asia, Africa, and South America.
