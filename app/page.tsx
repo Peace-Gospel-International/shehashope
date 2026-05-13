@@ -204,23 +204,10 @@ export default function Home() {
       {/* Recent Stories */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center font-sans">Recent Stories of Hope</h3>
+          <h3 className="text-3xl font-bold text-gray-900 mb-3 text-center font-sans">Recent Stories of Hope</h3>
+          <p className="text-lg text-gray-600 mb-8 text-center font-serif">Read inspiring stories of how we're changing lives and communities around the world.</p>
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Story 1 - Ruby */}
-            <Link href="/stories/meet-ruby-our-inspiring-child-of-the-year-for-2024" className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
-              <div className="h-48 bg-gradient-to-br from-rose-200 to-pink-300"></div>
-              <div className="p-6">
-                <div className="text-sm text-gray-500 mb-2 font-serif">December 06, 2024</div>
-                <h4 className="text-xl font-bold text-gray-900 mb-3 font-sans">Meet Ruby: our inspiring child of the year for 2024!</h4>
-                <p className="text-gray-600 mb-4 font-serif">
-                  Today, we're excited to introduce you to our 3rd Annual "Child of the Year," Ruby; 
-                  she's a beacon of hope and resilience...
-                </p>
-                <span className="text-rose-600 font-semibold font-sans">Read More →</span>
-              </div>
-            </Link>
-
-            {/* Story 2 */}
+            {/* Story 1 - India Nursing College (Most Recent: March 31, 2026) */}
             <Link href="/stories" className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
               <div className="h-48 bg-gradient-to-br from-blue-200 to-cyan-300"></div>
               <div className="p-6">
@@ -233,7 +220,7 @@ export default function Home() {
               </div>
             </Link>
 
-            {/* Story 3 */}
+            {/* Story 2 - Global Good News (February 10, 2026) */}
             <Link href="/stories" className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
               <div className="h-48 bg-gradient-to-br from-green-200 to-emerald-300"></div>
               <div className="p-6">
@@ -245,6 +232,20 @@ export default function Home() {
                 <span className="text-rose-600 font-semibold font-sans">Read More →</span>
               </div>
             </Link>
+
+            {/* Story 3 - Ruby (December 06, 2024) */}
+            <Link href="/stories/meet-ruby-our-inspiring-child-of-the-year-for-2024" className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+              <div className="h-48 bg-gradient-to-br from-rose-200 to-pink-300"></div>
+              <div className="p-6">
+                <div className="text-sm text-gray-500 mb-2 font-serif">December 06, 2024</div>
+                <h4 className="text-xl font-bold text-gray-900 mb-3 font-sans">Meet Ruby: our inspiring child of the year for 2024!</h4>
+                <p className="text-gray-600 mb-4 font-serif">
+                  Today, we're excited to introduce you to our 3rd Annual "Child of the Year," Ruby; 
+                  she's a beacon of hope and resilience...
+                </p>
+                <span className="text-rose-600 font-semibold font-sans">Read More →</span>
+              </div>
+            </Link>
           </div>
 
           <div className="text-center mt-12">
@@ -252,7 +253,7 @@ export default function Home() {
               href="/stories" 
               className="inline-block bg-rose-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-rose-700 transition font-sans"
             >
-              View All Stories
+              View More Stories
             </Link>
           </div>
         </div>
