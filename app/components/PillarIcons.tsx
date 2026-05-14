@@ -5,8 +5,8 @@ export function PreventionIcon() {
     <Image
       src="/images/prevention.png"
       alt="Prevention"
-      width={64}
-      height={64}
+      width={128}
+      height={128}
       className="w-full h-full"
     />
   );
@@ -17,8 +17,8 @@ export function RescueIcon() {
     <Image
       src="/images/rescue.png"
       alt="Rescue"
-      width={64}
-      height={64}
+      width={128}
+      height={128}
       className="w-full h-full"
     />
   );
@@ -29,8 +29,8 @@ export function RehabilitationIcon() {
     <Image
       src="/images/rehabilitation.png"
       alt="Rehabilitation"
-      width={64}
-      height={64}
+      width={128}
+      height={128}
       className="w-full h-full"
     />
   );
@@ -41,8 +41,8 @@ export function RestorationIcon() {
     <Image
       src="/images/restoration.png"
       alt="Restoration"
-      width={64}
-      height={64}
+      width={128}
+      height={128}
       className="w-full h-full"
     />
   );
@@ -53,8 +53,8 @@ export function SustainabilityIcon() {
     <Image
       src="/images/sustainability.png"
       alt="Sustainability"
-      width={64}
-      height={64}
+      width={128}
+      height={128}
       className="w-full h-full"
     />
   );
