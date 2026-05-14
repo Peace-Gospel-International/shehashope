@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import HeroCarousel from './components/HeroCarousel';
+import MobileNav from './components/MobileNav';
 
 export default function Home() {
   return (
@@ -33,12 +34,15 @@ export default function Home() {
               <Link href="/stories" className="text-gray-700 hover:text-rose-600 font-medium font-sans">Stories</Link>
               <Link href="/give" className="text-gray-700 hover:text-rose-600 font-medium font-sans">Ways to Give</Link>
             </nav>
-            <Link 
-              href="https://peacegospel.org/donate" 
-              className="bg-rose-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-rose-700 transition font-sans"
-            >
-              Donate
-            </Link>
+            <div className="flex items-center gap-4">
+              <Link 
+                href="https://peacegospel.org/donate" 
+                className="hidden md:inline-block bg-rose-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-rose-700 transition font-sans"
+              >
+                Donate
+              </Link>
+              <MobileNav />
+            </div>
           </div>
         </div>
       </header>
