@@ -10,12 +10,12 @@ export default function RubyStory() {
       {/* Breadcrumb */}
       <div className="bg-gray-50 border-b">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <nav className="text-sm">
-            <Link href="/" className="text-rose-600 hover:underline">Home</Link>
-            <span className="mx-2 text-gray-400">/</span>
-            <Link href="/stories" className="text-rose-600 hover:underline">Stories</Link>
-            <span className="mx-2 text-gray-400">/</span>
-            <span className="text-gray-600">Meet Ruby</span>
+          <nav className="text-sm font-serif">
+            <Link href="/" className="text-rose-600 hover:underline font-sans">Home</Link>
+            <span className="mx-2 text-gray-400 font-serif">/</span>
+            <Link href="/stories" className="text-rose-600 hover:underline font-sans">Stories</Link>
+            <span className="mx-2 text-gray-400 font-serif">/</span>
+            <span className="text-gray-600 font-serif">Meet Ruby</span>
           </nav>
         </div>
       </div>
@@ -25,8 +25,8 @@ export default function RubyStory() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <header className="mb-8">
-            <div className="text-sm text-gray-500 mb-4">December 06, 2024</div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <div className="text-sm text-gray-500 mb-4 font-serif">December 06, 2024</div>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-sans">
               Meet Ruby: our inspiring child of the year for 2024!
             </h1>
           </header>
@@ -34,102 +34,102 @@ export default function RubyStory() {
           {/* Featured Image Placeholder */}
           <div className="mb-10">
             <div className="w-full h-96 bg-gradient-to-br from-rose-200 via-pink-300 to-purple-200 rounded-lg flex items-center justify-center">
-              <div className="text-center text-white">
-                <div className="text-6xl mb-4">✨</div>
-                <div className="text-2xl font-semibold">Ruby's Story</div>
+              <div className="text-center text-white font-sans">
+                <div className="text-6xl mb-4 font-sans">✨</div>
+                <div className="text-2xl font-semibold font-sans">Ruby's Story</div>
               </div>
             </div>
-            <p className="text-sm text-gray-500 mt-2 text-center">Meet Ruby: our inspiring child of the year for 2024!</p>
+            <p className="text-sm text-gray-500 mt-2 text-center font-serif">Meet Ruby: our inspiring child of the year for 2024!</p>
           </div>
 
           {/* Content */}
           <div className="prose prose-lg max-w-none">
-            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+            <p className="text-xl text-gray-700 leading-relaxed mb-6 font-serif">
               Today, we're excited to introduce you to our 3rd Annual "Child of the Year," Ruby; 
               she's a beacon of hope and resilience, whose journey with us underscores the 
               transformative impact of your generosity.
             </p>
 
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Meet Ruby, our Child of the Year for 2024!</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4 font-sans">Meet Ruby, our Child of the Year for 2024!</h2>
 
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-700 leading-relaxed mb-4 font-serif">
               Ruby, now a vibrant 9-year-old, resides at our main campus orphan home in Myanmar.
             </p>
 
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-700 leading-relaxed mb-4 font-serif">
               <strong>Her story is one of profound loss and miraculous recovery, a testament to how our 
               orphan homes provide healing, prevent trafficking, and offer a new beginning.</strong>
             </p>
 
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-700 leading-relaxed mb-4 font-serif">
               Ruby lost her father before she was even born, and her mother, overwhelmed by grief, 
               developed mental health issues leading her to abandon Ruby at the tender age of 18 months.
             </p>
 
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-700 leading-relaxed mb-4 font-serif">
               Left in her village without care, Ruby's plight might have gone unnoticed if not for the 
               kindness of a stranger who reached out to our Myanmar field director.
             </p>
 
-            <p className="text-gray-700 leading-relaxed mb-6">
+            <p className="text-gray-700 leading-relaxed mb-6 font-serif">
               When Ruby first arrived at our home, she was a shadow of the child she was meant to be—silent, 
               malnourished, and in desperate need of love.
             </p>
 
             <div className="bg-rose-50 border-l-4 border-rose-500 p-6 my-8">
-              <p className="text-gray-800 font-semibold">
+              <p className="text-gray-800 font-semibold font-sans">
                 Here, amidst our caring environment, Ruby found her voice, her health, and her joy.
               </p>
             </div>
 
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Ruby's Journey of Transformation:</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4 font-sans">Ruby's Journey of Transformation:</h2>
 
             <div className="space-y-4 mb-8">
               <div>
-                <strong className="text-rose-600">Education:</strong>
-                <span className="text-gray-700"> Ruby is thriving in the fifth grade at a local school our orphans attend. 
+                <strong className="text-rose-600 font-sans">Education:</strong>
+                <span className="text-gray-700 font-serif"> Ruby is thriving in the fifth grade at a local school our orphans attend. 
                 Thanks to your support, she has school supplies and a uniform, allowing her to attend school with pride.</span>
               </div>
 
               <div>
-                <strong className="text-rose-600">Nutrition:</strong>
-                <span className="text-gray-700"> From the brink of malnutrition, Ruby now enjoys three nutritious meals a day, 
+                <strong className="text-rose-600 font-sans">Nutrition:</strong>
+                <span className="text-gray-700 font-serif"> From the brink of malnutrition, Ruby now enjoys three nutritious meals a day, 
                 sourced partially from our very own farmland.</span>
               </div>
 
               <div>
-                <strong className="text-rose-600">Healing:</strong>
-                <span className="text-gray-700"> The love and structure of the orphan home have nurtured her from silence to a 
+                <strong className="text-rose-600 font-sans">Healing:</strong>
+                <span className="text-gray-700 font-serif"> The love and structure of the orphan home have nurtured her from silence to a 
                 cheerful chatterer, surrounded by brothers and sisters who are now her family.</span>
               </div>
             </div>
 
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-700 leading-relaxed mb-4 font-serif">
               Here's what Ruby has to say about her life now:
             </p>
 
-            <blockquote className="border-l-4 border-rose-300 pl-6 py-2 my-6 italic text-gray-800 bg-gray-50 rounded-r">
+            <blockquote className="border-l-4 border-rose-300 pl-6 py-2 my-6 italic text-gray-800 bg-gray-50 rounded-r font-serif">
               "I was alone before, but now I have many friends and sisters. I love going to school because 
               I learn new things every day. My favorite is math! I'm happy here because everyone takes care of me."
             </blockquote>
 
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Your Support in Action</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4 font-sans">Your Support in Action</h2>
 
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-700 leading-relaxed mb-4 font-serif">
               <strong>Your contributions have been pivotal in this transformation.</strong>
             </p>
 
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-700 leading-relaxed mb-4 font-serif">
               Without your support, Ruby's story could have been very different, with risks of malnutrition, 
               child labor, or worse.
             </p>
 
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-700 leading-relaxed mb-4 font-serif">
               The emergency fund you help sustain allows us to act swiftly in cases like Ruby's, ensuring 
               children are not left waiting for sponsorship but are immediately welcomed into our care.
             </p>
 
-            <p className="text-gray-700 leading-relaxed mb-6">
+            <p className="text-gray-700 leading-relaxed mb-6 font-serif">
               This fund is crucial for our ongoing and future efforts to rescue and rehabilitate children in distress.
             </p>
 
@@ -151,7 +151,7 @@ export default function RubyStory() {
               </Link>
             </div>
 
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-700 leading-relaxed mb-4 font-serif">
               <strong>Thank you for being the hope in the lives of children like Ruby. Your involvement doesn't 
               just change lives; it saves them.</strong>
             </p>

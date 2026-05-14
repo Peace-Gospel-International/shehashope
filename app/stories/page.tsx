@@ -56,8 +56,8 @@ export default function Stories() {
       {/* Page Header */}
       <section className="bg-gradient-to-br from-rose-50 to-pink-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-5xl font-bold text-gray-900 mb-4">Stories of Hope</h1>
-          <p className="text-xl text-gray-700 max-w-3xl">
+          <h1 className="text-5xl font-bold text-gray-900 mb-4 font-sans">Stories of Hope</h1>
+          <p className="text-xl text-gray-700 max-w-3xl font-serif">
             Read inspiring stories of transformation, resilience, and hope from children and communities 
             whose lives have been changed through your generous support.
           </p>
@@ -76,14 +76,14 @@ export default function Stories() {
               >
                 <div className={`h-48 bg-gradient-to-br ${story.color}`}></div>
                 <div className="p-6">
-                  <div className="text-sm text-gray-500 mb-2">{story.date}</div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2">
+                  <div className="text-sm text-gray-500 mb-2 font-serif">{story.date}</div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2 font-sans">
                     {story.title}
                   </h3>
-                  <p className="text-gray-600 mb-4 line-clamp-3">
+                  <p className="text-gray-600 mb-4 line-clamp-3 font-serif">
                     {story.excerpt}
                   </p>
-                  <span className="text-rose-600 font-semibold">Read More →</span>
+                  <span className="text-rose-600 font-semibold font-sans">Read More →</span>
                 </div>
               </Link>
             ))}
@@ -92,13 +92,13 @@ export default function Stories() {
           {/* Pagination Placeholder */}
           <div className="mt-12 text-center">
             <div className="inline-flex gap-2">
-              <button className="px-4 py-2 bg-rose-600 text-white rounded-lg font-semibold">1</button>
-              <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300">2</button>
-              <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300">3</button>
-              <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300">...</button>
-              <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300">18</button>
+              <button className="px-4 py-2 bg-rose-600 text-white rounded-lg font-semibold font-sans">1</button>
+              <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 font-sans">2</button>
+              <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 font-sans">3</button>
+              <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 font-sans">...</button>
+              <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 font-sans">18</button>
             </div>
-            <p className="text-sm text-gray-600 mt-4">Showing 6 of 110 stories</p>
+            <p className="text-sm text-gray-600 mt-4 font-serif">Showing 6 of 110 stories</p>
           </div>
         </div>
       </section>
