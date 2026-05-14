@@ -37,35 +37,35 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8 md:gap-6">
             <div className="text-center">
-              <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-4 flex items-center justify-center">
+              <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-2 flex items-center justify-center">
                 <PreventionIcon />
               </div>
               <h3 className="text-lg md:text-xl font-semibold text-gray-800 mb-2 font-sans">Prevention</h3>
               <p className="text-sm text-gray-600 font-serif">Training vulnerable girls to recognize and reject traffickers' deceptive offers.</p>
             </div>
             <div className="text-center">
-              <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-4 flex items-center justify-center">
+              <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-2 flex items-center justify-center">
                 <RescueIcon />
               </div>
               <h3 className="text-lg md:text-xl font-semibold text-gray-800 mb-2 font-sans">Rescue</h3>
               <p className="text-sm text-gray-600 font-serif">Collaborating with authorities to safely rescue girls trapped in trafficking situations.</p>
             </div>
             <div className="text-center">
-              <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-4 flex items-center justify-center">
+              <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-2 flex items-center justify-center">
                 <RehabilitationIcon />
               </div>
               <h3 className="text-lg md:text-xl font-semibold text-gray-800 mb-2 font-sans">Rehabilitation</h3>
               <p className="text-sm text-gray-600 font-serif">Providing shelter, counseling, medical care, and skills training for survivors.</p>
             </div>
             <div className="text-center">
-              <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-4 flex items-center justify-center">
+              <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-2 flex items-center justify-center">
                 <RestorationIcon />
               </div>
               <h3 className="text-lg md:text-xl font-semibold text-gray-800 mb-2 font-sans">Restoration</h3>
               <p className="text-sm text-gray-600 font-serif">Equipping graduates with businesses, jobs, and a future full of hope.</p>
             </div>
             <div className="text-center col-span-2 md:col-span-1">
-              <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-4 flex items-center justify-center">
+              <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-2 flex items-center justify-center">
                 <SustainabilityIcon />
               </div>
               <h3 className="text-lg md:text-xl font-semibold text-gray-800 mb-2 font-sans">Sustainability</h3>
