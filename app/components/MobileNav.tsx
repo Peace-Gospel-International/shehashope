@@ -58,7 +58,7 @@ export default function MobileNav() {
           <div className="flex justify-end p-4 border-b">
             <button
               onClick={closeMenu}
-              className="text-gray-700 hover:text-rose-600 focus:outline-none"
+              className="text-gray-700 hover:text-[#2a887e] focus:outline-none"
               aria-label="Close menu"
             >
               <svg
@@ -79,14 +79,14 @@ export default function MobileNav() {
           <nav className="flex-1 overflow-y-auto py-4">
             <Link
               href="/"
-              className="block px-6 py-3 text-gray-700 hover:bg-rose-50 hover:text-rose-600 font-medium font-sans transition"
+              className="block px-6 py-3 text-gray-700 hover:bg-[#e6f2f0] hover:text-[#2a887e] font-medium font-sans transition"
               onClick={closeMenu}
             >
               Home
             </Link>
             <Link
               href="/about"
-              className="block px-6 py-3 text-gray-700 hover:bg-rose-50 hover:text-rose-600 font-medium font-sans transition"
+              className="block px-6 py-3 text-gray-700 hover:bg-[#e6f2f0] hover:text-[#2a887e] font-medium font-sans transition"
               onClick={closeMenu}
             >
               About
@@ -96,7 +96,7 @@ export default function MobileNav() {
             <div>
               <button
                 onClick={toggleDropdown}
-                className="w-full text-left px-6 py-3 text-gray-700 hover:bg-rose-50 hover:text-rose-600 font-medium font-sans transition flex justify-between items-center"
+                className="w-full text-left px-6 py-3 text-gray-700 hover:bg-[#e6f2f0] hover:text-[#2a887e] font-medium font-sans transition flex justify-between items-center"
               >
                 Where We Work
                 <svg
@@ -117,49 +117,49 @@ export default function MobileNav() {
                 <div className="bg-gray-50">
                   <Link
                     href="/programs/india"
-                    className="block px-10 py-2 text-sm text-gray-700 hover:bg-rose-50 hover:text-rose-600 font-sans"
+                    className="block px-10 py-2 text-sm text-gray-700 hover:bg-[#e6f2f0] hover:text-[#2a887e] font-sans"
                     onClick={closeMenu}
                   >
                     India
                   </Link>
                   <Link
                     href="/programs/nepal"
-                    className="block px-10 py-2 text-sm text-gray-700 hover:bg-rose-50 hover:text-rose-600 font-sans"
+                    className="block px-10 py-2 text-sm text-gray-700 hover:bg-[#e6f2f0] hover:text-[#2a887e] font-sans"
                     onClick={closeMenu}
                   >
                     Nepal
                   </Link>
                   <Link
                     href="/programs/myanmar"
-                    className="block px-10 py-2 text-sm text-gray-700 hover:bg-rose-50 hover:text-rose-600 font-sans"
+                    className="block px-10 py-2 text-sm text-gray-700 hover:bg-[#e6f2f0] hover:text-[#2a887e] font-sans"
                     onClick={closeMenu}
                   >
                     Myanmar
                   </Link>
                   <Link
                     href="/programs/philippines"
-                    className="block px-10 py-2 text-sm text-gray-700 hover:bg-rose-50 hover:text-rose-600 font-sans"
+                    className="block px-10 py-2 text-sm text-gray-700 hover:bg-[#e6f2f0] hover:text-[#2a887e] font-sans"
                     onClick={closeMenu}
                   >
                     Philippines
                   </Link>
                   <Link
                     href="/programs/uganda"
-                    className="block px-10 py-2 text-sm text-gray-700 hover:bg-rose-50 hover:text-rose-600 font-sans"
+                    className="block px-10 py-2 text-sm text-gray-700 hover:bg-[#e6f2f0] hover:text-[#2a887e] font-sans"
                     onClick={closeMenu}
                   >
                     Uganda
                   </Link>
                   <Link
                     href="/programs/argentina"
-                    className="block px-10 py-2 text-sm text-gray-700 hover:bg-rose-50 hover:text-rose-600 font-sans"
+                    className="block px-10 py-2 text-sm text-gray-700 hover:bg-[#e6f2f0] hover:text-[#2a887e] font-sans"
                     onClick={closeMenu}
                   >
                     Argentina
                   </Link>
                   <Link
                     href="/programs/colombia"
-                    className="block px-10 py-2 text-sm text-gray-700 hover:bg-rose-50 hover:text-rose-600 font-sans"
+                    className="block px-10 py-2 text-sm text-gray-700 hover:bg-[#e6f2f0] hover:text-[#2a887e] font-sans"
                     onClick={closeMenu}
                   >
                     Colombia
@@ -170,14 +170,14 @@ export default function MobileNav() {
 
             <Link
               href="/stories"
-              className="block px-6 py-3 text-gray-700 hover:bg-rose-50 hover:text-rose-600 font-medium font-sans transition"
+              className="block px-6 py-3 text-gray-700 hover:bg-[#e6f2f0] hover:text-[#2a887e] font-medium font-sans transition"
               onClick={closeMenu}
             >
               Stories
             </Link>
             <Link
               href="/give"
-              className="block px-6 py-3 text-gray-700 hover:bg-rose-50 hover:text-rose-600 font-medium font-sans transition"
+              className="block px-6 py-3 text-gray-700 hover:bg-[#e6f2f0] hover:text-[#2a887e] font-medium font-sans transition"
               onClick={closeMenu}
             >
               Ways to Give
@@ -188,7 +188,7 @@ export default function MobileNav() {
           <div className="p-4 border-t">
             <Link
               href="https://peacegospel.org/donate"
-              className="block w-full bg-rose-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-rose-700 transition font-sans text-center"
+              className="block w-full bg-[#2a887e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#1f6660] transition font-sans text-center"
               onClick={closeMenu}
             >
               Donate

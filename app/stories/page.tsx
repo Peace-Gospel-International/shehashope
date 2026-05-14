@@ -8,21 +8,21 @@ export default function Stories() {
       title: 'Meet Ruby: our inspiring child of the year for 2024!',
       date: 'December 06, 2024',
       excerpt: "Today, we're excited to introduce you to our 3rd Annual \"Child of the Year,\" Ruby; she's a beacon of hope and resilience, whose journey with us underscores the transformative impact of your generosity.",
-      color: 'from-rose-200 to-pink-300'
+      color: 'from-[#2a887e] to-[#cc2e78]'
     },
     {
       slug: '#',
       title: 'Renovated Classrooms Buzzing with Life: India Nursing College Thrives',
       date: 'March 31, 2026',
       excerpt: 'After meeting our urgent $21K goal, the India nursing college has been completely renovated and students are thriving in their healthcare education journey.',
-      color: 'from-blue-200 to-cyan-300'
+      color: 'from-[#d66a53] to-[#2a887e]'
     },
     {
       slug: '#',
       title: 'Global Good News: Your Giving in Action',
       date: 'February 10, 2026',
       excerpt: 'See how your support is transforming lives across our programs in Myanmar, India, Uganda, and the Philippines with this roundup of recent successes.',
-      color: 'from-green-200 to-emerald-300'
+      color: 'from-[#2a887e] to-[#cc2e78]'
     },
     {
       slug: '#',
@@ -43,7 +43,7 @@ export default function Stories() {
       title: 'Breaking the Cycle: Back to School Fully Funded',
       date: 'October 8, 2025',
       excerpt: 'Together we are breaking the cycle of trafficking and poverty. All our India and Philippines students are now fully funded for the school year!',
-      color: 'from-teal-200 to-cyan-300'
+      color: 'from-teal-200 to-[#2a887e]'
     },
   ];
 
@@ -55,20 +55,20 @@ export default function Stories() {
           <div className="flex justify-between items-center">
             <div>
               <Link href="/">
-                <h1 className="text-3xl font-bold text-rose-600 cursor-pointer">She Has Hope</h1>
+                <h1 className="text-3xl font-bold text-[#2a887e] cursor-pointer">She Has Hope</h1>
               </Link>
               <p className="text-sm text-gray-600 mt-1">Preventing trafficking. Restoring lives.</p>
             </div>
             <nav className="hidden md:flex space-x-8">
-              <Link href="/" className="text-gray-700 hover:text-rose-600 font-medium">Home</Link>
-              <Link href="/about" className="text-gray-700 hover:text-rose-600 font-medium">About</Link>
-              <Link href="/stories" className="text-rose-600 font-medium border-b-2 border-rose-600">Stories</Link>
-              <Link href="/team" className="text-gray-700 hover:text-rose-600 font-medium">Our Team</Link>
-              <Link href="/partners" className="text-gray-700 hover:text-rose-600 font-medium">Partners</Link>
+              <Link href="/" className="text-gray-700 hover:text-[#2a887e] font-medium">Home</Link>
+              <Link href="/about" className="text-gray-700 hover:text-[#2a887e] font-medium">About</Link>
+              <Link href="/stories" className="text-[#2a887e] font-medium border-b-2 border-[#2a887e]">Stories</Link>
+              <Link href="/team" className="text-gray-700 hover:text-[#2a887e] font-medium">Our Team</Link>
+              <Link href="/partners" className="text-gray-700 hover:text-[#2a887e] font-medium">Partners</Link>
             </nav>
             <Link 
               href="https://peacegospel.org/donate" 
-              className="bg-rose-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-rose-700 transition"
+              className="bg-[#2a887e] text-white px-6 py-2 rounded-lg font-semibold hover:bg-[#1f6660] transition"
             >
               Donate
             </Link>
@@ -77,7 +77,7 @@ export default function Stories() {
       </header>
 
       {/* Page Header */}
-      <section className="bg-gradient-to-br from-rose-50 to-pink-50 py-16">
+      <section className="bg-gradient-to-br from-[#e6f2f0] to-[#fce8f3] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">Stories of Hope</h1>
           <p className="text-xl text-gray-700 max-w-3xl">
@@ -106,7 +106,7 @@ export default function Stories() {
                   <p className="text-gray-600 mb-4 line-clamp-3">
                     {story.excerpt}
                   </p>
-                  <span className="text-rose-600 font-semibold">Read More →</span>
+                  <span className="text-[#2a887e] font-semibold">Read More →</span>
                 </div>
               </Link>
             ))}
@@ -115,7 +115,7 @@ export default function Stories() {
           {/* Pagination Placeholder */}
           <div className="mt-12 text-center">
             <div className="inline-flex gap-2">
-              <button className="px-4 py-2 bg-rose-600 text-white rounded-lg font-semibold">1</button>
+              <button className="px-4 py-2 bg-[#2a887e] text-white rounded-lg font-semibold">1</button>
               <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300">2</button>
               <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300">3</button>
               <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300">...</button>

@@ -3,8 +3,8 @@ export function PreventionIcon() {
     <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
       <defs>
         <linearGradient id="gradient-prevention" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" style={{ stopColor: '#F2978F', stopOpacity: 1 }} />
-          <stop offset="100%" style={{ stopColor: '#EE0076', stopOpacity: 1 }} />
+          <stop offset="0%" style={{ stopColor: '#2a887e', stopOpacity: 1 }} />
+          <stop offset="100%" style={{ stopColor: '#cc2e78', stopOpacity: 1 }} />
         </linearGradient>
       </defs>
       {/* Shield with check mark */}
@@ -29,8 +29,8 @@ export function RescueIcon() {
     <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
       <defs>
         <linearGradient id="gradient-rescue" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" style={{ stopColor: '#F2978F', stopOpacity: 1 }} />
-          <stop offset="100%" style={{ stopColor: '#EE0076', stopOpacity: 1 }} />
+          <stop offset="0%" style={{ stopColor: '#2a887e', stopOpacity: 1 }} />
+          <stop offset="100%" style={{ stopColor: '#cc2e78', stopOpacity: 1 }} />
         </linearGradient>
       </defs>
       {/* Helping hands */}
@@ -48,8 +48,8 @@ export function RehabilitationIcon() {
     <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
       <defs>
         <linearGradient id="gradient-rehabilitation" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" style={{ stopColor: '#F2978F', stopOpacity: 1 }} />
-          <stop offset="100%" style={{ stopColor: '#EE0076', stopOpacity: 1 }} />
+          <stop offset="0%" style={{ stopColor: '#2a887e', stopOpacity: 1 }} />
+          <stop offset="100%" style={{ stopColor: '#cc2e78', stopOpacity: 1 }} />
         </linearGradient>
       </defs>
       {/* Heart with pulse line */}
@@ -74,8 +74,8 @@ export function RestorationIcon() {
     <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
       <defs>
         <linearGradient id="gradient-restoration" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" style={{ stopColor: '#F2978F', stopOpacity: 1 }} />
-          <stop offset="100%" style={{ stopColor: '#EE0076', stopOpacity: 1 }} />
+          <stop offset="0%" style={{ stopColor: '#2a887e', stopOpacity: 1 }} />
+          <stop offset="100%" style={{ stopColor: '#cc2e78', stopOpacity: 1 }} />
         </linearGradient>
       </defs>
       {/* Rising sun/new beginning */}
@@ -95,8 +95,8 @@ export function SustainabilityIcon() {
     <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
       <defs>
         <linearGradient id="gradient-sustainability" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" style={{ stopColor: '#F2978F', stopOpacity: 1 }} />
-          <stop offset="100%" style={{ stopColor: '#EE0076', stopOpacity: 1 }} />
+          <stop offset="0%" style={{ stopColor: '#2a887e', stopOpacity: 1 }} />
+          <stop offset="100%" style={{ stopColor: '#cc2e78', stopOpacity: 1 }} />
         </linearGradient>
       </defs>
       {/* Growing plant/seedling */}
