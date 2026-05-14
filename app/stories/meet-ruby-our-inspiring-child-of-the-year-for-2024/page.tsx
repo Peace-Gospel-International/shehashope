@@ -1,34 +1,11 @@
 import Link from 'next/link';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 export default function RubyStory() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-white shadow-sm border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex justify-between items-center">
-            <div>
-              <Link href="/">
-                <h1 className="text-3xl font-bold text-rose-600 cursor-pointer">She Has Hope</h1>
-              </Link>
-              <p className="text-sm text-gray-600 mt-1">Preventing trafficking. Restoring lives.</p>
-            </div>
-            <nav className="hidden md:flex space-x-8">
-              <Link href="/" className="text-gray-700 hover:text-rose-600 font-medium">Home</Link>
-              <Link href="/about" className="text-gray-700 hover:text-rose-600 font-medium">About</Link>
-              <Link href="/stories" className="text-gray-700 hover:text-rose-600 font-medium">Stories</Link>
-              <Link href="/team" className="text-gray-700 hover:text-rose-600 font-medium">Our Team</Link>
-              <Link href="/partners" className="text-gray-700 hover:text-rose-600 font-medium">Partners</Link>
-            </nav>
-            <Link 
-              href="https://peacegospel.org/donate" 
-              className="bg-rose-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-rose-700 transition"
-            >
-              Donate
-            </Link>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       {/* Breadcrumb */}
       <div className="bg-gray-50 border-b">
@@ -200,38 +177,7 @@ export default function RubyStory() {
         </div>
       </article>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12 mt-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-8">
-            <div>
-              <h4 className="text-xl font-bold mb-4">She Has Hope</h4>
-              <p className="text-gray-400">
-                A program of Peace Gospel International, a 501(c)(3) nonprofit organization.
-              </p>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li><Link href="/about" className="hover:text-white">About</Link></li>
-                <li><Link href="/stories" className="hover:text-white">Stories</Link></li>
-                <li><Link href="/team" className="hover:text-white">Our Team</Link></li>
-                <li><Link href="/partners" className="hover:text-white">Partners</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Connect</h4>
-              <p className="text-gray-400 mb-4">
-                Part of Peace Gospel International<br />
-                <a href="https://peacegospel.org" className="hover:text-white">PeaceGospel.org</a>
-              </p>
-            </div>
-          </div>
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>© {new Date().getFullYear()} She Has Hope. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
