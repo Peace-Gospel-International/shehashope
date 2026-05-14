@@ -9,20 +9,20 @@ export default function RubyStory() {
           <div className="flex justify-between items-center">
             <div>
               <Link href="/">
-                <h1 className="text-3xl font-bold text-[#2a887e] cursor-pointer">She Has Hope</h1>
+                <h1 className="text-3xl font-bold text-rose-600 cursor-pointer">She Has Hope</h1>
               </Link>
               <p className="text-sm text-gray-600 mt-1">Preventing trafficking. Restoring lives.</p>
             </div>
             <nav className="hidden md:flex space-x-8">
-              <Link href="/" className="text-gray-700 hover:text-[#2a887e] font-medium">Home</Link>
-              <Link href="/about" className="text-gray-700 hover:text-[#2a887e] font-medium">About</Link>
-              <Link href="/stories" className="text-gray-700 hover:text-[#2a887e] font-medium">Stories</Link>
-              <Link href="/team" className="text-gray-700 hover:text-[#2a887e] font-medium">Our Team</Link>
-              <Link href="/partners" className="text-gray-700 hover:text-[#2a887e] font-medium">Partners</Link>
+              <Link href="/" className="text-gray-700 hover:text-rose-600 font-medium">Home</Link>
+              <Link href="/about" className="text-gray-700 hover:text-rose-600 font-medium">About</Link>
+              <Link href="/stories" className="text-gray-700 hover:text-rose-600 font-medium">Stories</Link>
+              <Link href="/team" className="text-gray-700 hover:text-rose-600 font-medium">Our Team</Link>
+              <Link href="/partners" className="text-gray-700 hover:text-rose-600 font-medium">Partners</Link>
             </nav>
             <Link 
               href="https://peacegospel.org/donate" 
-              className="bg-[#2a887e] text-white px-6 py-2 rounded-lg font-semibold hover:bg-[#1f6660] transition"
+              className="bg-rose-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-rose-700 transition"
             >
               Donate
             </Link>
@@ -34,9 +34,9 @@ export default function RubyStory() {
       <div className="bg-gray-50 border-b">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <nav className="text-sm">
-            <Link href="/" className="text-[#2a887e] hover:underline">Home</Link>
+            <Link href="/" className="text-rose-600 hover:underline">Home</Link>
             <span className="mx-2 text-gray-400">/</span>
-            <Link href="/stories" className="text-[#2a887e] hover:underline">Stories</Link>
+            <Link href="/stories" className="text-rose-600 hover:underline">Stories</Link>
             <span className="mx-2 text-gray-400">/</span>
             <span className="text-gray-600">Meet Ruby</span>
           </nav>
@@ -56,7 +56,7 @@ export default function RubyStory() {
 
           {/* Featured Image Placeholder */}
           <div className="mb-10">
-            <div className="w-full h-96 bg-gradient-to-br from-[#2a887e] via-pink-300 to-purple-200 rounded-lg flex items-center justify-center">
+            <div className="w-full h-96 bg-gradient-to-br from-rose-200 via-pink-300 to-purple-200 rounded-lg flex items-center justify-center">
               <div className="text-center text-white">
                 <div className="text-6xl mb-4">✨</div>
                 <div className="text-2xl font-semibold">Ruby's Story</div>
@@ -109,19 +109,19 @@ export default function RubyStory() {
 
             <div className="space-y-4 mb-8">
               <div>
-                <strong className="text-[#2a887e]">Education:</strong>
+                <strong className="text-rose-600">Education:</strong>
                 <span className="text-gray-700"> Ruby is thriving in the fifth grade at a local school our orphans attend. 
                 Thanks to your support, she has school supplies and a uniform, allowing her to attend school with pride.</span>
               </div>
 
               <div>
-                <strong className="text-[#2a887e]">Nutrition:</strong>
+                <strong className="text-rose-600">Nutrition:</strong>
                 <span className="text-gray-700"> From the brink of malnutrition, Ruby now enjoys three nutritious meals a day, 
                 sourced partially from our very own farmland.</span>
               </div>
 
               <div>
-                <strong className="text-[#2a887e]">Healing:</strong>
+                <strong className="text-rose-600">Healing:</strong>
                 <span className="text-gray-700"> The love and structure of the orphan home have nurtured her from silence to a 
                 cheerful chatterer, surrounded by brothers and sisters who are now her family.</span>
               </div>
@@ -156,7 +156,7 @@ export default function RubyStory() {
               This fund is crucial for our ongoing and future efforts to rescue and rehabilitate children in distress.
             </p>
 
-            <div className="bg-gradient-to-br from-[#e6f2f0]0 to-[#cc2e78] text-white p-8 rounded-lg my-8">
+            <div className="bg-gradient-to-br from-rose-500 to-pink-600 text-white p-8 rounded-lg my-8">
               <h3 className="text-2xl font-bold mb-4">Looking Ahead</h3>
               <p className="mb-4">
                 As we approach the end of another year, your continued support is vital. Our year-end campaign 
@@ -168,7 +168,7 @@ export default function RubyStory() {
               </p>
               <Link 
                 href="https://peacegospel.org/donate"
-                className="inline-block bg-white text-[#2a887e] px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
+                className="inline-block bg-white text-rose-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
               >
                 Give Hope Today →
               </Link>
@@ -188,7 +188,7 @@ export default function RubyStory() {
           <div className="mt-12 pt-8 border-t">
             <div className="flex items-center justify-between">
               <div>
-                <Link href="/stories" className="text-[#2a887e] hover:underline font-semibold">
+                <Link href="/stories" className="text-rose-600 hover:underline font-semibold">
                   ← Back to Stories
                 </Link>
               </div>

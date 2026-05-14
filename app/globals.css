@@ -3,17 +3,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --color-coral: #d66a53;
-  --color-teal: #2a887e;
-  --color-pink: #cc2e78;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-coral: var(--color-coral);
-  --color-teal: var(--color-teal);
-  --color-pink: var(--color-pink);
   --font-sans: var(--font-montserrat);
   --font-serif: var(--font-merriweather);
 }

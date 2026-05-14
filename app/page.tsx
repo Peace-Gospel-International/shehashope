@@ -22,29 +22,29 @@ export default function Home() {
               <p className="text-sm text-gray-600 font-serif">Preventing trafficking. Restoring lives.</p>
             </div>
             <nav className="hidden md:flex space-x-8">
-              <Link href="/" className="text-gray-700 hover:text-[#2a887e] font-medium font-sans">Home</Link>
-              <Link href="/about" className="text-gray-700 hover:text-[#2a887e] font-medium font-sans">About</Link>
+              <Link href="/" className="text-gray-700 hover:text-rose-600 font-medium font-sans">Home</Link>
+              <Link href="/about" className="text-gray-700 hover:text-rose-600 font-medium font-sans">About</Link>
               <div className="relative group">
-                <button className="text-gray-700 hover:text-[#2a887e] font-medium font-sans">
+                <button className="text-gray-700 hover:text-rose-600 font-medium font-sans">
                   Where We Work ▾
                 </button>
                 <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                  <Link href="/programs/india" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#e6f2f0] font-sans">India</Link>
-                  <Link href="/programs/nepal" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#e6f2f0] font-sans">Nepal</Link>
-                  <Link href="/programs/myanmar" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#e6f2f0] font-sans">Myanmar</Link>
-                  <Link href="/programs/philippines" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#e6f2f0] font-sans">Philippines</Link>
-                  <Link href="/programs/uganda" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#e6f2f0] font-sans">Uganda</Link>
-                  <Link href="/programs/argentina" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#e6f2f0] font-sans">Argentina</Link>
-                  <Link href="/programs/colombia" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#e6f2f0] font-sans">Colombia</Link>
+                  <Link href="/programs/india" className="block px-4 py-2 text-sm text-gray-700 hover:bg-rose-50 font-sans">India</Link>
+                  <Link href="/programs/nepal" className="block px-4 py-2 text-sm text-gray-700 hover:bg-rose-50 font-sans">Nepal</Link>
+                  <Link href="/programs/myanmar" className="block px-4 py-2 text-sm text-gray-700 hover:bg-rose-50 font-sans">Myanmar</Link>
+                  <Link href="/programs/philippines" className="block px-4 py-2 text-sm text-gray-700 hover:bg-rose-50 font-sans">Philippines</Link>
+                  <Link href="/programs/uganda" className="block px-4 py-2 text-sm text-gray-700 hover:bg-rose-50 font-sans">Uganda</Link>
+                  <Link href="/programs/argentina" className="block px-4 py-2 text-sm text-gray-700 hover:bg-rose-50 font-sans">Argentina</Link>
+                  <Link href="/programs/colombia" className="block px-4 py-2 text-sm text-gray-700 hover:bg-rose-50 font-sans">Colombia</Link>
                 </div>
               </div>
-              <Link href="/stories" className="text-gray-700 hover:text-[#2a887e] font-medium font-sans">Stories</Link>
-              <Link href="/give" className="text-gray-700 hover:text-[#2a887e] font-medium font-sans">Ways to Give</Link>
+              <Link href="/stories" className="text-gray-700 hover:text-rose-600 font-medium font-sans">Stories</Link>
+              <Link href="/give" className="text-gray-700 hover:text-rose-600 font-medium font-sans">Ways to Give</Link>
             </nav>
             <div className="flex items-center gap-4">
               <Link 
                 href="https://peacegospel.org/donate" 
-                className="hidden md:inline-block bg-[#2a887e] text-white px-6 py-2 rounded-lg font-semibold hover:bg-[#1f6660] transition font-sans"
+                className="hidden md:inline-block bg-rose-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-rose-700 transition font-sans"
               >
                 Donate
               </Link>
@@ -114,7 +114,7 @@ export default function Home() {
           <div className="text-center mt-8">
             <Link 
               href="/about" 
-              className="inline-block bg-[#2a887e] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#1f6660] transition font-sans"
+              className="inline-block bg-rose-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-rose-700 transition font-sans"
             >
               Learn More
             </Link>
@@ -126,7 +126,7 @@ export default function Home() {
       <section className="py-12 md:py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="rounded-xl overflow-hidden text-white shadow-xl flex flex-col md:flex-row" 
-               style={{ background: 'linear-gradient(135deg, #2a887e 0%, #cc2e78 100%)' }}>
+               style={{ background: 'linear-gradient(135deg, #F2978F 0%, #EE0076 100%)' }}>
             {/* Image on left */}
             <div className="md:w-2/5 lg:w-1/2 flex-shrink-0">
               <Image 
@@ -150,7 +150,7 @@ export default function Home() {
                 <Link 
                   href="https://peacegospel.org/donate" 
                   className="inline-block bg-white px-8 py-4 rounded-lg font-bold text-lg hover:shadow-2xl transition-all font-sans"
-                  style={{ color: '#cc2e78' }}
+                  style={{ color: '#EE0076' }}
                 >
                   Join The Hope Collective
                 </Link>
@@ -168,31 +168,31 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             <div className="bg-white rounded-lg p-6 md:p-8 text-center shadow-md hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer">
-              <h3 className="text-2xl font-semibold mb-2 font-sans" style={{ color: '#cc2e78' }}>🇮🇳 India</h3>
+              <h3 className="text-2xl font-semibold mb-2 font-sans" style={{ color: '#EE0076' }}>🇮🇳 India</h3>
               <p className="text-gray-600 font-serif">Vocational training, orphan care, and anti-trafficking education</p>
             </div>
             <div className="bg-white rounded-lg p-6 md:p-8 text-center shadow-md hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer">
-              <h3 className="text-2xl font-semibold mb-2 font-sans" style={{ color: '#cc2e78' }}>🇳🇵 Nepal</h3>
+              <h3 className="text-2xl font-semibold mb-2 font-sans" style={{ color: '#EE0076' }}>🇳🇵 Nepal</h3>
               <p className="text-gray-600 font-serif">Prevention programs and survivor rehabilitation</p>
             </div>
             <div className="bg-white rounded-lg p-6 md:p-8 text-center shadow-md hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer">
-              <h3 className="text-2xl font-semibold mb-2 font-sans" style={{ color: '#cc2e78' }}>🇲🇲 Myanmar</h3>
+              <h3 className="text-2xl font-semibold mb-2 font-sans" style={{ color: '#EE0076' }}>🇲🇲 Myanmar</h3>
               <p className="text-gray-600 font-serif">Safe homes and vocational skills development</p>
             </div>
             <div className="bg-white rounded-lg p-6 md:p-8 text-center shadow-md hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer">
-              <h3 className="text-2xl font-semibold mb-2 font-sans" style={{ color: '#cc2e78' }}>🇵🇭 Philippines</h3>
+              <h3 className="text-2xl font-semibold mb-2 font-sans" style={{ color: '#EE0076' }}>🇵🇭 Philippines</h3>
               <p className="text-gray-600 font-serif">Education support and economic empowerment</p>
             </div>
             <div className="bg-white rounded-lg p-6 md:p-8 text-center shadow-md hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer">
-              <h3 className="text-2xl font-semibold mb-2 font-sans" style={{ color: '#cc2e78' }}>🇺🇬 Uganda</h3>
+              <h3 className="text-2xl font-semibold mb-2 font-sans" style={{ color: '#EE0076' }}>🇺🇬 Uganda</h3>
               <p className="text-gray-600 font-serif">Community development and child protection</p>
             </div>
             <div className="bg-white rounded-lg p-6 md:p-8 text-center shadow-md hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer">
-              <h3 className="text-2xl font-semibold mb-2 font-sans" style={{ color: '#cc2e78' }}>🇦🇷 Argentina</h3>
+              <h3 className="text-2xl font-semibold mb-2 font-sans" style={{ color: '#EE0076' }}>🇦🇷 Argentina</h3>
               <p className="text-gray-600 font-serif">Trafficking prevention and survivor support</p>
             </div>
             <div className="bg-white rounded-lg p-6 md:p-8 text-center shadow-md hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer lg:col-start-2">
-              <h3 className="text-2xl font-semibold mb-2 font-sans" style={{ color: '#cc2e78' }}>🇨🇴 Colombia</h3>
+              <h3 className="text-2xl font-semibold mb-2 font-sans" style={{ color: '#EE0076' }}>🇨🇴 Colombia</h3>
               <p className="text-gray-600 font-serif">Restoration programs and sustainable livelihoods</p>
             </div>
           </div>
@@ -204,19 +204,19 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-[#2a887e] mb-2 font-sans">1,600+</div>
+              <div className="text-4xl font-bold text-rose-600 mb-2 font-sans">1,600+</div>
               <div className="text-gray-600 font-serif">Lives Transformed</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-[#2a887e] mb-2 font-sans">1M+</div>
+              <div className="text-4xl font-bold text-rose-600 mb-2 font-sans">1M+</div>
               <div className="text-gray-600 font-serif">Meals Served</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-[#2a887e] mb-2 font-sans">5,000+</div>
+              <div className="text-4xl font-bold text-rose-600 mb-2 font-sans">5,000+</div>
               <div className="text-gray-600 font-serif">Girls Trained</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-[#2a887e] mb-2 font-sans">4</div>
+              <div className="text-4xl font-bold text-rose-600 mb-2 font-sans">4</div>
               <div className="text-gray-600 font-serif">Countries Served</div>
             </div>
           </div>
@@ -231,33 +231,33 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Story 1 - India Nursing College (Most Recent: March 31, 2026) */}
             <Link href="/stories" className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
-              <div className="h-48 bg-gradient-to-br from-[#d66a53] to-[#2a887e]"></div>
+              <div className="h-48 bg-gradient-to-br from-blue-200 to-cyan-300"></div>
               <div className="p-6">
                 <div className="text-sm text-gray-500 mb-2 font-serif">March 31, 2026</div>
                 <h4 className="text-xl font-bold text-gray-900 mb-3 font-sans">India Nursing College Thrives After Urgent Goal Met</h4>
                 <p className="text-gray-600 mb-4 font-serif">
                   Renovated classrooms buzzing with life as students pursue their dreams of healthcare careers...
                 </p>
-                <span className="text-[#2a887e] font-semibold font-sans">Read More →</span>
+                <span className="text-rose-600 font-semibold font-sans">Read More →</span>
               </div>
             </Link>
 
             {/* Story 2 - Global Good News (February 10, 2026) */}
             <Link href="/stories" className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
-              <div className="h-48 bg-gradient-to-br from-[#2a887e] to-[#cc2e78]"></div>
+              <div className="h-48 bg-gradient-to-br from-green-200 to-emerald-300"></div>
               <div className="p-6">
                 <div className="text-sm text-gray-500 mb-2 font-serif">February 10, 2026</div>
                 <h4 className="text-xl font-bold text-gray-900 mb-3 font-sans">Global Good News: Your Giving in Action</h4>
                 <p className="text-gray-600 mb-4 font-serif">
                   See how your support is transforming lives across our programs in Myanmar, India, Uganda, and the Philippines...
                 </p>
-                <span className="text-[#2a887e] font-semibold font-sans">Read More →</span>
+                <span className="text-rose-600 font-semibold font-sans">Read More →</span>
               </div>
             </Link>
 
             {/* Story 3 - Ruby (December 06, 2024) */}
             <Link href="/stories/meet-ruby-our-inspiring-child-of-the-year-for-2024" className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
-              <div className="h-48 bg-gradient-to-br from-[#2a887e] to-[#cc2e78]"></div>
+              <div className="h-48 bg-gradient-to-br from-rose-200 to-pink-300"></div>
               <div className="p-6">
                 <div className="text-sm text-gray-500 mb-2 font-serif">December 06, 2024</div>
                 <h4 className="text-xl font-bold text-gray-900 mb-3 font-sans">Meet Ruby: our inspiring child of the year for 2024!</h4>
@@ -265,7 +265,7 @@ export default function Home() {
                   Today, we're excited to introduce you to our 3rd Annual "Child of the Year," Ruby; 
                   she's a beacon of hope and resilience...
                 </p>
-                <span className="text-[#2a887e] font-semibold font-sans">Read More →</span>
+                <span className="text-rose-600 font-semibold font-sans">Read More →</span>
               </div>
             </Link>
           </div>
@@ -273,7 +273,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link 
               href="/stories" 
-              className="inline-block bg-[#2a887e] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#1f6660] transition font-sans"
+              className="inline-block bg-rose-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-rose-700 transition font-sans"
             >
               View More Stories
             </Link>
@@ -312,11 +312,11 @@ export default function Home() {
                 <input 
                   type="email" 
                   placeholder="Enter your email" 
-                  className="flex-1 px-4 py-2 rounded-lg text-gray-900 font-serif focus:outline-none focus:ring-2 focus:ring-[#2a887e]"
+                  className="flex-1 px-4 py-2 rounded-lg text-gray-900 font-serif focus:outline-none focus:ring-2 focus:ring-rose-500"
                 />
                 <button 
                   type="submit" 
-                  className="bg-[#2a887e] px-6 py-2 rounded-lg font-semibold hover:bg-[#1f6660] transition font-sans whitespace-nowrap"
+                  className="bg-rose-600 px-6 py-2 rounded-lg font-semibold hover:bg-rose-700 transition font-sans whitespace-nowrap"
                 >
                   Sign Up
                 </button>
