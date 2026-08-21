@@ -167,9 +167,24 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="bg-white rounded-lg p-6 md:p-8 text-center shadow-md hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer">
-              <h3 className="text-2xl font-semibold mb-2 font-sans" style={{ color: '#EE0076' }}>🇲🇲 Myanmar</h3>
-              <p className="text-gray-600 font-serif">Safe homes and vocational skills development</p>
+            <div
+              className="group relative aspect-video overflow-hidden rounded-lg shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl focus:-translate-y-1 focus:outline-none focus-visible:ring-4 focus-visible:ring-pink-300"
+              tabIndex={0}
+              aria-label="Myanmar: 14.6 million children, 5.1 million in child labor, 134,000 in child slavery"
+            >
+              <Image
+                src="/images/where-we-work/myanmar.jpg"
+                alt="Two smiling girls standing arm in arm in Myanmar"
+                fill
+                sizes="(min-width: 1024px) 320px, (min-width: 768px) 50vw, 100vw"
+                className="object-cover object-[center_12%] transition-transform duration-500 group-hover:scale-105 group-focus:scale-105"
+              />
+              <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/85 via-black/35 to-transparent p-5 text-left text-white transition-opacity duration-500 md:justify-center md:bg-[#EE0076]/90 md:text-center md:opacity-0 md:group-hover:opacity-100 md:group-focus:opacity-100">
+                <h3 className="text-2xl font-semibold font-sans">Myanmar</h3>
+                <p className="mt-2 text-sm leading-relaxed font-serif md:text-base">
+                  14.6 million children, 5.1 million in child labor, 134,000 in child slavery
+                </p>
+              </div>
             </div>
             <div className="bg-white rounded-lg p-6 md:p-8 text-center shadow-md hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer">
               <h3 className="text-2xl font-semibold mb-2 font-sans" style={{ color: '#EE0076' }}>🇵🇭 Philippines</h3>
