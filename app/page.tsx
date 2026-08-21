@@ -181,8 +181,8 @@ export default function Home() {
               aria-label="Uganda: 19 million children, 2 million in child labor, 42,000 in child slavery"
             >
               <Image
-                src="/images/where-we-work/uganda.jpg"
-                alt="Smiling students holding schoolbooks in Uganda"
+                src="/images/where-we-work/uganda-joy.jpg"
+                alt="Girls enjoying an outdoor activity together in Uganda"
                 fill
                 sizes="(min-width: 1024px) 320px, (min-width: 768px) 50vw, 100vw"
                 className="object-cover object-[center_42%] transition-transform duration-500 group-hover:scale-105 group-focus:scale-105"
