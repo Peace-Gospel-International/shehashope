@@ -173,11 +173,11 @@ export default function Home() {
               aria-label="Myanmar: 14.6 million children, 5.1 million in child labor, 134,000 in child slavery"
             >
               <Image
-                src="/images/where-we-work/myanmar.jpg"
-                alt="Two smiling girls standing arm in arm in Myanmar"
+                src="/images/where-we-work/myanmar-students.jpg"
+                alt="Four smiling students standing together in Myanmar"
                 fill
                 sizes="(min-width: 1024px) 320px, (min-width: 768px) 50vw, 100vw"
-                className="object-cover object-[center_12%] transition-transform duration-500 group-hover:scale-105 group-focus:scale-105"
+                className="object-cover object-top transition-transform duration-500 group-hover:scale-105 group-focus:scale-105"
               />
               <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/85 via-black/35 to-transparent p-5 text-left text-white transition-opacity duration-500 md:justify-center md:bg-[#EE0076]/90 md:text-center md:opacity-0 md:group-hover:opacity-100 md:group-focus:opacity-100">
                 <h3 className="text-2xl font-semibold font-sans">Myanmar</h3>
