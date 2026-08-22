@@ -29,8 +29,9 @@ export const programs: Program[] = [
   {
     slug: 'philippines',
     name: 'Philippines',
-    imageSrc: '/images/where-we-work/philippines-friends-outdoors.jpg',
+    imageSrc: '/images/where-we-work/philippines-friends-garden.jpg',
     imageAlt: 'Two smiling girls embracing outdoors in the Philippines',
+    imageClassName: 'object-center',
   },
   {
     slug: 'uganda',
