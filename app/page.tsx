@@ -234,19 +234,11 @@ export default function Home() {
               aria-label="Colombia: 10.7 million children, including 800,000 Venezuelan migrant children"
             >
               <Image
-                src="/images/where-we-work/colombia-bags.jpg"
-                alt=""
-                aria-hidden="true"
+                src="/images/where-we-work/colombia-sewing.jpg"
+                alt="Student sewing at a skills-training program in Colombia"
                 fill
                 sizes="(min-width: 1024px) 320px, (min-width: 768px) 50vw, 100vw"
-                className="object-cover scale-110 blur-md brightness-50"
-              />
-              <Image
-                src="/images/where-we-work/colombia-bags.jpg"
-                alt="Student displaying colorful handmade bags at a skills-training program in Colombia"
-                fill
-                sizes="(min-width: 1024px) 320px, (min-width: 768px) 50vw, 100vw"
-                className="object-contain object-top origin-top scale-125 transition-transform duration-500 group-hover:scale-[1.3] group-focus:scale-[1.3]"
+                className="object-cover object-center transition-transform duration-500 group-hover:scale-105 group-focus:scale-105"
               />
               <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/85 via-black/35 to-transparent p-5 text-left text-white transition-opacity duration-500 md:justify-center md:bg-[#EE0076]/90 md:text-center md:opacity-0 md:group-hover:opacity-100 md:group-focus:opacity-100">
                 <h3 className="text-2xl font-semibold font-sans">Colombia</h3>
