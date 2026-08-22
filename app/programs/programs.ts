@@ -22,8 +22,8 @@ export const programs: Program[] = [
   {
     slug: 'myanmar',
     name: 'Myanmar',
-    imageSrc: '/images/where-we-work/myanmar-friends.jpg',
-    imageAlt: 'Two smiling girls standing arm in arm in Myanmar',
+    imageSrc: '/images/where-we-work/myanmar-shared-meal.jpg',
+    imageAlt: 'Two smiling girls sharing a meal in Myanmar',
     imageClassName: 'object-top',
   },
   {
