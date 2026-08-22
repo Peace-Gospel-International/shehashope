@@ -4,6 +4,7 @@ import HeroCarousel from './components/HeroCarousel';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ProgramCard from './components/ProgramCard';
+import { programs } from './programs/programs';
 import {
   PreventionIcon,
   RescueIcon,
@@ -124,59 +125,26 @@ export default function Home() {
       </section>
 
       {/* Where We Work Section */}
-      <section className="py-12 md:py-16 bg-gray-50">
+      <section id="where-we-work" className="scroll-mt-6 bg-gray-50 py-12 md:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 md:mb-12 text-center font-sans">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3 text-center font-sans">
             Where We Work
           </h2>
+          <p className="mb-8 text-center text-lg text-gray-600 font-serif md:mb-12">
+            Select a location to explore our work.
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            <ProgramCard
-              title="India"
-              statistics="440 million children, 60 million in child labor, 5 million in child slavery"
-              imageSrc="/images/where-we-work/india.jpg"
-              imageAlt="Two smiling girls in India"
-            />
-            <ProgramCard
-              title="Nepal"
-              statistics="10 million children, 2 million in child labor, 20,000 in child slavery"
-              imageSrc="/images/where-we-work/nepal.jpg"
-              imageAlt="Woman sewing at a trade school in Nepal"
-            />
-            <ProgramCard
-              title="Myanmar"
-              statistics="14.6 million children, 5.1 million in child labor, 134,000 in child slavery"
-              imageSrc="/images/where-we-work/myanmar-friends.jpg"
-              imageAlt="Two smiling girls standing arm in arm in Myanmar"
-              imageClassName="object-top"
-            />
-            <ProgramCard
-              title="Philippines"
-              statistics="33 million children, 5.5 million in child labor, 100,000 in child slavery"
-              imageSrc="/images/where-we-work/philippines-classroom.jpg"
-              imageAlt="Smiling student writing in a classroom in the Philippines"
-              imageClassName="object-[center_35%]"
-            />
-            <ProgramCard
-              title="Uganda"
-              statistics="19 million children, 2 million in child labor, 42,000 in child slavery"
-              imageSrc="/images/where-we-work/uganda-students.jpg"
-              imageAlt="Three smiling students standing arm in arm in Uganda"
-              imageClassName="object-[center_12%]"
-            />
-            <ProgramCard
-              title="Argentina"
-              statistics="7 out of 10 children—around 8.6 million—live in poverty"
-              imageSrc="/images/where-we-work/argentina.jpg"
-              imageAlt="Young child playing with colorful blocks at an early childhood center in Argentina"
-              imageClassName="object-[center_43%]"
-            />
-            <ProgramCard
-              title="Colombia"
-              statistics="10.7 million children, including 800,000 Venezuelan migrant children"
-              imageSrc="/images/where-we-work/colombia-sewing.jpg"
-              imageAlt="Student sewing at a skills-training program in Colombia"
-              className="lg:col-start-2"
-            />
+            {programs.map((program) => (
+              <ProgramCard
+                key={program.slug}
+                title={program.name}
+                href={`/programs/${program.slug}`}
+                imageSrc={program.imageSrc}
+                imageAlt={program.imageAlt}
+                imageClassName={program.imageClassName}
+                className={program.slug === 'colombia' ? 'lg:col-start-2' : undefined}
+              />
+            ))}
           </div>
         </div>
       </section>
