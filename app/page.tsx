@@ -3,6 +3,7 @@ import Image from 'next/image';
 import HeroCarousel from './components/HeroCarousel';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ProgramCard from './components/ProgramCard';
 import {
   PreventionIcon,
   RescueIcon,
@@ -129,139 +130,53 @@ export default function Home() {
             Where We Work
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            <div
-              className="group relative aspect-video overflow-hidden rounded-lg shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl focus:-translate-y-1 focus:outline-none focus-visible:ring-4 focus-visible:ring-pink-300"
-              tabIndex={0}
-              aria-label="India: 440 million children, 60 million in child labor, 5 million in child slavery"
-            >
-              <Image
-                src="/images/where-we-work/india.jpg"
-                alt="Two smiling girls in India"
-                fill
-                sizes="(min-width: 1024px) 320px, (min-width: 768px) 50vw, 100vw"
-                className="object-cover object-center transition-transform duration-500 group-hover:scale-105 group-focus:scale-105"
-              />
-              <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/85 via-black/35 to-transparent p-5 text-left text-white transition-opacity duration-500 md:justify-center md:bg-[#EE0076]/90 md:text-center md:opacity-0 md:group-hover:opacity-100 md:group-focus:opacity-100">
-                <h3 className="text-2xl font-semibold font-sans">India</h3>
-                <p className="mt-2 text-sm leading-relaxed font-serif md:text-base">
-                  440 million children, 60 million in child labor, 5 million in child slavery
-                </p>
-              </div>
-            </div>
-            <div
-              className="group relative aspect-video overflow-hidden rounded-lg shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl focus:-translate-y-1 focus:outline-none focus-visible:ring-4 focus-visible:ring-pink-300"
-              tabIndex={0}
-              aria-label="Nepal: 10 million children, 2 million in child labor, 20,000 in child slavery"
-            >
-              <Image
-                src="/images/where-we-work/nepal.jpg"
-                alt="Woman sewing at a trade school in Nepal"
-                fill
-                sizes="(min-width: 1024px) 320px, (min-width: 768px) 50vw, 100vw"
-                className="object-cover object-center transition-transform duration-500 group-hover:scale-105 group-focus:scale-105"
-              />
-              <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/85 via-black/35 to-transparent p-5 text-left text-white transition-opacity duration-500 md:justify-center md:bg-[#EE0076]/90 md:text-center md:opacity-0 md:group-hover:opacity-100 md:group-focus:opacity-100">
-                <h3 className="text-2xl font-semibold font-sans">Nepal</h3>
-                <p className="mt-2 text-sm leading-relaxed font-serif md:text-base">
-                  10 million children, 2 million in child labor, 20,000 in child slavery
-                </p>
-              </div>
-            </div>
-            <div
-              className="group relative aspect-video overflow-hidden rounded-lg shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl focus:-translate-y-1 focus:outline-none focus-visible:ring-4 focus-visible:ring-pink-300"
-              tabIndex={0}
-              aria-label="Myanmar: 14.6 million children, 5.1 million in child labor, 134,000 in child slavery"
-            >
-              <Image
-                src="/images/where-we-work/myanmar-friends.jpg"
-                alt="Two smiling girls standing arm in arm in Myanmar"
-                fill
-                sizes="(min-width: 1024px) 320px, (min-width: 768px) 50vw, 100vw"
-                className="object-cover object-top transition-transform duration-500 group-hover:scale-105 group-focus:scale-105"
-              />
-              <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/85 via-black/35 to-transparent p-5 text-left text-white transition-opacity duration-500 md:justify-center md:bg-[#EE0076]/90 md:text-center md:opacity-0 md:group-hover:opacity-100 md:group-focus:opacity-100">
-                <h3 className="text-2xl font-semibold font-sans">Myanmar</h3>
-                <p className="mt-2 text-sm leading-relaxed font-serif md:text-base">
-                  14.6 million children, 5.1 million in child labor, 134,000 in child slavery
-                </p>
-              </div>
-            </div>
-            <div
-              className="group relative aspect-video overflow-hidden rounded-lg shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl focus:-translate-y-1 focus:outline-none focus-visible:ring-4 focus-visible:ring-pink-300"
-              tabIndex={0}
-              aria-label="Philippines: 33 million children, 5.5 million in child labor, 100,000 in child slavery"
-            >
-              <Image
-                src="/images/where-we-work/philippines-classroom.jpg"
-                alt="Smiling student writing in a classroom in the Philippines"
-                fill
-                sizes="(min-width: 1024px) 320px, (min-width: 768px) 50vw, 100vw"
-                className="object-cover object-[center_35%] transition-transform duration-500 group-hover:scale-105 group-focus:scale-105"
-              />
-              <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/85 via-black/35 to-transparent p-5 text-left text-white transition-opacity duration-500 md:justify-center md:bg-[#EE0076]/90 md:text-center md:opacity-0 md:group-hover:opacity-100 md:group-focus:opacity-100">
-                <h3 className="text-2xl font-semibold font-sans">Philippines</h3>
-                <p className="mt-2 text-sm leading-relaxed font-serif md:text-base">
-                  33 million children, 5.5 million in child labor, 100,000 in child slavery
-                </p>
-              </div>
-            </div>
-            <div
-              className="group relative aspect-video overflow-hidden rounded-lg shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl focus:-translate-y-1 focus:outline-none focus-visible:ring-4 focus-visible:ring-pink-300"
-              tabIndex={0}
-              aria-label="Uganda: 19 million children, 2 million in child labor, 42,000 in child slavery"
-            >
-              <Image
-                src="/images/where-we-work/uganda-students.jpg"
-                alt="Three smiling students standing arm in arm in Uganda"
-                fill
-                sizes="(min-width: 1024px) 320px, (min-width: 768px) 50vw, 100vw"
-                className="object-cover object-[center_12%] transition-transform duration-500 group-hover:scale-105 group-focus:scale-105"
-              />
-              <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/85 via-black/35 to-transparent p-5 text-left text-white transition-opacity duration-500 md:justify-center md:bg-[#EE0076]/90 md:text-center md:opacity-0 md:group-hover:opacity-100 md:group-focus:opacity-100">
-                <h3 className="text-2xl font-semibold font-sans">Uganda</h3>
-                <p className="mt-2 text-sm leading-relaxed font-serif md:text-base">
-                  19 million children, 2 million in child labor, 42,000 in child slavery
-                </p>
-              </div>
-            </div>
-            <div
-              className="group relative aspect-video overflow-hidden rounded-lg shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl focus:-translate-y-1 focus:outline-none focus-visible:ring-4 focus-visible:ring-pink-300"
-              tabIndex={0}
-              aria-label="Argentina: 7 out of 10 children—around 8.6 million—live in poverty"
-            >
-              <Image
-                src="/images/where-we-work/argentina.jpg"
-                alt="Young child playing with colorful blocks at an early childhood center in Argentina"
-                fill
-                sizes="(min-width: 1024px) 320px, (min-width: 768px) 50vw, 100vw"
-                className="object-cover object-[center_43%] transition-transform duration-500 group-hover:scale-105 group-focus:scale-105"
-              />
-              <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/85 via-black/35 to-transparent p-5 text-left text-white transition-opacity duration-500 md:justify-center md:bg-[#EE0076]/90 md:text-center md:opacity-0 md:group-hover:opacity-100 md:group-focus:opacity-100">
-                <h3 className="text-2xl font-semibold font-sans">Argentina</h3>
-                <p className="mt-2 text-sm leading-relaxed font-serif md:text-base">
-                  7 out of 10 children—around 8.6 million—live in poverty
-                </p>
-              </div>
-            </div>
-            <div
-              className="group relative aspect-video overflow-hidden rounded-lg shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl focus:-translate-y-1 focus:outline-none focus-visible:ring-4 focus-visible:ring-pink-300 lg:col-start-2"
-              tabIndex={0}
-              aria-label="Colombia: 10.7 million children, including 800,000 Venezuelan migrant children"
-            >
-              <Image
-                src="/images/where-we-work/colombia-sewing.jpg"
-                alt="Student sewing at a skills-training program in Colombia"
-                fill
-                sizes="(min-width: 1024px) 320px, (min-width: 768px) 50vw, 100vw"
-                className="object-cover object-center transition-transform duration-500 group-hover:scale-105 group-focus:scale-105"
-              />
-              <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/85 via-black/35 to-transparent p-5 text-left text-white transition-opacity duration-500 md:justify-center md:bg-[#EE0076]/90 md:text-center md:opacity-0 md:group-hover:opacity-100 md:group-focus:opacity-100">
-                <h3 className="text-2xl font-semibold font-sans">Colombia</h3>
-                <p className="mt-2 text-sm leading-relaxed font-serif md:text-base">
-                  10.7 million children, including 800,000 Venezuelan migrant children
-                </p>
-              </div>
-            </div>
+            <ProgramCard
+              title="India"
+              statistics="440 million children, 60 million in child labor, 5 million in child slavery"
+              imageSrc="/images/where-we-work/india.jpg"
+              imageAlt="Two smiling girls in India"
+            />
+            <ProgramCard
+              title="Nepal"
+              statistics="10 million children, 2 million in child labor, 20,000 in child slavery"
+              imageSrc="/images/where-we-work/nepal.jpg"
+              imageAlt="Woman sewing at a trade school in Nepal"
+            />
+            <ProgramCard
+              title="Myanmar"
+              statistics="14.6 million children, 5.1 million in child labor, 134,000 in child slavery"
+              imageSrc="/images/where-we-work/myanmar-friends.jpg"
+              imageAlt="Two smiling girls standing arm in arm in Myanmar"
+              imageClassName="object-top"
+            />
+            <ProgramCard
+              title="Philippines"
+              statistics="33 million children, 5.5 million in child labor, 100,000 in child slavery"
+              imageSrc="/images/where-we-work/philippines-classroom.jpg"
+              imageAlt="Smiling student writing in a classroom in the Philippines"
+              imageClassName="object-[center_35%]"
+            />
+            <ProgramCard
+              title="Uganda"
+              statistics="19 million children, 2 million in child labor, 42,000 in child slavery"
+              imageSrc="/images/where-we-work/uganda-students.jpg"
+              imageAlt="Three smiling students standing arm in arm in Uganda"
+              imageClassName="object-[center_12%]"
+            />
+            <ProgramCard
+              title="Argentina"
+              statistics="7 out of 10 children—around 8.6 million—live in poverty"
+              imageSrc="/images/where-we-work/argentina.jpg"
+              imageAlt="Young child playing with colorful blocks at an early childhood center in Argentina"
+              imageClassName="object-[center_43%]"
+            />
+            <ProgramCard
+              title="Colombia"
+              statistics="10.7 million children, including 800,000 Venezuelan migrant children"
+              imageSrc="/images/where-we-work/colombia-sewing.jpg"
+              imageAlt="Student sewing at a skills-training program in Colombia"
+              className="lg:col-start-2"
+            />
           </div>
         </div>
       </section>
