@@ -50,8 +50,9 @@ export const programs: Program[] = [
   {
     slug: 'colombia',
     name: 'Colombia',
-    imageSrc: '/images/where-we-work/colombia-sewing.jpg',
-    imageAlt: 'Student sewing at a skills-training program in Colombia',
+    imageSrc: '/images/where-we-work/colombia-sewing-student.jpg',
+    imageAlt: 'Smiling student seated at a sewing machine in Colombia',
+    imageClassName: 'object-[center_43%]',
   },
 ];
 
