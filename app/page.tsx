@@ -173,8 +173,8 @@ export default function Home() {
               aria-label="Myanmar: 14.6 million children, 5.1 million in child labor, 134,000 in child slavery"
             >
               <Image
-                src="/images/where-we-work/myanmar-students.jpg"
-                alt="Four smiling students standing together in Myanmar"
+                src="/images/where-we-work/myanmar-friends.jpg"
+                alt="Two smiling girls standing arm in arm in Myanmar"
                 fill
                 sizes="(min-width: 1024px) 320px, (min-width: 768px) 50vw, 100vw"
                 className="object-cover object-top transition-transform duration-500 group-hover:scale-105 group-focus:scale-105"
