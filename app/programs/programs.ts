@@ -10,8 +10,9 @@ export const programs: Program[] = [
   {
     slug: 'india',
     name: 'India',
-    imageSrc: '/images/where-we-work/india.jpg',
-    imageAlt: 'Two smiling girls in India',
+    imageSrc: '/images/where-we-work/india-smiling-student.jpg',
+    imageAlt: 'Smiling student at the India program',
+    imageClassName: 'object-center',
   },
   {
     slug: 'nepal',
