@@ -97,10 +97,15 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
 
       <section className="bg-rose-50 py-14 md:py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 md:grid-cols-2 lg:gap-16 lg:px-8">
-          <PhotoPlaceholder
-            title="Uganda girls home and residential care photo"
-            guidance="A dignity-centered shared meal, study time, recreation, common space, or group milestone that does not assign personal histories to anyone pictured."
-          />
+          <div className="relative aspect-[3/2] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+            <Image
+              src="/images/programs/uganda-girls-home-community.jpg"
+              alt="Group of girls smiling and dancing together outdoors among trees"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-cover"
+            />
+          </div>
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Orphan care and protection</p>
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">A stable place to live and learn</h2>
