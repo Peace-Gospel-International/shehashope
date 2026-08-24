@@ -120,10 +120,15 @@ export default function NepalProgramPage({ program }: NepalProgramPageProps) {
                 </p>
               </div>
             </div>
-            <PhotoPlaceholder
-              title="Kathmandu program or local-team photo"
-              guidance="A welcoming image of the rehabilitation home, trade school, Kathmandu setting, or local team that protects participant privacy."
-            />
+            <div className="relative aspect-[3/2] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+              <Image
+                src="/images/programs/nepal-kathmandu-community-team.jpg"
+                alt="Five women wearing colorful headscarves laugh together with their arms around one another"
+                fill
+                sizes="(min-width: 768px) 50vw, 100vw"
+                className="object-cover"
+              />
+            </div>
           </div>
         </section>
 
