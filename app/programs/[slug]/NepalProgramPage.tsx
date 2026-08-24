@@ -246,16 +246,20 @@ export default function NepalProgramPage({ program }: NepalProgramPageProps) {
               <div className="rounded-2xl border border-gray-100 bg-white p-7 shadow-md">
                 <h3 className="text-xl font-bold text-gray-900 font-sans">Small-business learning</h3>
                 <p className="mt-3 leading-7 text-gray-700 font-serif">
-                  New Hope Fashions provides apprenticeship experience through craft production while introducing the consistency, quality, teamwork, and planning required for income-generating work.
+                  New Hope Fashions provides apprenticeship experience through craft production while introducing the consistency, quality, teamwork, and planning required for income-generating work. Through a partnership with <a href="https://www.sapanadreams.com/collections/she-has-hope" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#EE0076] hover:underline">Sapana Dreams</a>, participants can help create textile products for sale, connecting hands-on learning with real-world quality and customer expectations.
                 </p>
               </div>
             </div>
 
-            <PhotoPlaceholder
-              title="Trade school and New Hope Fashions photo"
-              guidance="A wide image of tailoring instruction, sewing machines, participants’ hands at work, finished clothing, bags, or exported crafts."
-              className="mt-10 min-h-96"
-            />
+            <div className="relative mt-10 aspect-video overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+              <Image
+                src="/images/programs/nepal-trade-school-new-hope-fashions.jpg"
+                alt="Three-panel collage showing a smiling woman sewing, three women holding patterned textile bags, and a display of finished products"
+                fill
+                sizes="(min-width: 1024px) 1152px, 100vw"
+                className="object-cover"
+              />
+            </div>
           </div>
         </section>
 
