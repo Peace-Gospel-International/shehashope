@@ -217,10 +217,15 @@ export default function NepalProgramPage({ program }: NepalProgramPageProps) {
                   ))}
                 </div>
               </div>
-              <PhotoPlaceholder
-                title="Rehabilitation home and daily care photo"
-                guidance="A warm image of shared learning, a meal, a safe common space, counseling support, or daily life without exposing sensitive identities."
-              />
+              <div className="relative aspect-[3/2] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+                <Image
+                  src="/images/programs/nepal-rehabilitation-daily-care.jpg"
+                  alt="Three smiling young women sit together at a sewing machine while holding pieces of floral fabric"
+                  fill
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
             </div>
           </div>
         </section>
