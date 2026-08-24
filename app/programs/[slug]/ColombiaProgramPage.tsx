@@ -247,11 +247,15 @@ export default function ColombiaProgramPage({ program }: ColombiaProgramPageProp
               </div>
             </div>
 
-            <PhotoPlaceholder
-              title="Vocational training and products photo"
-              guidance="A wide image of sewing instruction, girls’ hands at work, finished bags or textile products, or nail technician training."
-              className="mt-10 min-h-96"
-            />
+            <div className="relative mt-10 aspect-video overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+              <Image
+                src="/images/programs/colombia-vocational-training-products.jpg"
+                alt="Three-panel collage showing a sewing student with a finished bag, a retail partner holding colorful textile products, and a close-up of a handcrafted bag"
+                fill
+                sizes="(min-width: 1024px) 1152px, 100vw"
+                className="object-cover"
+              />
+            </div>
           </div>
         </section>
 
