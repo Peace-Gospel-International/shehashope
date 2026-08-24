@@ -216,37 +216,37 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
         <section className="py-14 md:py-20">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-3xl text-center">
-              <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Restoration through practical learning</p>
-              <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Certified skills for work and independence</h2>
+              <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Education and sustainable opportunity</p>
+              <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">A nursing pathway with a larger vision</h2>
               <p className="mt-5 text-lg leading-8 text-gray-700 font-serif">
-                Opened on the main campus in 2023, the trade school offers certified skill coursework such as tailoring for young women recovering from trafficking or facing serious trafficking risks.
+                The nursing college connects professional education with a sustainable plan to create future scholarship opportunities for orphaned and at-risk young women.
               </p>
             </div>
 
             <div className="mt-12 grid gap-8 lg:grid-cols-3">
               <div className="rounded-2xl border border-gray-100 bg-white p-7 shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 font-sans">Certified training</h3>
+                <h3 className="text-xl font-bold text-gray-900 font-sans">First class of 40</h3>
                 <p className="mt-3 leading-7 text-gray-700 font-serif">
-                  Structured, certified coursework gives participants practical skills that can support future employment.
+                  The first class of 40 young women is enrolled in the Auxiliary Nursing program using renovated campus classrooms.
                 </p>
               </div>
               <div className="rounded-2xl border border-gray-100 bg-white p-7 shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 font-sans">Daily confidence</h3>
+                <h3 className="text-xl font-bold text-gray-900 font-sans">Two-year pathway</h3>
                 <p className="mt-3 leading-7 text-gray-700 font-serif">
-                  Coursework includes consistent practice and opportunities to develop concentration, perseverance, and teamwork.
+                  The current Auxiliary Nursing course is a two-year, non-boarding program centered on practical professional education.
                 </p>
               </div>
               <div className="rounded-2xl border border-gray-100 bg-white p-7 shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 font-sans">Economic opportunity</h3>
+                <h3 className="text-xl font-bold text-gray-900 font-sans">Sustainable vision</h3>
                 <p className="mt-3 leading-7 text-gray-700 font-serif">
-                  Tailoring and related skills can support pathways toward employment and income-generating work.
+                  A separate full-boarding nursing degree program is planned, with tuition from paying students helping support future scholarship seats.
                 </p>
               </div>
             </div>
 
             <PhotoPlaceholder
-              title="India trade school and tailoring photo"
-              guidance="A wide image of certified tailoring instruction, sewing machines, participants’ hands at work, or finished garments."
+              title="India nursing college and classroom photo"
+              guidance="A wide image of current Auxiliary Nursing students, a renovated classroom or lab, the nursing college building, or a supervised training activity."
               className="mt-10 min-h-96"
             />
           </div>
@@ -283,23 +283,23 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
         <section className="py-14 md:py-20">
           <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 md:grid-cols-2 lg:gap-16 lg:px-8">
             <div>
-              <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Education and sustainable opportunity</p>
-              <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">A nursing pathway with a larger vision</h2>
+              <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Restoration through practical learning</p>
+              <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Certified skills for work and independence</h2>
               <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
                 <p>
-                  The first class of 40 young women is enrolled in a two-year, non-boarding Auxiliary Nursing program using renovated campus classrooms.
+                  Opened on the main campus in 2023, the trade school offers certified skill coursework such as tailoring for young women recovering from trafficking or facing serious trafficking risks.
                 </p>
                 <p>
-                  A separate, larger full-boarding nursing degree program is planned, with tuition from paying students helping support scholarship seats for orphaned and at-risk young women, including girls who grew up through Peace Gospel’s care.
+                  Structured coursework and consistent practice provide opportunities to develop practical skills, concentration, perseverance, and teamwork.
                 </p>
                 <p>
-                  This model is designed to expand professional education while creating sustainable support for future scholarship students.
+                  Tailoring and related skills can support pathways toward employment and income-generating work.
                 </p>
               </div>
             </div>
             <PhotoPlaceholder
-              title="Nursing students or classroom photo"
-              guidance="Current Auxiliary Nursing students, a renovated classroom or lab, the nursing college building, or a supervised training activity."
+              title="India trade school and tailoring photo"
+              guidance="One focused image of certified tailoring instruction, a sewing machine in use, participants’ hands at work, or finished garments."
             />
           </div>
         </section>
