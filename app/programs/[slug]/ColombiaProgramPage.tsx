@@ -120,10 +120,15 @@ export default function ColombiaProgramPage({ program }: ColombiaProgramPageProp
                 </p>
               </div>
             </div>
-            <PhotoPlaceholder
-              title="Cúcuta community photo"
-              guidance="A welcoming neighborhood, program exterior, or locally led team image that establishes the Colombia setting without identifying vulnerable participants unnecessarily."
-            />
+            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+              <Image
+                src="/images/programs/colombia-community-gathering.jpg"
+                alt="Girls and women share a relaxed moment while seated in a circle in an outdoor courtyard"
+                fill
+                sizes="(min-width: 768px) 50vw, 100vw"
+                className="object-cover"
+              />
+            </div>
           </div>
         </section>
 
