@@ -35,7 +35,7 @@ const responseAreas = [
   {
     name: 'Prevention',
     iconSrc: '/images/prevention.png',
-    copy: 'Foster care, education, Children’s Hope Centers, nutritious food, and long-term encouragement help reduce the pressures that can leave children vulnerable to child labor and trafficking.',
+    copy: 'Foster care, education, Children’s Hope Centers, school supplies, nutritious food, and long-term encouragement help reduce the pressures that can leave children vulnerable to child labor and trafficking.',
   },
   {
     name: 'Rescue',
@@ -171,16 +171,21 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
 
         <section className="py-14 md:py-20">
           <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 md:grid-cols-2 lg:gap-16 lg:px-8">
-            <PhotoPlaceholder
-              title="Children’s Hope Center or tutoring photo"
-              guidance="Students learning, sharing a meal, receiving tutoring, or enjoying supervised recreation at one of the five Hope Centers."
-            />
+            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+              <Image
+                src="/images/programs/india-hope-centers-school-supplies.jpg"
+                alt="Two smiling children in purple school uniforms hold notebooks, pens, books, and pastries outdoors"
+                fill
+                sizes="(min-width: 768px) 50vw, 100vw"
+                className="object-cover object-center"
+              />
+            </div>
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Education and prevention</p>
               <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Five Children’s Hope Centers</h2>
               <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
                 <p>
-                  Throughout the region, five Children’s Hope Centers provide after-school tutoring, fresh-cooked meals and snacks, and recreation for children in vulnerable circumstances.
+                  Throughout the region, five Children’s Hope Centers provide after-school tutoring, school supplies, fresh-cooked meals and snacks, and recreation for children in vulnerable circumstances.
                 </p>
                 <p>
                   The centers also distribute food to foster-care families, helping support children’s nutrition and continued education.
