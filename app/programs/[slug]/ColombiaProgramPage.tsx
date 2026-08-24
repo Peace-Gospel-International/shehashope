@@ -208,10 +208,15 @@ export default function ColombiaProgramPage({ program }: ColombiaProgramPageProp
                   </p>
                 </div>
               </div>
-              <PhotoPlaceholder
-                title="Education and tutoring photo"
-                guidance="Students learning, a classroom detail, books, or one-on-one tutoring. Use a dignity-centered image with appropriate permissions."
-              />
+              <div className="relative aspect-[3/2] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+                <Image
+                  src="/images/programs/colombia-education-tutoring.jpg"
+                  alt="A smiling student works on a paper craft at a classroom table while other students work behind her"
+                  fill
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
             </div>
           </div>
         </section>
