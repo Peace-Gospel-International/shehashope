@@ -5,9 +5,13 @@ import { notFound } from 'next/navigation';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import { getProgram, programs } from '../programs';
+import ArgentinaProgramPage from './ArgentinaProgramPage';
 import ColombiaProgramPage from './ColombiaProgramPage';
 import IndiaProgramPage from './IndiaProgramPage';
+import MyanmarProgramPage from './MyanmarProgramPage';
 import NepalProgramPage from './NepalProgramPage';
+import PhilippinesProgramPage from './PhilippinesProgramPage';
+import UgandaProgramPage from './UgandaProgramPage';
 
 type ProgramPageProps = {
   params: Promise<{ slug: string }>;
@@ -23,6 +27,13 @@ export async function generateMetadata({ params }: ProgramPageProps): Promise<Me
 
   if (!program) {
     return {};
+  }
+
+  if (slug === 'argentina') {
+    return {
+      title: 'Argentina Prevention and Early Childhood Program | She Has Hope',
+      description: 'Discover how She Has Hope partners with a locally led program in Buenos Aires to provide early childhood care, nutrition, family support, community employment, and trafficking-prevention education.',
+    };
   }
 
   if (slug === 'colombia') {
@@ -46,6 +57,27 @@ export async function generateMetadata({ params }: ProgramPageProps): Promise<Me
     };
   }
 
+  if (slug === 'myanmar') {
+    return {
+      title: 'Myanmar Orphan Care and Education Program | She Has Hope',
+      description: 'Discover how She Has Hope partners with locally led programs in Myanmar to provide residential care, education, vocational preparation, and sustainable food production.',
+    };
+  }
+
+  if (slug === 'philippines') {
+    return {
+      title: 'Philippines Trafficking Prevention Programs | She Has Hope',
+      description: 'Explore She Has Hope programs in Cebu and Manila providing residential care, education, practical skills, and sustainable support for children and women facing exploitation risks.',
+    };
+  }
+
+  if (slug === 'uganda') {
+    return {
+      title: 'Uganda Education and Trafficking Response Program | She Has Hope',
+      description: 'Discover how She Has Hope partners with locally led Uganda programs providing education, orphan care, practical skills, clean water, medical care, and farmland sustainability.',
+    };
+  }
+
   return {
     title: `${program.name} Program | She Has Hope`,
     description: `Explore She Has Hope's work in ${program.name}.`,
@@ -60,6 +92,10 @@ export default async function ProgramPage({ params }: ProgramPageProps) {
     notFound();
   }
 
+  if (slug === 'argentina') {
+    return <ArgentinaProgramPage program={program} />;
+  }
+
   if (slug === 'colombia') {
     return <ColombiaProgramPage program={program} />;
   }
@@ -70,6 +106,18 @@ export default async function ProgramPage({ params }: ProgramPageProps) {
 
   if (slug === 'nepal') {
     return <NepalProgramPage program={program} />;
+  }
+
+  if (slug === 'myanmar') {
+    return <MyanmarProgramPage program={program} />;
+  }
+
+  if (slug === 'philippines') {
+    return <PhilippinesProgramPage program={program} />;
+  }
+
+  if (slug === 'uganda') {
+    return <UgandaProgramPage program={program} />;
   }
 
   return (
