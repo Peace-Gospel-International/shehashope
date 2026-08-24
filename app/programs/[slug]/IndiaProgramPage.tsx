@@ -40,7 +40,7 @@ const responseAreas = [
   {
     name: 'Rescue',
     iconSrc: '/images/rescue.png',
-    copy: 'The India partnership began through outreach to children facing severe exploitation and has helped child labor victims move toward safety, care, and education.',
+    copy: 'The India partnership began with relief outreach to children in an underserved urban community and has since supported children affected by child labor with safety, care, and education.',
   },
   {
     name: 'Rehabilitation',
@@ -180,10 +180,10 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
               <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Five Children’s Hope Centers</h2>
               <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
                 <p>
-                  Throughout the region, five Children’s Hope Centers provide after-school tutoring, fresh-cooked meals and snacks, and supervised recreation for children in vulnerable circumstances.
+                  Throughout the region, five Children’s Hope Centers provide after-school tutoring, fresh-cooked meals and snacks, and recreation for children in vulnerable circumstances.
                 </p>
                 <p>
-                  The centers also serve as food-distribution points for foster-care families. This practical support helps families meet immediate nutritional needs while children remain connected to education, trusted adults, and a safer community.
+                  The centers also distribute food to foster-care families, helping support children’s nutrition and continued education.
                 </p>
               </div>
             </div>
@@ -198,10 +198,10 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
                 <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Education for the long journey</h2>
                 <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
                   <p>
-                    Children and young people receive support through foster care, primary and secondary education, and college scholarships. The program serves vulnerable children whose lives have been affected by orphanhood, trafficking, child labor, poverty, or discrimination.
+                    The program supports children and young people in vulnerable circumstances, including orphans, trafficking survivors, and children affected by child labor, through foster care, primary and secondary education support, and college scholarships.
                   </p>
                   <p>
-                    Education is paired with steady encouragement and long-term relationships. Some girls who entered the program as children have continued into college programs in nursing, education, computer science, accounting, and other fields.
+                    Some students supported by the program have continued into college through scholarships, pursuing a range of professional fields.
                   </p>
                 </div>
               </div>
@@ -227,19 +227,19 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
               <div className="rounded-2xl border border-gray-100 bg-white p-7 shadow-md">
                 <h3 className="text-xl font-bold text-gray-900 font-sans">Certified training</h3>
                 <p className="mt-3 leading-7 text-gray-700 font-serif">
-                  Structured coursework gives participants a practical skill foundation and a recognized step toward future employment.
+                  Structured, certified coursework gives participants practical skills that can support future employment.
                 </p>
               </div>
               <div className="rounded-2xl border border-gray-100 bg-white p-7 shadow-md">
                 <h3 className="text-xl font-bold text-gray-900 font-sans">Daily confidence</h3>
                 <p className="mt-3 leading-7 text-gray-700 font-serif">
-                  Consistent practice strengthens concentration, perseverance, teamwork, and the belief that new goals are possible.
+                  Coursework includes consistent practice and opportunities to develop concentration, perseverance, and teamwork.
                 </p>
               </div>
               <div className="rounded-2xl border border-gray-100 bg-white p-7 shadow-md">
                 <h3 className="text-xl font-bold text-gray-900 font-sans">Economic opportunity</h3>
                 <p className="mt-3 leading-7 text-gray-700 font-serif">
-                  Tailoring and related skills can open pathways toward employment, apprenticeships, or small-business activity.
+                  Tailoring and related skills can support pathways toward employment and income-generating work.
                 </p>
               </div>
             </div>
@@ -265,15 +265,15 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
             <div className="mx-auto mt-10 grid max-w-5xl gap-6 md:grid-cols-3">
               <div className="rounded-2xl bg-white p-8 text-center shadow-md">
                 <p className="text-5xl font-bold text-[#EE0076] font-sans">620</p>
-                <p className="mt-3 text-lg font-semibold text-gray-800 font-sans">Child labor victims rescued</p>
+                <p className="mt-3 text-lg font-semibold text-gray-800 font-sans">Children rescued from child labor</p>
               </div>
               <div className="rounded-2xl bg-white p-8 text-center shadow-md">
                 <p className="text-5xl font-bold text-[#EE0076] font-sans">807</p>
-                <p className="mt-3 text-lg font-semibold text-gray-800 font-sans">Orphans cared for</p>
+                <p className="mt-3 text-lg font-semibold text-gray-800 font-sans">Children cared for through orphan-care programs</p>
               </div>
               <div className="rounded-2xl bg-white p-8 text-center shadow-md">
                 <p className="text-5xl font-bold text-[#EE0076] font-sans">38</p>
-                <p className="mt-3 text-lg font-semibold text-gray-800 font-sans">Tons of farmland produce</p>
+                <p className="mt-3 text-lg font-semibold text-gray-800 font-sans">Tons of produce harvested</p>
               </div>
             </div>
             <p className="mt-5 text-center text-sm text-gray-500 font-serif">Program figures reported through 2026.</p>
@@ -287,13 +287,13 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
               <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">A nursing pathway with a larger vision</h2>
               <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
                 <p>
-                  The first class of 40 young women is training as Auxiliary Nurses in renovated campus classrooms. Their education is designed to prepare them for essential community and maternal health work.
+                  The first class of 40 young women is enrolled in a two-year, non-boarding Auxiliary Nursing program using renovated campus classrooms.
                 </p>
                 <p>
-                  The larger vision is a full advanced nursing degree boarding program where tuition from paying students helps support scholarship seats for orphaned and at-risk young women, including girls who have grown up through Peace Gospel’s care.
+                  A separate, larger full-boarding nursing degree program is planned, with tuition from paying students helping support scholarship seats for orphaned and at-risk young women, including girls who grew up through Peace Gospel’s care.
                 </p>
                 <p>
-                  This model connects professional education with sustainability: expanding meaningful career pathways while creating room for future scholarship students.
+                  This model is designed to expand professional education while creating sustainable support for future scholarship students.
                 </p>
               </div>
             </div>
