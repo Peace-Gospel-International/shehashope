@@ -114,12 +114,12 @@ export default function MyanmarProgramPage({ program }: MyanmarProgramPageProps)
       <ImpactSection
         eyebrow="A long record of care"
         title="Residential support and locally grown food"
-        intro="These cumulative figures reflect the Myanmar partnership’s reported work through 2026."
+        intro="These figures reflect the Myanmar program’s current structure and cumulative food production as reported through 2026."
         stats={[
-          { value: '253', label: 'Children cared for through orphan-care programs' },
+          { value: '4', label: 'Locally led residential homes' },
           { value: '128', label: 'Tons of farmland produce' },
         ]}
-        note="Myanmar program figures reported through 2026."
+        note="Myanmar program structure and cumulative produce reported through 2026."
       />
 
       <section className="py-14 md:py-20">

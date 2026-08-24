@@ -38,7 +38,7 @@ const responseAreas: ResponseArea[] = [
   {
     name: 'Sustainability',
     iconSrc: '/images/sustainability.png',
-    copy: 'A diverse farmland enterprise produces food for program meals and marketable crops, reinforcing the local team’s ability to serve children and students over time.',
+    copy: 'A 15-acre farmland enterprise produces food for program meals and marketable crops, reinforcing the local team’s ability to serve children and students over time.',
   },
 ];
 
@@ -57,7 +57,7 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Locally led work in Mayuge District</p>
             <h2 className="mt-3 text-3xl font-bold leading-tight text-gray-900 font-sans md:text-4xl">A rural campus where essential services connect</h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
-              <p>Since 2009, the Uganda team has built a connected response to the pressures facing children and families in rural Mayuge District.</p>
+              <p>For more than fifteen years, the Uganda team has built a connected response to the pressures facing children and families in rural Mayuge District.</p>
               <p>A primary school, boarding high school, girls home, women’s trade school, farmland, wells, and medical clinic work together rather than as isolated projects. Education is strengthened by meals, clean water, health care, and a stable place to live.</p>
               <p>This locally led model addresses immediate needs while building pathways toward knowledge, practical skills, and greater resilience.</p>
             </div>
@@ -145,7 +145,7 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Farmland sustainability</p>
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Food that supports more than 70,000 meals each month</h2>
-            <p className="mt-5 text-lg leading-8 text-gray-700 font-serif">The local team grows beans, corn, potatoes, oranges, bananas, and passion fruit and also maintains a piggery and free-range poultry project. Together, these resources help supply program meals while marketable crops reinforce local sustainability.</p>
+            <p className="mt-5 text-lg leading-8 text-gray-700 font-serif">Across 15 acres, the local team grows beans, corn, potatoes, oranges, bananas, and passion fruit and also maintains a piggery and free-range poultry project. Together, these resources help supply program meals while marketable crops reinforce local sustainability.</p>
           </div>
           <PhotoPlaceholder
             title="Uganda farmland harvest or poultry photo"

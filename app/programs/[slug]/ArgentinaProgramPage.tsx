@@ -47,7 +47,7 @@ export default function ArgentinaProgramPage({ program }: ArgentinaProgramPagePr
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">A locally led partnership launched in 2025</p>
             <h2 className="mt-3 text-3xl font-bold leading-tight text-gray-900 font-sans md:text-4xl">Starting early, strengthening families</h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
-              <p>The Argentina partnership serves families in Villa 1-11-14, an underserved neighborhood in Buenos Aires where many households navigate unstable employment, low income, and precarious housing.</p>
+              <p>The Argentina partnership serves families in Barrio Padre Rodolfo Ricciardelli, also known as Villa 1-11-14, an underserved neighborhood in Buenos Aires.</p>
               <p>Led by a local Argentine team, the program begins with the needs of very young children and their caregivers: dependable nutrition, early learning, family support, and a safe place for children to develop.</p>
               <p>This is a prevention-centered program. Rather than presenting it as a direct rescue or survivor-care service, the work strengthens children, families, and community awareness before exploitation can take deeper hold.</p>
             </div>
@@ -92,7 +92,7 @@ export default function ArgentinaProgramPage({ program }: ArgentinaProgramPagePr
         title="Daily care with meaningful reach"
         intro="These figures reflect the Argentina program’s current reported service level."
         stats={[
-          { value: '150', label: 'Children cared for' },
+          { value: '150', label: 'Young children supported each weekday' },
           { value: '9,600', label: 'Meals served monthly' },
         ]}
         note="Argentina program figures reported through 2026."
@@ -105,7 +105,7 @@ export default function ArgentinaProgramPage({ program }: ArgentinaProgramPagePr
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Local educators, local ownership</h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
               <p>Residents from the surrounding community serve as teachers at the early childhood center. Their leadership keeps the work locally rooted while providing meaningful employment for families navigating economic instability.</p>
-              <p>The team is also developing Spanish-language trafficking-awareness materials for community education. The goal is to strengthen prevention by helping residents recognize risks and understand how education can protect children and young people.</p>
+              <p>A Spanish-language trafficking-awareness booklet was reported in Argentina in September 2025, giving the local team a community-education resource focused on recognizing risks and understanding how education can help protect children and young people.</p>
             </div>
           </div>
           <PhotoPlaceholder
