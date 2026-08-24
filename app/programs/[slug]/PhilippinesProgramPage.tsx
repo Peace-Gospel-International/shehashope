@@ -54,7 +54,7 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">One country, two locally led teams</p>
-            <h2 className="mt-3 text-3xl font-bold leading-tight text-gray-900 font-sans md:text-4xl">Cebu at the center, Manila alongside</h2>
+            <h2 className="mt-3 text-3xl font-bold leading-tight text-gray-900 font-sans md:text-4xl">Hope taking root in Cebu and Manila</h2>
             <p className="mt-6 text-lg leading-8 text-gray-700 font-serif">
               The Philippines program brings together two distinct locations. Cebu is the primary program hub, with residential care, a Children’s Hope Center, a women’s trade school, and a diverse farmland enterprise. Manila’s work is focused on one Children’s Hope Center serving children in an underserved urban community.
             </p>
