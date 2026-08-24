@@ -27,7 +27,7 @@ export default function RubyStory() {
           <header className="mb-8">
             <div className="text-sm text-gray-500 mb-4 font-serif">December 06, 2024</div>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-sans">
-              Meet Ruby: our inspiring child of the year for 2024!
+              Meet Ruby: our inspiring Child of the Year for 2024!
             </h1>
           </header>
 
@@ -39,41 +39,36 @@ export default function RubyStory() {
                 <div className="text-2xl font-semibold font-sans">Ruby's Story</div>
               </div>
             </div>
-            <p className="text-sm text-gray-500 mt-2 text-center font-serif">Meet Ruby: our inspiring child of the year for 2024!</p>
+            <p className="text-sm text-gray-500 mt-2 text-center font-serif">Meet Ruby: our inspiring Child of the Year for 2024!</p>
           </div>
 
           {/* Content */}
           <div className="prose prose-lg max-w-none">
             <p className="text-xl text-gray-700 leading-relaxed mb-6 font-serif">
-              Today, we're excited to introduce you to our 3rd Annual "Child of the Year," Ruby; 
-              she's a beacon of hope and resilience, whose journey with us underscores the 
-              transformative impact of your generosity.
+              Meet Ruby, the girl selected as our third annual "Child of the Year." Her resilience,
+              love of learning, and growing confidence reflect the value of steady, locally led care.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4 font-sans">Meet Ruby, our Child of the Year for 2024!</h2>
 
             <p className="text-gray-700 leading-relaxed mb-4 font-serif">
-              Ruby, now a vibrant 9-year-old, resides at our main campus orphan home in Myanmar.
+              Ruby, now a vibrant 9-year-old girl, lives in one of the program’s residential homes in Myanmar.
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4 font-serif">
-              <strong>Her story is one of profound loss and miraculous recovery, a testament to how our 
-              orphan homes provide healing, prevent trafficking, and offer a new beginning.</strong>
+              <strong>Her story reflects how stable residential care, education, and trusted relationships can help a girl heal, grow, and look toward the future with hope.</strong>
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4 font-serif">
-              Ruby lost her father before she was even born, and her mother, overwhelmed by grief, 
-              developed mental health issues leading her to abandon Ruby at the tender age of 18 months.
+              Before entering the program, Ruby experienced profound family instability and lacked consistent care during her earliest years.
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4 font-serif">
-              Left in her village without care, Ruby's plight might have gone unnoticed if not for the 
-              kindness of a stranger who reached out to our Myanmar field director.
+              A concerned community member contacted the Myanmar field director, and the local team helped arrange a safe place for her within the residential program.
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-6 font-serif">
-              When Ruby first arrived at our home, she was a shadow of the child she was meant to be—silent, 
-              malnourished, and in desperate need of love.
+              When Ruby first arrived, she was quiet and malnourished and needed consistent nutrition, safety, and patient care.
             </p>
 
             <div className="bg-rose-50 border-l-4 border-rose-500 p-6 my-8">
@@ -87,7 +82,7 @@ export default function RubyStory() {
             <div className="space-y-4 mb-8">
               <div>
                 <strong className="text-rose-600 font-sans">Education:</strong>
-                <span className="text-gray-700 font-serif"> Ruby is thriving in the fifth grade at a local school our orphans attend. 
+                <span className="text-gray-700 font-serif"> Ruby is thriving in the fifth grade at a local school attended by students from the residential program.
                 Thanks to your support, she has school supplies and a uniform, allowing her to attend school with pride.</span>
               </div>
 
@@ -99,8 +94,8 @@ export default function RubyStory() {
 
               <div>
                 <strong className="text-rose-600 font-sans">Healing:</strong>
-                <span className="text-gray-700 font-serif"> The love and structure of the orphan home have nurtured her from silence to a 
-                cheerful chatterer, surrounded by brothers and sisters who are now her family.</span>
+                <span className="text-gray-700 font-serif"> The love and structure of the residential home have helped her grow into a
+                cheerful, expressive girl surrounded by a caring community.</span>
               </div>
             </div>
 
@@ -125,12 +120,11 @@ export default function RubyStory() {
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4 font-serif">
-              The emergency fund you help sustain allows us to act swiftly in cases like Ruby's, ensuring 
-              children are not left waiting for sponsorship but are immediately welcomed into our care.
+              The emergency fund you help sustain allows local teams to respond when girls and other young people face urgent needs, without waiting for an individual sponsorship to be arranged.
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-6 font-serif">
-              This fund is crucial for our ongoing and future efforts to rescue and rehabilitate children in distress.
+              This fund supports ongoing efforts to protect young people in crisis and provide restorative care.
             </p>
 
             <div className="bg-gradient-to-br from-rose-500 to-pink-600 text-white p-8 rounded-lg my-8">
@@ -152,8 +146,7 @@ export default function RubyStory() {
             </div>
 
             <p className="text-gray-700 leading-relaxed mb-4 font-serif">
-              <strong>Thank you for being the hope in the lives of children like Ruby. Your involvement doesn't 
-              just change lives; it saves them.</strong>
+              <strong>Thank you for standing with girls like Ruby. Your partnership helps locally led teams provide safety, care, education, and room to grow.</strong>
             </p>
 
             <p className="text-gray-700 leading-relaxed">

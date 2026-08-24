@@ -29,7 +29,7 @@ const responseAreas: ResponseArea[] = [
   {
     name: 'Rehabilitation',
     iconSrc: '/images/rehabilitation.png',
-    copy: 'Residential care, nutritious meals, education, and clean water across the two campuses help children regain stability and continue developing.',
+    copy: 'Residential care, nutritious meals, education, and clean water across the two campuses help young residents and students regain stability and continue developing.',
   },
   {
     name: 'Restoration',
@@ -39,7 +39,7 @@ const responseAreas: ResponseArea[] = [
   {
     name: 'Sustainability',
     iconSrc: '/images/sustainability.png',
-    copy: 'A 15-acre farmland enterprise produces food for program meals and marketable crops, reinforcing the local team’s ability to serve children and students over time.',
+    copy: 'A 15-acre farmland enterprise produces food for program meals and marketable crops, reinforcing the local team’s ability to serve students and women over time.',
   },
 ];
 
@@ -58,7 +58,7 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Locally led work in Mayuge District</p>
             <h2 className="mt-3 text-3xl font-bold leading-tight text-gray-900 font-sans md:text-4xl">Two rural campuses where essential services connect</h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
-              <p>For more than fifteen years, the Uganda team has built a connected response to the pressures facing children and families in rural Mayuge District.</p>
+              <p>For more than fifteen years, the Uganda team has built a connected response to the pressures facing girls, women, and families in rural Mayuge District.</p>
               <p>The main campus brings together the boarding high school and women’s trade school, along with one clean-water well and the medical clinic. A second campus is home to the rural primary school and girls home.</p>
               <p>Across both campuses, education, residential care, meals, clean water, practical training, health care, and farmland sustainability work as a connected program network rather than as isolated projects.</p>
             </div>
@@ -71,7 +71,7 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
       </section>
 
       <HopeStatement>
-        Education becomes more powerful when a child also has food, clean water, health care, safety, and people committed to her future.
+        Education becomes more powerful when a girl also has food, clean water, health care, safety, and people committed to her future.
       </HopeStatement>
 
       <ResponsePathways
@@ -85,7 +85,7 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Education from primary through high school</p>
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Two schools, one long-term pathway</h2>
-            <p className="mt-5 text-lg leading-8 text-gray-700 font-serif">The local team operates a rural primary school and a residential boarding high school on separate campuses. Together, they help children continue learning across critical years while the two-campus network supports nutrition, water, health, and residential needs.</p>
+            <p className="mt-5 text-lg leading-8 text-gray-700 font-serif">The local team operates a rural primary school and a residential boarding high school on separate campuses. Together, they help students continue learning across critical years while the two-campus network supports nutrition, water, health, and residential needs.</p>
           </div>
           <PhotoPlaceholder
             title="Uganda primary and boarding-school photo"

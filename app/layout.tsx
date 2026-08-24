@@ -17,7 +17,7 @@ const merriweather = Merriweather({
 
 export const metadata: Metadata = {
   title: "She Has Hope - Preventing Trafficking. Restoring Lives.",
-  description: "She Has Hope exists to prevent girls from becoming slaves, rescue slavery victims, and rehabilitate survivors with hope.",
+  description: "She Has Hope partners with local teams to prevent trafficking, protect girls and women, and support survivors through healing, education, and practical opportunity.",
 };
 
 export default function RootLayout({

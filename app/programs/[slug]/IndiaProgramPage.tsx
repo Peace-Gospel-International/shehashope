@@ -35,17 +35,17 @@ const responseAreas = [
   {
     name: 'Prevention',
     iconSrc: '/images/prevention.png',
-    copy: 'Foster care, education, Children’s Hope Centers, school supplies, nutritious food, and long-term encouragement help reduce the pressures that can leave children vulnerable to child labor and trafficking.',
+    copy: 'Foster care, education, Children’s Hope Centers, school supplies, nutritious food, and long-term encouragement help reduce the pressures that can leave girls and other young people vulnerable to child labor and trafficking.',
   },
   {
     name: 'Rescue',
     iconSrc: '/images/rescue.png',
-    copy: 'The India partnership began with relief outreach to children in an underserved urban community and has since supported children affected by child labor with safety, care, and education.',
+    copy: 'The India partnership began with relief outreach in an underserved urban community and has since supported young people affected by child labor with safety, care, and education.',
   },
   {
     name: 'Rehabilitation',
     iconSrc: '/images/rehabilitation.png',
-    copy: 'Steady care, education, mentoring, and a supportive community help children and young women affected by exploitation regain stability and imagine a different future.',
+    copy: 'Steady care, education, mentoring, and a supportive community help girls and young women affected by exploitation regain stability and imagine a different future.',
   },
   {
     name: 'Restoration',
@@ -93,7 +93,7 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
                   </p>
                   <h1 className="text-4xl font-bold font-sans md:text-6xl">India</h1>
                   <p className="mt-4 text-lg leading-relaxed font-serif md:text-2xl">
-                    Long-term care, education, practical training, and sustainable opportunity for children and young women facing exploitation and poverty.
+                    Long-term care, education, practical training, and sustainable opportunity for girls and young women facing exploitation and poverty, alongside broader child-protection work.
                   </p>
                 </div>
               </div>
@@ -110,10 +110,10 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
               </h2>
               <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
                 <p>
-                  The India partnership began with relief outreach to children in an underserved urban community. Over more than three decades, that locally led work has grown into a connected network of care, education, vocational training, and sustainable development.
+                  The India partnership began with relief outreach to young people in an underserved urban community. Over more than three decades, that locally led work has grown into a connected network of care, education, vocational training, and sustainable development.
                 </p>
                 <p>
-                  Today, the program serves vulnerable minority children and young women, including orphans, trafficking survivors, and child labor victims. Foster care, school support, college scholarships, Children’s Hope Centers, and practical training meet people at different stages of the journey.
+                  Today, the program centers girls and young women while also serving other vulnerable young people through broader child-protection work. Participants include orphans, trafficking survivors, and young people affected by child labor. Foster care, school support, college scholarships, Children’s Hope Centers, and practical training meet people at different stages of the journey.
                 </p>
                 <p>
                   The goal is not simply to interrupt a crisis. It is to walk with each person toward safety, confidence, meaningful opportunity, and a future with choices.
@@ -208,7 +208,7 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
                 <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Education for the long journey</h2>
                 <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
                   <p>
-                    The program supports children and young people in vulnerable circumstances, including orphans, trafficking survivors, and children affected by child labor, through foster care, primary and secondary education support, and college scholarships.
+                    The program supports young people in vulnerable circumstances, including orphans, trafficking survivors, and those affected by child labor, through foster care, primary and secondary education support, and college scholarships.
                   </p>
                   <p>
                     Some students supported by the program have continued into college through scholarships, pursuing a range of professional fields.
@@ -347,7 +347,7 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
                   The India farmland enterprise began as a water-buffalo dairy and now focuses on seasonal lentils, vegetables, and a small banana grove.
                 </p>
                 <p>
-                  Fresh produce strengthens meals for children and staff. When harvests provide a surplus, crops can be sold at market to generate additional local funding and reinforce the team’s ownership of the work.
+                  Fresh produce strengthens meals for program residents and staff. When harvests provide a surplus, crops can be sold at market to generate additional local funding and reinforce the team’s ownership of the work.
                 </p>
               </div>
             </div>
@@ -359,7 +359,7 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
             <div className="overflow-hidden rounded-2xl bg-gradient-to-br from-[#F2978F] to-[#EE0076] px-7 py-12 text-center text-white shadow-xl md:px-14 md:py-16">
               <h2 className="text-3xl font-bold font-sans md:text-4xl">Stand with girls building safer, stronger futures</h2>
               <p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-white/95 font-serif">
-                Your partnership helps locally led programs provide protection, education, practical skills, and sustainable pathways forward for children and young women in India.
+                Your partnership helps locally led programs provide girls and young women with protection, education, practical skills, and sustainable pathways forward, alongside broader support for vulnerable young people in India.
               </p>
               <a
                 href="https://peacegospel.org/donate"

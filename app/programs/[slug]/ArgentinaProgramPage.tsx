@@ -18,7 +18,7 @@ const programEmphases: ResponseArea[] = [
   {
     name: 'Prevention',
     iconSrc: '/images/prevention.png',
-    copy: 'Early childhood care, nutrition, early education, and family support strengthen children and caregivers before instability can deepen into greater exploitation risks.',
+    copy: 'Early childhood care, nutrition, early education, and family support strengthen young children and caregivers before instability can deepen into greater exploitation risks.',
   },
   {
     name: 'Community empowerment',
@@ -49,7 +49,7 @@ export default function ArgentinaProgramPage({ program }: ArgentinaProgramPagePr
             <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
               <p>The Argentina partnership serves families in Barrio Padre Rodolfo Ricciardelli, also known as Villa 1-11-14, an underserved neighborhood in Buenos Aires.</p>
               <p>Led by a local Argentine team, the program begins with the needs of very young children and their caregivers: dependable nutrition, early learning, family support, and a safe place for children to develop.</p>
-              <p>This is a prevention-centered program. Rather than presenting it as a direct rescue or survivor-care service, the work strengthens children, families, and community awareness before exploitation can take deeper hold.</p>
+              <p>This is a prevention-centered program. Rather than presenting it as a direct rescue or survivor-care service, the work strengthens families and community awareness while giving young children a steadier foundation before exploitation can take deeper hold.</p>
             </div>
           </div>
           <PhotoPlaceholder
@@ -60,7 +60,7 @@ export default function ArgentinaProgramPage({ program }: ArgentinaProgramPagePr
       </section>
 
       <HopeStatement>
-        Trafficking prevention can begin long before a crisis—with nourishment, early learning, family support, and a community equipped to protect its children.
+        Trafficking prevention can begin long before a girl faces a crisis—with nourishment, early learning, family support, and a community equipped to protect its young people.
       </HopeStatement>
 
       <ResponsePathways
@@ -105,7 +105,7 @@ export default function ArgentinaProgramPage({ program }: ArgentinaProgramPagePr
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Local educators, local ownership</h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
               <p>Residents from the surrounding community serve as teachers at the early childhood center. Their leadership keeps the work locally rooted while providing meaningful employment for families navigating economic instability.</p>
-              <p>A Spanish-language trafficking-awareness booklet was reported in Argentina in September 2025, giving the local team a community-education resource focused on recognizing risks and understanding how education can help protect children and young people.</p>
+              <p>A Spanish-language trafficking-awareness booklet was reported in Argentina in September 2025, giving the local team a community-education resource focused on recognizing risks and understanding how education can help protect girls and other young people.</p>
             </div>
           </div>
           <PhotoPlaceholder
@@ -134,7 +134,7 @@ export default function ArgentinaProgramPage({ program }: ArgentinaProgramPagePr
 
       <ProgramCta
         country="Argentina"
-        title="Help children and families build a stronger beginning"
+        title="Help young children and families build a stronger beginning"
         description="Your partnership helps a locally led Argentina program provide early childhood care, nutritious meals, family support, community employment, and trafficking-prevention education."
       />
     </CountryPageLayout>

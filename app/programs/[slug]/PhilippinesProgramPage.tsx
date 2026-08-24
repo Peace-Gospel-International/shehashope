@@ -17,7 +17,7 @@ const responseAreas: ResponseArea[] = [
   {
     name: 'Prevention',
     iconSrc: '/images/prevention.png',
-    copy: 'Children’s Hope Centers in Cebu and Manila help children remain enrolled in school through tutoring, meals, school supplies, uniforms, hygiene support, and supervised activities.',
+    copy: 'Children’s Hope Centers in Cebu and Manila help students remain enrolled in school through tutoring, meals, school supplies, uniforms, hygiene support, and supervised activities.',
   },
   {
     name: 'Rescue',
@@ -47,7 +47,7 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
       <ProgramHero
         program={program}
         eyebrow="She Has Hope in Southeast Asia"
-        description="Two locally led programs—Cebu and Manila—help children and women move toward education, safety, practical opportunity, and greater resilience."
+        description="Two locally led programs—Cebu and Manila—help girls and women move toward education, safety, practical opportunity, and greater resilience, with Hope Centers extending educational support to children."
       />
 
       <section className="py-12 md:py-20">
@@ -56,7 +56,7 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">One country, two locally led teams</p>
             <h2 className="mt-3 text-3xl font-bold leading-tight text-gray-900 font-sans md:text-4xl">Hope taking root in Cebu and Manila</h2>
             <p className="mt-6 text-lg leading-8 text-gray-700 font-serif">
-              The Philippines program brings together two distinct locations. Cebu is the primary program hub, with residential care, a Children’s Hope Center, a women’s trade school, and a diverse farmland enterprise. Manila’s work is focused on one Children’s Hope Center serving children in an underserved urban community.
+              The Philippines program brings together two distinct locations. Cebu offers residential care for girls, a Children’s Hope Center, a women’s trade school, and a diverse farmland enterprise. Manila’s work is focused on one Children’s Hope Center serving students in an underserved urban community.
             </p>
           </div>
 
@@ -81,7 +81,7 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
 
       <ResponsePathways
         title="Five pathways connected across two locations"
-        intro="Cebu carries the broadest range of programs, while Manila’s Hope Center strengthens prevention by helping children remain connected to school, nutrition, and supportive care."
+        intro="Cebu carries the broadest range of programs, while Manila’s Hope Center strengthens prevention by helping students remain connected to school, nutrition, and supportive care."
         areas={responseAreas}
       />
 
@@ -91,8 +91,8 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Cebu · Main program hub</p>
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">A connected campus of care and opportunity</h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
-              <p>The Cebu partnership began in 2009 with a locally led commitment to children and families affected by severe poverty and exploitation risks.</p>
-              <p>Today, residential care, after-school education, practical training, and the farmland enterprise reinforce one another. Each part of the program helps create greater stability for children and women while strengthening the local team’s ability to serve.</p>
+              <p>The Cebu partnership began in 2009 with a locally led commitment to girls, women, and families affected by severe poverty and exploitation risks.</p>
+              <p>Today, residential care, after-school education, practical training, and the farmland enterprise reinforce one another. Each part of the program helps create greater stability for girls and women while the Hope Center also serves other children.</p>
             </div>
           </div>
           <PhotoPlaceholder
@@ -143,7 +143,7 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
           <div className="mx-auto mt-10 grid max-w-5xl gap-6 md:grid-cols-3">
             {[
               ['872', 'Children educated'],
-              ['10', 'Children in residential orphan care'],
+              ['10', 'Girls in residential care'],
               ['99', 'Tons of farmland produce'],
             ].map(([value, label]) => (
               <div key={label} className="rounded-2xl bg-white p-8 text-center shadow-md">
@@ -200,7 +200,7 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
                 <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
                   <p>The Manila team began its Hope Center in 2008, and Peace Gospel entered the partnership in 2012. A permanent facility completed in 2016 created a dedicated place for after-school support.</p>
                   <p>The center helps families find an alternative to hazardous child labor by providing educational support, school-enrollment essentials, nutritious meals, clean water, hygiene lessons and supplies, basic computer learning, games, and seasonal activities.</p>
-                  <p>Manila’s role within the Philippines program is intentionally focused: one locally led Children’s Hope Center helping children stay connected to school and supportive care.</p>
+                  <p>Manila’s role within the Philippines program is intentionally focused: one locally led Children’s Hope Center helping students stay connected to school and supportive care.</p>
                 </div>
               </div>
               <PhotoPlaceholder
@@ -214,7 +214,7 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
 
       <ProgramCta
         country="the Philippines"
-        description="Your partnership helps locally led teams in Cebu and Manila provide residential care, education, practical skills, and sustainable support for children and women facing exploitation risks."
+        description="Your partnership helps locally led teams in Cebu and Manila provide girls and women with residential care, education, practical skills, and sustainable support, alongside Hope Center education and care for children facing exploitation risks."
       />
     </CountryPageLayout>
   );

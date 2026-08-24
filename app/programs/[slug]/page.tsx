@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: ProgramPageProps): Promise<Me
   if (slug === 'argentina') {
     return {
       title: 'Argentina Prevention and Early Childhood Program | She Has Hope',
-      description: 'Discover how She Has Hope partners with a locally led program in Buenos Aires to provide early childhood care, nutrition, family support, community employment, and trafficking-prevention education.',
+      description: 'Discover how a locally led Buenos Aires program combines early childhood care, nutrition, family support, community employment, and trafficking-prevention education to strengthen safer futures.',
     };
   }
 
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: ProgramPageProps): Promise<Me
   if (slug === 'india') {
     return {
       title: 'India Trafficking Response Program | She Has Hope',
-      description: 'Discover how She Has Hope partners with locally led programs in India to provide protection, education, practical training, and sustainable pathways for vulnerable children and young women.',
+      description: 'Discover how She Has Hope partners with locally led programs in India to provide girls and young women with protection, education, practical training, and sustainable pathways, alongside broader child-protection work.',
     };
   }
 
@@ -59,22 +59,22 @@ export async function generateMetadata({ params }: ProgramPageProps): Promise<Me
 
   if (slug === 'myanmar') {
     return {
-      title: 'Myanmar Orphan Care and Education Program | She Has Hope',
-      description: 'Discover how She Has Hope partners with locally led programs in Myanmar to provide residential care, education, vocational preparation, and sustainable food production.',
+      title: 'Myanmar Residential Care and Education Program | She Has Hope',
+      description: 'Discover how She Has Hope supports girls and other vulnerable young people in Myanmar through locally led residential care, education, vocational preparation, and sustainable food production.',
     };
   }
 
   if (slug === 'philippines') {
     return {
       title: 'Philippines Trafficking Prevention Programs | She Has Hope',
-      description: 'Explore She Has Hope programs in Cebu and Manila providing residential care, education, practical skills, and sustainable support for children and women facing exploitation risks.',
+      description: 'Explore locally led She Has Hope programs in Cebu and Manila supporting girls and women through residential care, education, practical skills, and sustainable opportunity, while Hope Centers also serve children.',
     };
   }
 
   if (slug === 'uganda') {
     return {
       title: 'Uganda Education and Trafficking Response Program | She Has Hope',
-      description: 'Discover how She Has Hope partners with locally led Uganda programs providing education, orphan care, practical skills, clean water, medical care, and farmland sustainability.',
+      description: 'Discover how She Has Hope partners with locally led Uganda programs supporting girls and women through education, residential care, practical skills, clean water, medical care, and farmland sustainability.',
     };
   }
 

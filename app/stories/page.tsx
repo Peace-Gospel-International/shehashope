@@ -7,9 +7,9 @@ export default function Stories() {
   const stories = [
     {
       slug: 'meet-ruby-our-inspiring-child-of-the-year-for-2024',
-      title: 'Meet Ruby: our inspiring child of the year for 2024!',
+      title: 'Meet Ruby: our inspiring Child of the Year for 2024!',
       date: 'December 06, 2024',
-      excerpt: "Today, we're excited to introduce you to our 3rd Annual \"Child of the Year,\" Ruby; she's a beacon of hope and resilience, whose journey with us underscores the transformative impact of your generosity.",
+      excerpt: "Meet Ruby, a girl whose resilience and love of learning inspired our community and reflect the importance of steady, locally led care.",
       color: 'from-rose-200 to-pink-300'
     },
     {
@@ -58,8 +58,8 @@ export default function Stories() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-bold text-gray-900 mb-4 font-sans">Stories of Hope</h1>
           <p className="text-xl text-gray-700 max-w-3xl font-serif">
-            Read inspiring stories of transformation, resilience, and hope from children and communities 
-            whose lives have been changed through your generous support.
+            Read stories of resilience and hope from girls and women, alongside the locally led communities
+            working with them toward safety, healing, education, and opportunity.
           </p>
         </div>
       </section>
