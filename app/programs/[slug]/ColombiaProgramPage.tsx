@@ -250,7 +250,7 @@ export default function ColombiaProgramPage({ program }: ColombiaProgramPageProp
             <div className="relative mt-10 aspect-video overflow-hidden rounded-2xl bg-gray-100 shadow-md">
               <Image
                 src="/images/programs/colombia-vocational-training-products.jpg"
-                alt="Three-panel collage showing a sewing student with a finished bag, a retail partner holding colorful textile products, and a close-up of a handcrafted bag"
+                alt="Three-panel collage showing a sewing student with a finished bag, a woman holding colorful textile products, and a close-up of a handcrafted bag"
                 fill
                 sizes="(min-width: 1024px) 1152px, 100vw"
                 className="object-cover"
