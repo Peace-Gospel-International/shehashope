@@ -295,11 +295,15 @@ export default function NepalProgramPage({ program }: NepalProgramPageProps) {
             </div>
             <p className="mt-5 text-center text-sm text-gray-500 font-serif">Program figures reported through 2026.</p>
 
-            <PhotoPlaceholder
-              title="Graduate, business, or restoration photo"
-              guidance="A permission-cleared graduate portrait, tailoring business, workplace setting, or finished-product image that shows confidence and independence."
-              className="mx-auto mt-10 max-w-4xl"
-            />
+            <div className="relative mx-auto mt-10 aspect-[3/2] max-w-4xl overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+              <Image
+                src="/images/programs/nepal-graduates-restoration.jpg"
+                alt="A group of smiling women hold certificates while posing together in two rows"
+                fill
+                sizes="(min-width: 1024px) 896px, 100vw"
+                className="object-cover"
+              />
+            </div>
           </div>
         </section>
 
