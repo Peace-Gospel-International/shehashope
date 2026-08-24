@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import type { Program } from '../programs';
 import {
   CountryPageLayout,
@@ -133,10 +134,15 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
               <p>These practical skills are intended to strengthen pathways toward fair work and help women care for their families, reducing economic pressures that traffickers can exploit.</p>
             </div>
           </div>
-          <PhotoPlaceholder
-            title="Uganda women’s trade-school photo"
-            guidance="One focused image of tailoring, catering, gardening, computer instruction, or a permission-cleared training milestone."
-          />
+          <div className="relative aspect-[3/2] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+            <Image
+              src="/images/programs/uganda-womens-trade-school.jpg"
+              alt="Woman holding a young child beside sewing machines and patterned fabric in a workshop"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-cover"
+            />
+          </div>
         </div>
       </section>
 
