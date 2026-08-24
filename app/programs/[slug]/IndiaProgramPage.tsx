@@ -297,10 +297,15 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
                 </p>
               </div>
             </div>
-            <PhotoPlaceholder
-              title="India trade school and tailoring photo"
-              guidance="One focused image of certified tailoring instruction, a sewing machine in use, participants’ hands at work, or finished garments."
-            />
+            <div className="relative aspect-[6/5] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+              <Image
+                src="/images/programs/india-trade-school-tailoring.jpg"
+                alt="A young woman smiles while sewing white fabric at a machine, with another woman working in the background"
+                fill
+                sizes="(min-width: 768px) 50vw, 100vw"
+                className="object-cover object-center"
+              />
+            </div>
           </div>
         </section>
 
