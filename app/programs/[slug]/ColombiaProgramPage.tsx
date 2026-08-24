@@ -276,10 +276,15 @@ export default function ColombiaProgramPage({ program }: ColombiaProgramPageProp
 
         <section className="bg-gray-50 py-14 md:py-20">
           <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 md:grid-cols-2 lg:gap-16 lg:px-8">
-            <PhotoPlaceholder
-              title="Quinceañera or community celebration photo"
-              guidance="A joyful, permission-cleared image that honors cultural tradition, family, belonging, and each girl’s dignity."
-            />
+            <div className="relative mx-auto aspect-[3/4] w-full max-w-md overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+              <Image
+                src="/images/programs/colombia-quinceanera-celebration.jpg"
+                alt="Three girls in formal dresses and tiaras pose with a woman beside a birthday cake and an illuminated number 15 at a balloon-decorated celebration"
+                fill
+                sizes="(min-width: 768px) 448px, 100vw"
+                className="object-cover"
+              />
+            </div>
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Identity, belonging, and joy</p>
               <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Honoring an important rite of passage</h2>
