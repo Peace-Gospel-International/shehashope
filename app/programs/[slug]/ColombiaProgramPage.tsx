@@ -178,10 +178,15 @@ export default function ColombiaProgramPage({ program }: ColombiaProgramPageProp
         <section className="py-14 md:py-20">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
             <div className="grid items-center gap-10 md:grid-cols-2 lg:gap-16">
-              <PhotoPlaceholder
-                title="Casa Vida care and mentoring photo"
-                guidance="A warm, consent-cleared image showing mentoring, conversation, or a shared activity inside Casa Vida."
-              />
+              <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+                <Image
+                  src="/images/programs/colombia-casa-vida-care-mentoring.jpg"
+                  alt="Two people embrace and smile in front of a pink floral backdrop, with one wearing a blue formal dress and tiara"
+                  fill
+                  sizes="(min-width: 768px) 448px, 100vw"
+                  className="object-cover object-top"
+                />
+              </div>
               <div>
                 <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Care and rehabilitation</p>
                 <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Casa Vida: where every girl matters</h2>
