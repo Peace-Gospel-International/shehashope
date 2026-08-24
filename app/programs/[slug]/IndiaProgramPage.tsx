@@ -215,10 +215,15 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
                   </p>
                 </div>
               </div>
-              <PhotoPlaceholder
-                title="School, foster-care, or college milestone photo"
-                guidance="A dignity-centered classroom, school milestone, foster-family gathering, college student, or graduation image with appropriate permissions."
-              />
+              <div className="relative aspect-[3/2] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+                <Image
+                  src="/images/programs/india-school-learning.jpg"
+                  alt="Four smiling children hold open schoolbooks in a classroom"
+                  fill
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  className="object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </section>
