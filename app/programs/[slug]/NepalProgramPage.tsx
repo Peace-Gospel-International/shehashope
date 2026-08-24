@@ -303,10 +303,15 @@ export default function NepalProgramPage({ program }: NepalProgramPageProps) {
                 </p>
               </div>
             </div>
-            <PhotoPlaceholder
-              title="Education, college, or young-adult milestone photo"
-              guidance="A consent-cleared graduation, college, internship, or workplace image showing the long-term journey toward independence."
-            />
+            <div className="relative aspect-[3/2] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+              <Image
+                src="/images/programs/nepal-education-young-adult-milestone.jpg"
+                alt="Two smiling young women in professional uniforms stand outside a university management building"
+                fill
+                sizes="(min-width: 768px) 50vw, 100vw"
+                className="object-cover"
+              />
+            </div>
           </div>
         </section>
 
