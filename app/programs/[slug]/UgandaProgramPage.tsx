@@ -29,7 +29,7 @@ const responseAreas: ResponseArea[] = [
   {
     name: 'Rehabilitation',
     iconSrc: '/images/rehabilitation.png',
-    copy: 'Residential care, nutritious meals, education, clean water, and access to the campus medical clinic help children regain stability and continue developing.',
+    copy: 'Residential care, nutritious meals, education, and clean water across the two campuses help children regain stability and continue developing.',
   },
   {
     name: 'Restoration',
@@ -56,16 +56,16 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 md:grid-cols-2 lg:gap-16 lg:px-8">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Locally led work in Mayuge District</p>
-            <h2 className="mt-3 text-3xl font-bold leading-tight text-gray-900 font-sans md:text-4xl">A rural campus where essential services connect</h2>
+            <h2 className="mt-3 text-3xl font-bold leading-tight text-gray-900 font-sans md:text-4xl">Two rural campuses where essential services connect</h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
               <p>For more than fifteen years, the Uganda team has built a connected response to the pressures facing children and families in rural Mayuge District.</p>
-              <p>A primary school, boarding high school, girls home, women’s trade school, farmland, wells, and medical clinic work together rather than as isolated projects. Education is strengthened by meals, clean water, health care, and a stable place to live.</p>
-              <p>This locally led model addresses immediate needs while building pathways toward knowledge, practical skills, and greater resilience.</p>
+              <p>The main campus brings together the boarding high school and women’s trade school, along with one clean-water well and the medical clinic. A second campus is home to the rural primary school and girls home.</p>
+              <p>Across both campuses, education, residential care, meals, clean water, practical training, health care, and farmland sustainability work as a connected program network rather than as isolated projects.</p>
             </div>
           </div>
           <PhotoPlaceholder
             title="Uganda community or local-team photo"
-            guidance="A welcoming image of the local team, students, or a people-centered campus moment that establishes community without exposing sensitive personal information."
+            guidance="A welcoming image of the local team, students, or a people-centered moment at either campus that establishes community without exposing sensitive personal information."
           />
         </div>
       </section>
@@ -75,8 +75,8 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
       </HopeStatement>
 
       <ResponsePathways
-        title="Five pathways working across one rural campus"
-        intro="Uganda’s prevention-centered response combines education and residential care with practical training, health, water, and locally sustained food production."
+        title="Five pathways working across two rural campuses"
+        intro="Uganda’s two campuses connect education and residential care with practical training, health, water, and locally sustained food production."
         areas={responseAreas}
       />
 
@@ -85,11 +85,11 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Education from primary through high school</p>
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Two schools, one long-term pathway</h2>
-            <p className="mt-5 text-lg leading-8 text-gray-700 font-serif">The local team operates a rural primary school and a residential boarding high school. Together, they help children continue learning across critical years while the wider campus supports nutrition, water, health, and residential needs.</p>
+            <p className="mt-5 text-lg leading-8 text-gray-700 font-serif">The local team operates a rural primary school and a residential boarding high school on separate campuses. Together, they help children continue learning across critical years while the two-campus network supports nutrition, water, health, and residential needs.</p>
           </div>
           <PhotoPlaceholder
             title="Uganda primary and boarding-school photo"
-            guidance="A wide classroom, student gathering, school activity, graduation, or learning milestone showing education across the rural campus."
+            guidance="A wide classroom, student gathering, school activity, graduation, or learning milestone showing education at either Uganda campus."
             className="mt-10 min-h-96"
           />
         </div>
@@ -110,8 +110,8 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Orphan care and protection</p>
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">A stable place to live and learn</h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
-              <p>The Uganda girls home provides residential care, nutrition, clean water, and education through the rural primary school.</p>
-              <p>The boarding high school also provides residential places and tuition support for orphaned students, allowing care and education to continue together through the secondary-school years.</p>
+              <p>The Uganda girls home shares a campus with the rural primary school, connecting residential care, nutrition, clean water, and primary education in one setting.</p>
+              <p>On the main campus, the boarding high school also provides residential places and tuition support for orphaned students, allowing care and education to continue together through the secondary-school years.</p>
             </div>
           </div>
         </div>
@@ -170,14 +170,14 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 md:grid-cols-2 lg:gap-16 lg:px-8">
           <PhotoPlaceholder
             title="Uganda clean-water or medical-care photo"
-            guidance="A well, clean-water access point, campus medical clinic, health check, or health-and-hygiene activity with appropriate permissions."
+            guidance="A well or clean-water access point at either campus, or the main-campus medical clinic, health check, or health-and-hygiene activity with appropriate permissions."
           />
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Health and essential infrastructure</p>
-            <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Clean water and medical care on campus</h2>
+            <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Clean water across two campuses, medical care on the main campus</h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
-              <p>Three wells provide clean water for students at both schools and for members of the surrounding community.</p>
-              <p>The campus medical clinic has treated more than 2,500 people from the community and boarding high school since opening in 2012.</p>
+              <p>Three wells provide clean water across the two campuses and for members of the surrounding community. One of those wells is located on the main campus.</p>
+              <p>The medical clinic is also located on the main campus and has treated more than 2,500 people from the community and boarding high school since opening in 2012.</p>
             </div>
           </div>
         </div>
