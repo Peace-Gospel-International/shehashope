@@ -6,6 +6,7 @@ import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import { getProgram, programs } from '../programs';
 import ColombiaProgramPage from './ColombiaProgramPage';
+import IndiaProgramPage from './IndiaProgramPage';
 import NepalProgramPage from './NepalProgramPage';
 
 type ProgramPageProps = {
@@ -28,6 +29,13 @@ export async function generateMetadata({ params }: ProgramPageProps): Promise<Me
     return {
       title: 'Colombia Trafficking Response Program | She Has Hope',
       description: 'Discover how She Has Hope partners with locally led programs in Cúcuta, Colombia, to provide vulnerable girls with care, education, practical skills, and pathways toward a safer future.',
+    };
+  }
+
+  if (slug === 'india') {
+    return {
+      title: 'India Trafficking Response Program | She Has Hope',
+      description: 'Discover how She Has Hope partners with locally led programs in India to provide protection, education, practical training, and sustainable pathways for vulnerable children and young women.',
     };
   }
 
@@ -54,6 +62,10 @@ export default async function ProgramPage({ params }: ProgramPageProps) {
 
   if (slug === 'colombia') {
     return <ColombiaProgramPage program={program} />;
+  }
+
+  if (slug === 'india') {
+    return <IndiaProgramPage program={program} />;
   }
 
   if (slug === 'nepal') {
