@@ -120,10 +120,15 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
                 </p>
               </div>
             </div>
-            <PhotoPlaceholder
-              title="India campus, community, or local-team photo"
-              guidance="A welcoming image of the South India campus, local team, or community setting that establishes place while protecting sensitive identities."
-            />
+            <div className="relative aspect-[3/2] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+              <Image
+                src="/images/programs/india-community-portrait.jpg"
+                alt="Three young women smile and stand close together outdoors"
+                fill
+                sizes="(min-width: 768px) 50vw, 100vw"
+                className="object-cover object-center"
+              />
+            </div>
           </div>
         </section>
 
