@@ -244,11 +244,15 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
               </div>
             </div>
 
-            <PhotoPlaceholder
-              title="India nursing college and classroom photo"
-              guidance="A wide image of current Auxiliary Nursing students, a renovated classroom or lab, the nursing college building, or a supervised training activity."
-              className="mt-10 min-h-96"
-            />
+            <div className="relative mt-10 aspect-video overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+              <Image
+                src="/images/programs/india-nursing-college-wide.jpg"
+                alt="A collage showing women in a classroom, three women smiling at desks, and a large group standing outside a building under construction"
+                fill
+                sizes="(min-width: 1024px) 1152px, 100vw"
+                className="object-cover object-center"
+              />
+            </div>
           </div>
         </section>
 
