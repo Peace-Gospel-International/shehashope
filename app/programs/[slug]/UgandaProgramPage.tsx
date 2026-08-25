@@ -63,10 +63,15 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
               <p>Across both campuses, education, residential care, meals, clean water, practical training, health care, and farmland sustainability work as a connected program network rather than as isolated projects.</p>
             </div>
           </div>
-          <PhotoPlaceholder
-            title="Uganda community or local-team photo"
-            guidance="A welcoming image of the local team, students, or a people-centered moment at either campus that establishes community without exposing sensitive personal information."
-          />
+          <div className="relative aspect-[5/3] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+            <Image
+              src="/images/programs/uganda-primary-campus-students.jpg"
+              alt="Seven smiling students in school uniforms hold notebooks outdoors with campus buildings behind them"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-cover"
+            />
+          </div>
         </div>
       </section>
 
