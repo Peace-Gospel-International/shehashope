@@ -57,8 +57,7 @@ export default function MyanmarProgramPage({ program }: MyanmarProgramPageProps)
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">A locally led partnership since 2008</p>
             <h2 className="mt-3 text-3xl font-bold leading-tight text-gray-900 font-sans md:text-4xl">Steady care in an uncertain environment</h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
-              <p>The Myanmar partnership began with residential care for orphaned children. Over time, the locally led program grew to include four homes, education, vocational preparation, and farmland that supports daily nutrition.</p>
-              <p>The work continues in the midst of national instability and serious security challenges. Public storytelling therefore emphasizes people, care, and outcomes without publishing operational details that could expose girls, other residents, staff, or facilities.</p>
+              <p>The Myanmar partnership began with residential care for orphaned children. Over time, the locally led program grew to include four orphan homes, education, vocational preparation, and farmland that supports daily nutrition.</p>
               <p>At its heart, the program offers consistency: a place to live, meals, education, trusted caregivers, and practical preparation for the future.</p>
             </div>
           </div>
