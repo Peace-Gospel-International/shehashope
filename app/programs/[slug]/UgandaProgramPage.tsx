@@ -4,7 +4,6 @@ import {
   CountryPageLayout,
   HopeStatement,
   ImpactSection,
-  PhotoPlaceholder,
   ProgramCta,
   ProgramHero,
   ResponsePathways,
@@ -181,10 +180,15 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
 
       <section className="py-14 md:py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 md:grid-cols-2 lg:gap-16 lg:px-8">
-          <PhotoPlaceholder
-            title="Uganda clean-water or medical-care photo"
-            guidance="A well or clean-water access point at either campus, or the main-campus medical clinic, health check, or health-and-hygiene activity with appropriate permissions."
-          />
+          <div className="relative aspect-[3/2] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+            <Image
+              src="/images/programs/uganda-clean-water-hand-pump.jpg"
+              alt="Four girls smile while collecting water from a hand pump"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-cover"
+            />
+          </div>
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Health and essential infrastructure</p>
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Clean water across two campuses, medical care on the main campus</h2>
