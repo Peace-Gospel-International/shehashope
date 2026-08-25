@@ -167,11 +167,15 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Food that supports more than 70,000 meals each month</h2>
             <p className="mt-5 text-lg leading-8 text-gray-700 font-serif">Across 15 acres, the local team grows beans, corn, potatoes, oranges, bananas, and passion fruit and also maintains a piggery and free-range poultry project. Together, these resources help supply program meals while marketable crops reinforce local sustainability.</p>
           </div>
-          <PhotoPlaceholder
-            title="Uganda farmland harvest or poultry photo"
-            guidance="A wide harvest, crop field, fruit grove, poultry project, piggery, produce distribution, or local farmland team at work."
-            className="mt-10 min-h-96"
-          />
+          <div className="relative mt-10 aspect-[3/2] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+            <Image
+              src="/images/programs/uganda-farmland-avocado-harvest.jpg"
+              alt="Students in school uniforms gather avocados from trees"
+              fill
+              sizes="(max-width: 1200px) 100vw, 1152px"
+              className="object-cover"
+            />
+          </div>
         </div>
       </section>
 
