@@ -38,7 +38,7 @@ const responseAreas: ResponseArea[] = [
   {
     name: 'Sustainability',
     iconSrc: '/images/sustainability.png',
-    copy: 'A 12-acre rice farm and a one-acre campus farm provide staple food and fresh produce for residents, staff, and widows supported by the local team.',
+    copy: 'A 12-acre rice farm and a one-acre campus farm provide staple food and fresh produce for children, staff, and widows supported by the local team.',
   },
 ];
 
@@ -57,7 +57,7 @@ export default function MyanmarProgramPage({ program }: MyanmarProgramPageProps)
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">A locally led partnership since 2008</p>
             <h2 className="mt-3 text-3xl font-bold leading-tight text-gray-900 font-sans md:text-4xl">Steady care in an uncertain environment</h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
-              <p>The Myanmar partnership began with residential care for orphaned young people. Over time, the locally led program grew to include four homes, education, vocational preparation, and farmland that supports daily nutrition.</p>
+              <p>The Myanmar partnership began with residential care for orphaned children. Over time, the locally led program grew to include four homes, education, vocational preparation, and farmland that supports daily nutrition.</p>
               <p>The work continues in the midst of national instability and serious security challenges. Public storytelling therefore emphasizes people, care, and outcomes without publishing operational details that could expose girls, other residents, staff, or facilities.</p>
               <p>At its heart, the program offers consistency: a place to live, meals, education, trusted caregivers, and practical preparation for the future.</p>
             </div>
@@ -89,7 +89,7 @@ export default function MyanmarProgramPage({ program }: MyanmarProgramPageProps)
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Residential care</p>
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Four homes built around consistency</h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
-              <p>The Myanmar program has grown to include four residential homes where young residents receive complete daily care from locally employed staff.</p>
+              <p>The Myanmar program has grown to include four residential homes where orphaned children receive complete daily care from locally employed staff.</p>
               <p>Residential care includes nutrition, a stable living environment, education support, and long-term relationships. These ordinary rhythms help young people keep learning and growing even when the wider environment is unpredictable.</p>
             </div>
           </div>
@@ -149,7 +149,7 @@ export default function MyanmarProgramPage({ program }: MyanmarProgramPageProps)
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Locally rooted sustainability</p>
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Rice and fresh produce for daily meals</h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
-              <p>A 12-acre rice farm purchased in 2010 has produced a dependable staple for residents and staff in the four homes, as well as widows supported by the local team.</p>
+              <p>A 12-acre rice farm purchased in 2010 has produced a dependable staple for children and staff in the four homes, as well as widows supported by the local team.</p>
               <p>A separate one-acre campus farm adds nutritious produce to daily meals. Together, these farms turn local land and labor into practical food security.</p>
             </div>
           </div>

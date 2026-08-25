@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <h4 className="text-2xl font-bold mb-4 font-sans">Stay Connected</h4>
             <p className="text-gray-400 mb-6 font-serif">
-              Join our email list to receive updates about the lives you're transforming and ways you can make a difference.
+              Join our email list for updates about girls and women building safer futures and ways to stand with locally led programs.
             </p>
             <form className="flex gap-2">
               <input 

@@ -57,21 +57,21 @@ export default function Home() {
                 <RehabilitationIcon />
               </div>
               <h3 className="text-lg md:text-xl font-semibold text-gray-800 mb-2 font-sans">Rehabilitation</h3>
-              <p className="text-sm text-gray-600 font-serif">Providing shelter, counseling, medical care, and skills training for girls and women rebuilding after trafficking.</p>
+              <p className="text-sm text-gray-600 font-serif">Providing shelter, counseling, medical care, and skills training for girls and women affected by trafficking or facing serious risk.</p>
             </div>
             <div className="text-center">
               <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-2 flex items-center justify-center">
                 <RestorationIcon />
               </div>
               <h3 className="text-lg md:text-xl font-semibold text-gray-800 mb-2 font-sans">Restoration</h3>
-              <p className="text-sm text-gray-600 font-serif">Equipping women who complete programs with practical pathways toward work, stability, and hope.</p>
+              <p className="text-sm text-gray-600 font-serif">Equipping program graduates with practical pathways toward work, stability, and hope.</p>
             </div>
             <div className="text-center col-span-2 md:col-span-1">
               <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-2 flex items-center justify-center">
                 <SustainabilityIcon />
               </div>
               <h3 className="text-lg md:text-xl font-semibold text-gray-800 mb-2 font-sans">Sustainability</h3>
-              <p className="text-sm text-gray-600 font-serif">Creating locally rooted opportunities for women through farms, businesses, and skills development.</p>
+              <p className="text-sm text-gray-600 font-serif">Strengthening locally led programs through food-producing farms, responsible enterprises, and skills development.</p>
             </div>
           </div>
           
@@ -177,7 +177,7 @@ export default function Home() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-3xl font-bold text-gray-900 mb-3 text-center font-sans">Recent Stories of Hope</h3>
-          <p className="text-lg text-gray-600 mb-8 text-center font-serif">Read stories of girls and women building safer, stronger futures with support from their communities.</p>
+          <p className="text-lg text-gray-600 mb-8 text-center font-serif">Read stories of girls and women—and the communities working alongside them—building safer, stronger futures.</p>
           <div className="grid md:grid-cols-3 gap-8">
             {/* Story 1 - India Nursing College (Most Recent: March 31, 2026) */}
             <Link href="/stories" className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">

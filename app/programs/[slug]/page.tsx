@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: ProgramPageProps): Promise<Me
   if (slug === 'argentina') {
     return {
       title: 'Argentina Prevention and Early Childhood Program | She Has Hope',
-      description: 'Discover how a locally led Buenos Aires program combines early childhood care, nutrition, family support, community employment, and trafficking-prevention education to strengthen safer futures.',
+      description: 'Discover how She Has Hope supports a locally led Buenos Aires program combining early childhood care, nutrition, family support, community employment, and trafficking-prevention education.',
     };
   }
 
@@ -74,7 +74,7 @@ export async function generateMetadata({ params }: ProgramPageProps): Promise<Me
   if (slug === 'uganda') {
     return {
       title: 'Uganda Education and Trafficking Response Program | She Has Hope',
-      description: 'Discover how She Has Hope partners with locally led Uganda programs supporting girls and women through education, residential care, practical skills, clean water, medical care, and farmland sustainability.',
+      description: 'Discover how She Has Hope partners with locally led Uganda programs centering girls and women while also operating mixed schools and community-wide water, medical, and farmland services.',
     };
   }
 

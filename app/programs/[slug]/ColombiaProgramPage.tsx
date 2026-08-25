@@ -113,7 +113,7 @@ export default function ColombiaProgramPage({ program }: ColombiaProgramPageProp
                   In Cúcuta, Colombia, close to the Venezuelan border, many migrant and refugee families face interrupted education, poverty, limited family support, and heightened trafficking risks.
                 </p>
                 <p>
-                  She Has Hope partners with Pastor Mauricio and Isabelina, trusted local leaders whose community programs center girls and women while also serving families and other young people. Their work centers on dignity: listening well, creating safe relationships, and helping girls see that their lives have purpose.
+                  She Has Hope partners with Pastor Mauricio and Isabelina, trusted local leaders whose broader community programs serve children and families. Within that work, Casa Vida is specifically centered on teen girls. Their approach prioritizes dignity: listening well, creating safe relationships, and helping girls see that their lives have purpose.
                 </p>
                 <p>
                   At the heart of this response is Casa Vida, a welcoming program for girls and teenagers ages 10–17. It is more than a workshop. It is a place of care, education, practical learning, and opportunity.

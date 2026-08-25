@@ -52,7 +52,7 @@ export default function RubyStory() {
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4 font-sans">Meet Ruby, our Child of the Year for 2024!</h2>
 
             <p className="text-gray-700 leading-relaxed mb-4 font-serif">
-              Ruby, now a vibrant 9-year-old girl, lives in one of the program’s residential homes in Myanmar.
+              Ruby, now a vibrant 9-year-old, lives in one of the program’s residential homes in Myanmar.
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4 font-serif">
@@ -73,7 +73,7 @@ export default function RubyStory() {
 
             <div className="bg-rose-50 border-l-4 border-rose-500 p-6 my-8">
               <p className="text-gray-800 font-semibold font-sans">
-                Here, amidst our caring environment, Ruby found her voice, her health, and her joy.
+                With patient care from the local team, Ruby regained her health and grew more comfortable expressing herself.
               </p>
             </div>
 
@@ -88,8 +88,8 @@ export default function RubyStory() {
 
               <div>
                 <strong className="text-rose-600 font-sans">Nutrition:</strong>
-                <span className="text-gray-700 font-serif"> From the brink of malnutrition, Ruby now enjoys three nutritious meals a day, 
-                sourced partially from our very own farmland.</span>
+                <span className="text-gray-700 font-serif"> Ruby now enjoys three nutritious meals a day,
+                sourced partially from the program’s farmland.</span>
               </div>
 
               <div>
@@ -111,12 +111,11 @@ export default function RubyStory() {
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4 font-sans">Your Support in Action</h2>
 
             <p className="text-gray-700 leading-relaxed mb-4 font-serif">
-              <strong>Your contributions have been pivotal in this transformation.</strong>
+              <strong>Donor partnership helps the local team sustain Ruby’s care, education, and daily needs.</strong>
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4 font-serif">
-              Without your support, Ruby's story could have been very different, with risks of malnutrition, 
-              child labor, or worse.
+              Consistent funding gives local leaders dependable resources for nutrition, school supplies, residential care, and urgent needs.
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4 font-serif">
@@ -128,14 +127,9 @@ export default function RubyStory() {
             </p>
 
             <div className="bg-gradient-to-br from-rose-500 to-pink-600 text-white p-8 rounded-lg my-8">
-              <h3 className="text-2xl font-bold mb-4">Looking Ahead</h3>
+              <h3 className="text-2xl font-bold mb-4">Continue the Work</h3>
               <p className="mb-4">
-                As we approach the end of another year, your continued support is vital. Our year-end campaign 
-                focuses on expanding our reach and deepening our impact.
-              </p>
-              <p className="mb-6">
-                And we're very thrilled to announce that as of today, we have a <strong>$110,000 matching challenge</strong> in 
-                place thanks to our board members and other generous pledgers who are ready to match your generosity dollar-for-dollar!
+                This story was originally published during the 2024 year-end campaign. Current donations continue to support locally led care, education, trafficking prevention, and sustainable program needs.
               </p>
               <Link 
                 href="https://peacegospel.org/donate"
@@ -150,7 +144,7 @@ export default function RubyStory() {
             </p>
 
             <p className="text-gray-700 leading-relaxed">
-              Together, we're making a real difference in Myanmar and beyond. We couldn't do it without you!
+              Donor partnership and local leadership help sustain this work in Myanmar and beyond. Thank you for being part of it.
             </p>
           </div>
 

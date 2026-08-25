@@ -91,8 +91,8 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Cebu · Main program hub</p>
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">A connected campus of care and opportunity</h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
-              <p>The Cebu partnership began in 2009 with a locally led commitment to girls, women, and families affected by severe poverty and exploitation risks.</p>
-              <p>Today, residential care, after-school education, practical training, and the farmland enterprise reinforce one another. Each part of the program helps create greater stability for girls and women while the Hope Center also serves other children.</p>
+              <p>The Cebu partnership began in 2009 with a locally led commitment to children and families affected by severe poverty and exploitation risks.</p>
+              <p>Today, the girls home provides residential care, the Hope Center supports children’s education, the women’s trade school develops practical skills, and the farmland enterprise strengthens local sustainability. Together, these distinct programs reinforce one another.</p>
             </div>
           </div>
           <PhotoPlaceholder

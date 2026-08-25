@@ -60,7 +60,7 @@ export default function ArgentinaProgramPage({ program }: ArgentinaProgramPagePr
       </section>
 
       <HopeStatement>
-        Trafficking prevention can begin long before a girl faces a crisis—with nourishment, early learning, family support, and a community equipped to protect its young people.
+        Trafficking prevention can begin long before exploitation occurs—with nourishment, early learning, family support, and a community equipped to protect its young people.
       </HopeStatement>
 
       <ResponsePathways
@@ -105,7 +105,7 @@ export default function ArgentinaProgramPage({ program }: ArgentinaProgramPagePr
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Local educators, local ownership</h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
               <p>Residents from the surrounding community serve as teachers at the early childhood center. Their leadership keeps the work locally rooted while providing meaningful employment for families navigating economic instability.</p>
-              <p>A Spanish-language trafficking-awareness booklet was reported in Argentina in September 2025, giving the local team a community-education resource focused on recognizing risks and understanding how education can help protect girls and other young people.</p>
+              <p>A Spanish-language trafficking-awareness booklet was reported in Argentina in September 2025, giving the local team a community-education resource focused on recognizing risks and understanding how education can help protect children and young people.</p>
             </div>
           </div>
           <PhotoPlaceholder

@@ -110,10 +110,10 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
               </h2>
               <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
                 <p>
-                  The India partnership began with relief outreach to young people in an underserved urban community. Over more than three decades, that locally led work has grown into a connected network of care, education, vocational training, and sustainable development.
+                  The India partnership began with relief outreach to children in an underserved urban community. Over more than three decades, that locally led work has grown into a connected network of care, education, vocational training, and sustainable development.
                 </p>
                 <p>
-                  Today, the program centers girls and young women while also serving other vulnerable young people through broader child-protection work. Participants include orphans, trafficking survivors, and young people affected by child labor. Foster care, school support, college scholarships, Children’s Hope Centers, and practical training meet people at different stages of the journey.
+                  Today, this broader child-protection program serves vulnerable children and young people, including orphans, trafficking survivors, and those affected by child labor. Within that network, She Has Hope emphasizes pathways for girls and young women. Foster care, school support, college scholarships, Children’s Hope Centers, and practical training meet people at different stages of the journey.
                 </p>
                 <p>
                   The goal is not simply to interrupt a crisis. It is to walk with each person toward safety, confidence, meaningful opportunity, and a future with choices.
@@ -347,7 +347,7 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
                   The India farmland enterprise began as a water-buffalo dairy and now focuses on seasonal lentils, vegetables, and a small banana grove.
                 </p>
                 <p>
-                  Fresh produce strengthens meals for program residents and staff. When harvests provide a surplus, crops can be sold at market to generate additional local funding and reinforce the team’s ownership of the work.
+                  Fresh produce strengthens meals for children and staff. When harvests provide a surplus, crops can be sold at market to generate additional local funding and reinforce the team’s ownership of the work.
                 </p>
               </div>
             </div>
