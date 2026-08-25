@@ -92,11 +92,15 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Two schools, one long-term pathway</h2>
             <p className="mt-5 text-lg leading-8 text-gray-700 font-serif">The local team operates a rural primary school and a residential boarding high school on separate campuses. Together, they help students continue learning across critical years while the two-campus network supports nutrition, water, health, and residential needs.</p>
           </div>
-          <PhotoPlaceholder
-            title="Uganda primary and boarding-school photo"
-            guidance="A wide classroom, student gathering, school activity, graduation, or learning milestone showing education at either Uganda campus."
-            className="mt-10 min-h-96"
-          />
+          <div className="relative mt-10 aspect-video overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+            <Image
+              src="/images/programs/uganda-primary-boarding-schools-wide.jpg"
+              alt="Two-panel image of a teacher guiding young students writing in notebooks and a student beside laboratory glassware"
+              fill
+              sizes="(max-width: 1200px) 100vw, 1152px"
+              className="object-cover"
+            />
+          </div>
         </div>
       </section>
 
