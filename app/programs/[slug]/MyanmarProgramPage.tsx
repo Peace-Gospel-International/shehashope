@@ -21,9 +21,9 @@ const responseAreas: ResponseArea[] = [
     copy: 'Stable residential care, education, nutritious food, and long-term support reduce the pressures that can leave girls and other vulnerable young people exposed to exploitation.',
   },
   {
-    name: 'Protection',
+    name: 'Rescue',
     iconSrc: '/images/rescue.png',
-    copy: 'Four locally led homes provide young residents with a consistent place to live and learn, without presenting the program as a direct trafficking-rescue service.',
+    copy: 'Four locally led orphan homes provide safe residential care for children rescued from child labor, slavery, and other trafficking situations, as well as orphaned children facing other vulnerabilities.',
   },
   {
     name: 'Rehabilitation',
@@ -74,7 +74,7 @@ export default function MyanmarProgramPage({ program }: MyanmarProgramPageProps)
 
       <ResponsePathways
         title="Five connected pathways toward stability"
-        intro="Myanmar’s work is centered on prevention and protection rather than a publicly described direct-rescue operation. Residential care, learning, practical preparation, and farmland sustainability reinforce one another."
+        intro="Myanmar’s five connected pathways bring together prevention, rescue, rehabilitation, restoration, and sustainability. Residential care, learning, practical preparation, and farmland sustainability reinforce one another."
         areas={responseAreas}
       />
 
