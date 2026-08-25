@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import type { Program } from '../programs';
 import {
   CountryPageLayout,
@@ -140,10 +141,15 @@ export default function MyanmarProgramPage({ program }: MyanmarProgramPageProps)
 
       <section className="bg-rose-50 py-14 md:py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 md:grid-cols-2 lg:gap-16 lg:px-8">
-          <PhotoPlaceholder
-            title="Myanmar rice farm or campus garden photo"
-            guidance="Rice fields, harvested grain, fresh vegetables, careful food preparation, or a close farming activity that does not expose facility location details."
-          />
+          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+            <Image
+              src="/images/programs/myanmar-rice-farm-planting.jpg"
+              alt="Woman smiling with rice seedlings while other farmers plant a flooded field"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-cover"
+            />
+          </div>
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Locally rooted sustainability</p>
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Rice and fresh produce for daily meals</h2>
