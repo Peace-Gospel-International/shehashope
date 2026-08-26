@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import type { Program } from '../programs';
+import { ProgramContextSection } from './ProgramPageShared';
 
 type IndiaProgramPageProps = {
   program: Program;
@@ -131,6 +132,26 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
             </div>
           </div>
         </section>
+
+        <ProgramContextSection
+          country="India"
+          title="Keeping girls connected to education and choice"
+          challenges={[
+            {
+              text: 'For many adolescent girls in India, household responsibilities, early marriage, child labour, distance from school, and limited facilities can interrupt secondary education.',
+              sourceIndexes: [1],
+            },
+            {
+              text: 'Economic hardship can also increase the risk that children are drawn into harmful work or exploitation.',
+              sourceIndexes: [2],
+            },
+          ]}
+          response="She Has Hope’s long-standing local partnership responds through consistent care, school support, college scholarships, Children’s Hope Centers, and practical training. Together, these pathways help girls and other vulnerable young people stay connected to learning and build futures with greater safety and choice."
+          sources={[
+            { label: 'UNICEF India: Adolescent development and participation', url: 'https://www.unicef.org/india/what-we-do/adolescent-development-participation' },
+            { label: 'UNICEF India: What is child labour?', url: 'https://www.unicef.org/india/stories/what-child-labour' },
+          ]}
+        />
 
         <section className="bg-gradient-to-br from-[#F2978F] to-[#EE0076] py-12 text-white md:py-16">
           <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">

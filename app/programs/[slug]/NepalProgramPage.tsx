@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import type { Program } from '../programs';
+import { ProgramContextSection } from './ProgramPageShared';
 
 type NepalProgramPageProps = {
   program: Program;
@@ -131,6 +132,26 @@ export default function NepalProgramPage({ program }: NepalProgramPageProps) {
             </div>
           </div>
         </section>
+
+        <ProgramContextSection
+          country="Nepal"
+          title="Keeping opportunity stronger than exploitation"
+          challenges={[
+            {
+              text: 'Poverty, gender discrimination, and early marriage can push girls out of school and narrow their choices.',
+              sourceIndexes: [1],
+            },
+            {
+              text: 'Deceptive recruitment and manipulation can further increase exposure to trafficking and other forms of exploitation.',
+              sourceIndexes: [1, 2],
+            },
+          ]}
+          response="She Has Hope’s locally led partnership in Kathmandu provides safe accommodation, restorative care, education, and vocational training for women and girls affected by trafficking or facing serious risks. The response is designed around each participant’s dignity, goals, and path toward greater independence."
+          sources={[
+            { label: 'UNICEF Nepal: Sparking possibilities', url: 'https://www.unicef.org/nepal/stories/sparking-possibilities' },
+            { label: 'UN Women: Survivor leadership in Nepal', url: 'https://asiapacific.unwomen.org/en/stories/feature-story/2026/02/we-help-each-other-survive' },
+          ]}
+        />
 
         <section className="bg-gradient-to-br from-[#F2978F] to-[#EE0076] py-12 text-white md:py-16">
           <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">

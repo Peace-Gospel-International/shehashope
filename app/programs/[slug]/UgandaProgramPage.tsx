@@ -4,6 +4,7 @@ import {
   CountryPageLayout,
   HopeStatement,
   ImpactSection,
+  ProgramContextSection,
   ProgramCta,
   ProgramHero,
   ResponsePathways,
@@ -73,6 +74,26 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
           </div>
         </div>
       </section>
+
+      <ProgramContextSection
+        country="Uganda"
+        title="Keeping girls learning and communities strong"
+        challenges={[
+          {
+            text: 'For many girls in rural Uganda, poverty, distance from school, early marriage, teenage pregnancy, and financial pressure can make completing secondary education difficult.',
+            sourceIndexes: [1],
+          },
+          {
+            text: 'Violence, exploitation, and child labour also threaten children’s well-being and their ability to remain in school.',
+            sourceIndexes: [2],
+          },
+        ]}
+        response="She Has Hope’s locally led partnerships connect education with residential care, vocational training, health services, clean water, and farmland sustainability. Together, these programs help girls keep learning while strengthening the families and communities around them."
+        sources={[
+          { label: 'UNICEF Uganda: Education barriers facing rural girls', url: 'https://www.unicef.org/uganda/stories/glimmer-hope-adolescent-girls-acholi-and-west-nile-unicef-rolls-out-cashplus' },
+          { label: 'UNICEF Uganda: Child protection', url: 'https://www.unicef.org/uganda/what-we-do/child-protection' },
+        ]}
+      />
 
       <HopeStatement>
         Education becomes more powerful when a girl also has food, clean water, health care, safety, and people committed to her future.

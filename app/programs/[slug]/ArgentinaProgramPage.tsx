@@ -4,6 +4,7 @@ import {
   HopeStatement,
   ImpactSection,
   PhotoPlaceholder,
+  ProgramContextSection,
   ProgramCta,
   ProgramHero,
   ResponsePathways,
@@ -58,6 +59,26 @@ export default function ArgentinaProgramPage({ program }: ArgentinaProgramPagePr
           />
         </div>
       </section>
+
+      <ProgramContextSection
+        country="Argentina"
+        title="Strengthening opportunity close to home"
+        challenges={[
+          {
+            text: 'Economic pressure continues to shape childhood for many families in Argentina, and UNICEF reports that child poverty remains widespread.',
+            sourceIndexes: [1],
+          },
+          {
+            text: 'Access to early-childhood care and education also remains uneven across communities and income levels.',
+            sourceIndexes: [2],
+          },
+        ]}
+        response="In an underserved Buenos Aires neighborhood, She Has Hope’s local partnership responds with early-childhood care, nutritious meals, family support, community employment, and practical learning. The aim is to strengthen a dependable place where children and families can grow with dignity and opportunity."
+        sources={[
+          { label: 'UNICEF Argentina: Child poverty report, 2026', url: 'https://www.unicef.org/argentina/comunicados-prensa/informe-pobreza-monetaria-2026' },
+          { label: 'UNICEF Argentina: Integrated early-childhood services', url: 'https://www.unicef.org/argentina/servicios-integrales-para-la-primera-infancia' },
+        ]}
+      />
 
       <HopeStatement>
         Trafficking prevention can begin long before exploitation occurs—with nourishment, early learning, family support, and a community equipped to protect its young people.

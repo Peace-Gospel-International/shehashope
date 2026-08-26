@@ -39,6 +39,24 @@ type ResponsePathwaysProps = {
   areas: ResponseArea[];
 };
 
+type ProgramContextSource = {
+  label: string;
+  url: string;
+};
+
+type ProgramContextChallenge = {
+  text: string;
+  sourceIndexes: number[];
+};
+
+type ProgramContextSectionProps = {
+  country: string;
+  title: string;
+  challenges: ProgramContextChallenge[];
+  response: string;
+  sources: ProgramContextSource[];
+};
+
 type ImpactSectionProps = {
   eyebrow: string;
   title: string;
@@ -116,6 +134,57 @@ export function HopeStatement({ children }: { children: React.ReactNode }) {
     <section className="bg-gradient-to-br from-[#F2978F] to-[#EE0076] py-12 text-white md:py-16">
       <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
         <p className="text-2xl font-bold leading-relaxed font-sans md:text-4xl">{children}</p>
+      </div>
+    </section>
+  );
+}
+
+export function ProgramContextSection({ country, title, challenges, response, sources }: ProgramContextSectionProps) {
+  return (
+    <section className="bg-rose-50 py-10 md:py-14">
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <div className="rounded-2xl border border-pink-100 bg-white p-7 shadow-sm md:p-10">
+          <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Why this work matters in {country}</p>
+          <h2 className="mt-3 text-3xl font-bold leading-tight text-gray-900 font-sans md:text-4xl">{title}</h2>
+          <div className="mt-6 space-y-4 text-base leading-7 text-gray-700 font-serif md:text-lg md:leading-8">
+            <p>
+              {challenges.map((challenge, challengeIndex) => (
+                <span key={challenge.text}>
+                  {challenge.text}
+                  {challenge.sourceIndexes.map((sourceIndex) => {
+                    const source = sources[sourceIndex - 1];
+                    return source ? (
+                      <sup key={sourceIndex} className="ml-1 font-sans text-xs">
+                        <a
+                          href={source.url}
+                          target="_blank"
+                          rel="noreferrer"
+                          aria-label={`${source.label} source`}
+                          className="font-bold text-[#EE0076] hover:underline"
+                        >
+                          [{sourceIndex}]
+                        </a>
+                      </sup>
+                    ) : null;
+                  })}
+                  {challengeIndex < challenges.length - 1 ? ' ' : ''}
+                </span>
+              ))}
+            </p>
+            <p>{response}</p>
+          </div>
+          <p className="mt-6 border-t border-pink-100 pt-4 text-xs leading-5 text-gray-500 font-sans">
+            Sources:{' '}
+            {sources.map((source, index) => (
+              <span key={source.url}>
+                <a href={source.url} target="_blank" rel="noreferrer" className="hover:text-[#EE0076] hover:underline">
+                  [{index + 1}] {source.label}
+                </a>
+                {index < sources.length - 1 ? '; ' : '.'}
+              </span>
+            ))}
+          </p>
+        </div>
       </div>
     </section>
   );

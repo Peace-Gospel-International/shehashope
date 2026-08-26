@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import type { Program } from '../programs';
+import { ProgramContextSection } from './ProgramPageShared';
 
 type ColombiaProgramPageProps = {
   program: Program;
@@ -131,6 +132,26 @@ export default function ColombiaProgramPage({ program }: ColombiaProgramPageProp
             </div>
           </div>
         </section>
+
+        <ProgramContextSection
+          country="Colombia"
+          title="Creating belonging amid displacement"
+          challenges={[
+            {
+              text: 'Near Colombia’s border with Venezuela, migrant and displaced children can face interrupted schooling, poverty, discrimination, and increased exposure to violence and exploitation.',
+              sourceIndexes: [2],
+            },
+            {
+              text: 'Recent conflict in the Catatumbo region has displaced many families toward Cúcuta and other host communities, adding new pressure to already difficult circumstances.',
+              sourceIndexes: [1],
+            },
+          ]}
+          response="Through Casa Vida, trusted local leaders create a welcoming place where girls can learn, build practical skills, form supportive relationships, and see new possibilities for their futures. The program responds close to home, with care shaped by the realities of the Cúcuta community."
+          sources={[
+            { label: 'UNICEF Colombia: Children displaced from Catatumbo', url: 'https://www.unicef.org/colombia/historias/catatumbo-inseguridadydesarraigo' },
+            { label: 'UNICEF Colombia: Migration and children’s rights', url: 'https://www.unicef.org/colombia/migracion' },
+          ]}
+        />
 
         <section className="bg-gradient-to-br from-[#F2978F] to-[#EE0076] py-12 text-white md:py-16">
           <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">

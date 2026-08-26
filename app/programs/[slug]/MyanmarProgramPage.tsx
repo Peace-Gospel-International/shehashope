@@ -5,6 +5,7 @@ import {
   HopeStatement,
   ImpactSection,
   PhotoPlaceholder,
+  ProgramContextSection,
   ProgramCta,
   ProgramHero,
   ResponsePathways,
@@ -69,27 +70,25 @@ export default function MyanmarProgramPage({ program }: MyanmarProgramPageProps)
         </div>
       </section>
 
-      <section className="bg-rose-50 py-10 md:py-14">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <div className="rounded-2xl border border-pink-100 bg-white p-7 shadow-sm md:p-10">
-            <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Why this work matters in Myanmar</p>
-            <h2 className="mt-3 text-3xl font-bold leading-tight text-gray-900 font-sans md:text-4xl">Standing with children through instability</h2>
-            <div className="mt-6 space-y-4 text-base leading-7 text-gray-700 font-serif md:text-lg md:leading-8">
-              <p>
-                Conflict, displacement, economic instability, and disruptions to education have placed growing pressure on children and families across Myanmar.
-                <sup className="ml-1 font-sans text-xs"><a href="https://www.unicef.org/appeals/myanmar" target="_blank" rel="noreferrer" aria-label="UNICEF Myanmar Appeal source" className="font-bold text-[#EE0076] hover:underline">[1]</a></sup>{' '}
-                Child labor also remains a significant challenge, affecting children’s education, health, and well-being.
-                <sup className="ml-1 font-sans text-xs"><a href="https://ilo.org/projects-and-partnerships/projects/myanmar-programme-elimination-child-labour-my-pec" target="_blank" rel="noreferrer" aria-label="International Labour Organization Myanmar child labor source" className="font-bold text-[#EE0076] hover:underline">[2]</a></sup>
-              </p>
-              <p>She Has Hope partners with locally led teams to answer these pressures through orphan care, education, vocational preparation, and dependable nutrition. Together, these programs help girls and other vulnerable young people keep learning and build safer futures.</p>
-            </div>
-            <p className="mt-6 border-t border-pink-100 pt-4 text-xs leading-5 text-gray-500 font-sans">
-              Sources: <a href="https://www.unicef.org/appeals/myanmar" target="_blank" rel="noreferrer" className="hover:text-[#EE0076] hover:underline">[1] UNICEF Myanmar Appeal</a>;{' '}
-              <a href="https://ilo.org/projects-and-partnerships/projects/myanmar-programme-elimination-child-labour-my-pec" target="_blank" rel="noreferrer" className="hover:text-[#EE0076] hover:underline">[2] International Labour Organization</a>.
-            </p>
-          </div>
-        </div>
-      </section>
+      <ProgramContextSection
+        country="Myanmar"
+        title="Standing with children through instability"
+        challenges={[
+          {
+            text: 'Conflict, displacement, economic instability, and disruptions to education have placed growing pressure on children and families across Myanmar.',
+            sourceIndexes: [1],
+          },
+          {
+            text: 'Child labor also remains a significant challenge, affecting children’s education, health, and well-being.',
+            sourceIndexes: [2],
+          },
+        ]}
+        response="She Has Hope partners with locally led teams to answer these pressures through orphan care, education, vocational preparation, and dependable nutrition. Together, these programs help girls and other vulnerable young people keep learning and build safer futures."
+        sources={[
+          { label: 'UNICEF Myanmar Appeal', url: 'https://www.unicef.org/appeals/myanmar' },
+          { label: 'International Labour Organization', url: 'https://ilo.org/projects-and-partnerships/projects/myanmar-programme-elimination-child-labour-my-pec' },
+        ]}
+      />
 
       <HopeStatement>
         In uncertain times, dependable care becomes its own kind of hope—a home, a classroom, a meal, and people who keep showing up.

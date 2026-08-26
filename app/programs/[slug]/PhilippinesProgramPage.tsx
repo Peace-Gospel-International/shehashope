@@ -3,6 +3,7 @@ import {
   CountryPageLayout,
   HopeStatement,
   PhotoPlaceholder,
+  ProgramContextSection,
   ProgramCta,
   ProgramHero,
   ResponsePathways,
@@ -74,6 +75,26 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
           </div>
         </div>
       </section>
+
+      <ProgramContextSection
+        country="Philippines"
+        title="Helping education stay within reach"
+        challenges={[
+          {
+            text: 'Across the Philippines, many children face barriers to quality learning, and more than 1.5 million young people ages 10 to 19 are out of school.',
+            sourceIndexes: [1],
+          },
+          {
+            text: 'Child labour remains another serious concern, with hazardous work often separating children from education, protection, and health.',
+            sourceIndexes: [2],
+          },
+        ]}
+        response="Locally led programs in Cebu and Manila respond through residential care, Children’s Hope Centers, education support, vocational preparation, and family-sustaining livelihoods. These connected efforts help children and women remain close to learning, practical opportunity, and dependable care."
+        sources={[
+          { label: 'UNICEF Philippines: Education', url: 'https://www.unicef.org/philippines/education' },
+          { label: 'ILO: How the Philippines is breaking the child labour cycle', url: 'https://www.ilo.org/resource/article/hazardous-work-school-how-philippines-breaking-child-labour-cycle' },
+        ]}
+      />
 
       <HopeStatement>
         A safer future grows when education, a stable home, practical skills, and local sustainability work together.
