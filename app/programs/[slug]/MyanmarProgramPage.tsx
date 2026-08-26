@@ -63,10 +63,15 @@ export default function MyanmarProgramPage({ program }: MyanmarProgramPageProps)
               <p>At its heart, the program offers consistency: a place to live, meals, education, trusted caregivers, and practical preparation for the future.</p>
             </div>
           </div>
-          <PhotoPlaceholder
-            title="Myanmar community or local-team photo"
-            guidance="A close, people-centered image of the local team or community that avoids identifiable campus, route, signage, or security details."
-          />
+          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+            <Image
+              src="/images/programs/myanmar-students-outdoors.jpg"
+              alt="Six young people smile together outdoors among green plants"
+              fill
+              sizes="(min-width: 768px) 50vw, 100vw"
+              className="object-cover object-center"
+            />
+          </div>
         </div>
       </section>
 
