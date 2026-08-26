@@ -22,15 +22,23 @@ export default function Home() {
       <HeroCarousel />
 
       {/* Mission Statement Section */}
-      <section className="py-12 md:py-16 bg-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="flex justify-center mb-6">
-            <img src="/images/she-has-hope-logo.png" alt="She Has Hope" className="h-24 w-auto" />
+      <section className="bg-white py-12 md:py-16">
+        <div className="mx-auto max-w-5xl px-4 text-center sm:px-6 lg:px-8">
+          <div className="mb-6 flex justify-center">
+            <Image
+              src="/images/she-has-hope-logo.png"
+              alt="She Has Hope"
+              width={1209}
+              height={1519}
+              className="h-24 w-auto"
+            />
           </div>
-          <p className="text-lg md:text-xl text-gray-700 leading-relaxed font-serif">
-            She Has Hope partners with locally led programs to prevent trafficking, protect girls and women, and support
-            survivors through healing, education, practical opportunity, and a renewed sense of hope across Asia, Africa, and South America.
-          </p>
+          <div className="rounded-3xl border border-rose-100 bg-[#fff8f8] px-6 py-9 shadow-sm sm:px-10 md:py-11">
+            <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#EE0076] font-sans">Our Mission</p>
+            <blockquote className="mx-auto mt-4 max-w-4xl text-xl font-bold leading-9 text-gray-900 font-sans md:text-2xl md:leading-10">
+              She Has Hope programs exist to prevent girls from becoming slaves, to rescue slavery victims from traffickers, and to rehabilitate survivors with the goal of restoring them to a life full of hope in India, Nepal, Uganda, Myanmar, the Philippines, Colombia, and Argentina.
+            </blockquote>
+          </div>
         </div>
       </section>
 
@@ -43,7 +51,7 @@ export default function Home() {
                 <PreventionIcon />
               </div>
               <h3 className="text-lg md:text-xl font-semibold text-gray-800 mb-2 font-sans">Prevention</h3>
-              <p className="text-sm text-gray-600 font-serif">Training vulnerable girls to recognize and reject traffickers' deceptive offers.</p>
+              <p className="text-sm text-gray-600 font-serif">Training vulnerable girls to recognize and reject traffickers&apos; deceptive offers.</p>
             </div>
             <div className="text-center">
               <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-2 flex items-center justify-center">

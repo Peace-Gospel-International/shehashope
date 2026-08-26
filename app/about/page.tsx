@@ -123,6 +123,20 @@ export default function AboutPage() {
           </div>
         </section>
 
+        <section className="bg-white py-12 md:py-16">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+            <div className="relative overflow-hidden rounded-3xl border border-rose-100 bg-[#fff8f8] px-6 py-9 text-center shadow-sm sm:px-10 md:px-14 md:py-12">
+              <div className="absolute -right-12 -top-16 h-48 w-48 rounded-full bg-[#F2978F]/20 blur-3xl" aria-hidden="true" />
+              <div className="relative">
+                <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#EE0076] font-sans">Our Mission</p>
+                <blockquote className="mx-auto mt-4 max-w-4xl text-xl font-bold leading-9 text-gray-950 font-sans md:text-2xl md:leading-10">
+                  She Has Hope programs exist to prevent girls from becoming slaves, to rescue slavery victims from traffickers, and to rehabilitate survivors with the goal of restoring them to a life full of hope in India, Nepal, Uganda, Myanmar, the Philippines, Colombia, and Argentina.
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="py-16 md:py-24">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
             <div className="grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
