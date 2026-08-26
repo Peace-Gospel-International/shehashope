@@ -102,10 +102,15 @@ export default function MyanmarProgramPage({ program }: MyanmarProgramPageProps)
 
       <section className="py-14 md:py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 md:grid-cols-2 lg:gap-16 lg:px-8">
-          <PhotoPlaceholder
-            title="Myanmar residential care and daily-life photo"
-            guidance="A permission-cleared shared meal, study time, recreation, celebration, or common-space moment that does not reveal facility security details."
-          />
+          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+            <Image
+              src="/images/programs/myanmar-residential-shared-meal.jpg"
+              alt="Young people smile together while sharing a meal around a long table"
+              fill
+              sizes="(min-width: 768px) 50vw, 100vw"
+              className="object-cover object-center"
+            />
+          </div>
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Residential care</p>
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Four orphan homes built around consistency</h2>
