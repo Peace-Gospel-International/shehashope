@@ -32,7 +32,7 @@ export default function Footer() {
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <ul className="space-y-2 text-gray-400">
-                  <li><Link href="/about" className="hover:text-white font-serif">Our Team</Link></li>
+                  <li><Link href="/about" className="hover:text-white font-serif">About She Has Hope</Link></li>
                   <li><Link href="/partners" className="hover:text-white font-serif">Partners</Link></li>
                   <li><Link href="/contact" className="hover:text-white font-serif">Contact Us</Link></li>
                 </ul>
