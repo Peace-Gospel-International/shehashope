@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import WorldProgramMap from '../components/WorldProgramMap';
 import {
   PreventionIcon,
   RescueIcon,
@@ -59,16 +60,6 @@ const pathways = [
     copy: 'Farms, practical training, and locally rooted enterprises help provide food and strengthen program capacity over time.',
   },
 ];
-
-const countries = [
-  ['India', '/programs/india'],
-  ['Nepal', '/programs/nepal'],
-  ['Myanmar', '/programs/myanmar'],
-  ['Philippines', '/programs/philippines'],
-  ['Uganda', '/programs/uganda'],
-  ['Argentina', '/programs/argentina'],
-  ['Colombia', '/programs/colombia'],
-] as const;
 
 export default function AboutPage() {
   return (
@@ -200,49 +191,17 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <section className="py-16 md:py-24">
+        <section className="overflow-hidden py-16 md:py-24">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-            <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
-              <div>
-                <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#EE0076] font-sans">One mission, many local expressions</p>
-                <h2 className="mt-3 text-3xl font-bold leading-tight text-gray-950 font-sans md:text-4xl">Hope takes a different shape in every community</h2>
-                <p className="mt-5 text-lg leading-8 text-gray-700 font-serif">
-                  In one place, prevention may begin with school access or family support. In another, it may include residential care, counseling, vocational education, or a locally managed farm. Rather than forcing one model everywhere, She Has Hope supports responses rooted in local knowledge and leadership.
-                </p>
-                <div className="mt-7 flex flex-wrap gap-2.5">
-                  {countries.map(([name, href]) => (
-                    <Link
-                      key={name}
-                      href={href}
-                      className="rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-bold text-gray-800 shadow-sm transition hover:border-[#EE0076] hover:text-[#EE0076] font-sans"
-                    >
-                      {name}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-
-              <div className="grid gap-4 sm:grid-cols-2">
-                <div className="relative aspect-[3/2] overflow-hidden rounded-2xl bg-gray-100 shadow-md sm:translate-y-6">
-                  <Image
-                    src="/images/programs/nepal-kathmandu-community-team.jpg"
-                    alt="Five women wearing colorful headscarves laugh together"
-                    fill
-                    sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-                    className="object-cover"
-                  />
-                </div>
-                <div className="relative aspect-video overflow-hidden rounded-2xl bg-gray-100 shadow-md">
-                  <Image
-                    src="/images/programs/uganda-primary-boarding-schools-wide.jpg"
-                    alt="Teacher guides students writing while another student stands beside laboratory glassware"
-                    fill
-                    sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-                    className="object-cover"
-                  />
-                </div>
-              </div>
+            <div className="mx-auto max-w-3xl text-center">
+              <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#EE0076] font-sans">One mission, many local expressions</p>
+              <h2 className="mt-3 text-3xl font-bold leading-tight text-gray-950 font-sans md:text-4xl">Hope takes a different shape in every community</h2>
+              <p className="mt-5 text-lg leading-8 text-gray-700 font-serif">
+                In one place, prevention may begin with school access or family support. In another, it may include residential care, counseling, vocational education, or a locally managed farm. Rather than forcing one model everywhere, She Has Hope supports responses rooted in local knowledge and leadership.
+              </p>
             </div>
+
+            <WorldProgramMap />
           </div>
         </section>
 
