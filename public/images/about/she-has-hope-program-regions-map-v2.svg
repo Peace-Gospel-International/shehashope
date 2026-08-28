@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2370 1200" role="img" aria-labelledby="title desc">
- <title id="title">World map</title>
- <desc id="desc">A stylized world map in She Has Hope pink and orange brand colors.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="620 180 1460 800" role="img" aria-labelledby="title desc">
+ <title id="title">She Has Hope program regions</title>
+ <desc id="desc">A cropped map of South America, Africa, and Asia in She Has Hope pink and orange brand colors.</desc>
  <defs>
   <linearGradient id="hope-map-gradient" x1="0%" y1="20%" x2="100%" y2="80%">
    <stop offset="0%" stop-color="#F2978F"/>

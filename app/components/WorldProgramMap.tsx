@@ -18,10 +18,10 @@ const programLocations: ProgramLocation[] = [
     name: 'India',
     href: '/programs/india',
     number: 1,
-    actualLeft: 71.65,
-    actualTop: 37.75,
-    markerLeft: 59,
-    markerTop: 43,
+    actualLeft: 73.84,
+    actualTop: 34.12,
+    markerLeft: 64,
+    markerTop: 45,
     labelPosition: 'right-7 top-5',
     usesCallout: true,
   },
@@ -29,10 +29,10 @@ const programLocations: ProgramLocation[] = [
     name: 'Nepal',
     href: '/programs/nepal',
     number: 2,
-    actualLeft: 73.33,
-    actualTop: 34.4,
-    markerLeft: 71,
-    markerTop: 26,
+    actualLeft: 76.57,
+    actualTop: 29.1,
+    markerLeft: 73,
+    markerTop: 18,
     labelPosition: 'bottom-7 left-1/2 -translate-x-1/2',
     usesCallout: true,
   },
@@ -40,10 +40,10 @@ const programLocations: ProgramLocation[] = [
     name: 'Myanmar',
     href: '/programs/myanmar',
     number: 3,
-    actualLeft: 76.67,
-    actualTop: 38.35,
-    markerLeft: 73,
-    markerTop: 60,
+    actualLeft: 81.99,
+    actualTop: 35.02,
+    markerLeft: 79,
+    markerTop: 58,
     labelPosition: 'left-1/2 top-7 -translate-x-1/2',
     usesCallout: true,
   },
@@ -51,20 +51,20 @@ const programLocations: ProgramLocation[] = [
     name: 'Philippines',
     href: '/programs/philippines',
     number: 4,
-    actualLeft: 83.88,
-    actualTop: 42.75,
-    markerLeft: 83.88,
-    markerTop: 42.75,
+    actualLeft: 93.7,
+    actualTop: 41.62,
+    markerLeft: 93.7,
+    markerTop: 41.62,
     labelPosition: 'left-7 top-4',
   },
   {
     name: 'Uganda',
     href: '/programs/uganda',
     number: 5,
-    actualLeft: 58.9,
-    actualTop: 49.4,
-    markerLeft: 47,
-    markerTop: 58,
+    actualLeft: 53.15,
+    actualTop: 51.6,
+    markerLeft: 48,
+    markerTop: 60,
     labelPosition: 'right-7 top-5',
     usesCallout: true,
   },
@@ -72,20 +72,20 @@ const programLocations: ProgramLocation[] = [
     name: 'Argentina',
     href: '/programs/argentina',
     number: 6,
-    actualLeft: 32.23,
-    actualTop: 68.9,
-    markerLeft: 32.23,
-    markerTop: 68.9,
+    actualLeft: 9.85,
+    actualTop: 80.85,
+    markerLeft: 9.85,
+    markerTop: 80.85,
     labelPosition: 'right-7 top-5',
   },
   {
     name: 'Colombia',
     href: '/programs/colombia',
     number: 7,
-    actualLeft: 29.45,
-    actualTop: 47.75,
-    markerLeft: 29.45,
-    markerTop: 47.75,
+    actualLeft: 5.34,
+    actualTop: 49.12,
+    markerLeft: 5.34,
+    markerTop: 49.12,
     labelPosition: 'right-7 top-5',
   },
 ];
@@ -125,9 +125,9 @@ export default function WorldProgramMap() {
         <div className="absolute -left-20 -top-24 h-64 w-64 rounded-full bg-[#F2978F]/20 blur-3xl" aria-hidden="true" />
         <div className="absolute -bottom-28 -right-20 h-72 w-72 rounded-full bg-[#EE0076]/10 blur-3xl" aria-hidden="true" />
 
-        <div className="relative aspect-[2370/1200] w-full">
+        <div className="relative aspect-[1460/800] w-full">
           <Image
-            src="/images/about/she-has-hope-world-map.svg"
+            src="/images/about/she-has-hope-program-regions-map-v2.svg"
             alt="World map showing She Has Hope program locations in Asia, Africa, and South America"
             fill
             sizes="(min-width: 1024px) 1040px, 100vw"
@@ -135,7 +135,7 @@ export default function WorldProgramMap() {
           />
 
           <svg
-            viewBox="0 0 100 50"
+            viewBox="0 0 100 100"
             preserveAspectRatio="none"
             className="pointer-events-none absolute inset-0 h-full w-full"
             aria-hidden="true"
@@ -144,9 +144,9 @@ export default function WorldProgramMap() {
               <g key={location.name}>
                 <line
                   x1={location.actualLeft}
-                  y1={location.actualTop / 2}
+                  y1={location.actualTop}
                   x2={location.markerLeft}
-                  y2={location.markerTop / 2}
+                  y2={location.markerTop}
                   stroke="#a90056"
                   strokeWidth="1.25"
                   strokeDasharray="1.5 1.2"
@@ -154,7 +154,7 @@ export default function WorldProgramMap() {
                 />
                 <circle
                   cx={location.actualLeft}
-                  cy={location.actualTop / 2}
+                  cy={location.actualTop}
                   r="0.7"
                   fill="#fff"
                   stroke="#a90056"
