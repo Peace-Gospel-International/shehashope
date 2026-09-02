@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import type { Program } from '../programs';
 import {
   CountryPageLayout,
@@ -129,10 +130,15 @@ export default function ArgentinaProgramPage({ program }: ArgentinaProgramPagePr
               <p>A Spanish-language trafficking-awareness booklet was reported in Argentina in September 2025, giving the local team a community-education resource focused on recognizing risks and understanding how education can help protect children and young people.</p>
             </div>
           </div>
-          <PhotoPlaceholder
-            title="Argentina educators and community photo"
-            guidance="Local teachers preparing activities, supporting children, meeting with caregivers, or participating in trafficking-awareness education."
-          />
+          <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+            <Image
+              src="/images/programs/argentina-educator-guided-play.jpg"
+              alt="An educator guides a young child through a hands-on play activity"
+              fill
+              sizes="(min-width: 768px) 448px, 100vw"
+              className="object-cover object-center"
+            />
+          </div>
         </div>
       </section>
 
