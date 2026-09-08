@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import type { Program } from '../programs';
 import {
   CountryPageLayout,
@@ -224,10 +225,15 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
                   <p>Manila’s role within the Philippines program is intentionally focused: one locally led Children’s Hope Center helping students stay connected to school and supportive care.</p>
                 </div>
               </div>
-              <PhotoPlaceholder
-                title="Manila Children’s Hope Center photo"
-                guidance="A permission-cleared image of tutoring, school materials, a meal, hygiene support, recreation, or the local team inside the Hope Center."
-              />
+              <div className="relative aspect-[3/2] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+                <Image
+                  src="/images/programs/philippines-manila-hope-center-reading.jpg"
+                  alt="Students read and write together at a table while classmates work nearby"
+                  fill
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  className="object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>
