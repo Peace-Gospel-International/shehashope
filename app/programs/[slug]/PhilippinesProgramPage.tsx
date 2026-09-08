@@ -188,10 +188,15 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
               <p>Practical learning can strengthen confidence and create alternatives to deceptive job offers used by traffickers to exploit women seeking income.</p>
             </div>
           </div>
-          <PhotoPlaceholder
-            title="Cebu women’s trade-school photo"
-            guidance="One focused image of craft-making instruction, participants’ hands at work, or finished products, with permission and dignity at the center."
-          />
+          <div className="relative aspect-[3/2] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+            <Image
+              src="/images/programs/philippines-cebu-trade-school-weaving.jpg"
+              alt="Two women sit together while one holds a woven bag and the other weaves with palm strips"
+              fill
+              sizes="(min-width: 768px) 50vw, 100vw"
+              className="object-cover object-center"
+            />
+          </div>
         </div>
       </section>
 
