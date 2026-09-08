@@ -202,10 +202,15 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
 
       <section className="bg-rose-50 py-14 md:py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 md:grid-cols-2 lg:gap-16 lg:px-8">
-          <PhotoPlaceholder
-            title="Cebu farmland enterprise photo"
-            guidance="A harvest, hen house, fishery, coconut or banana grove, vegetables, or a local farmland team at work."
-          />
+          <div className="relative aspect-[3/2] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+            <Image
+              src="/images/programs/philippines-cebu-farmland-banana-harvest.jpg"
+              alt="Five women smile while holding bunches of harvested bananas in a grove"
+              fill
+              sizes="(min-width: 768px) 50vw, 100vw"
+              className="object-cover object-center"
+            />
+          </div>
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Cebu · Sustainability</p>
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">A diverse farm that helps carry the work</h2>
