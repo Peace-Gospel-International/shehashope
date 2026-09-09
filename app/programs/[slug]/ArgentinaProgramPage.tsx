@@ -99,10 +99,15 @@ export default function ArgentinaProgramPage({ program }: ArgentinaProgramPagePr
 
       <section className="py-14 md:py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 md:grid-cols-2 lg:gap-16 lg:px-8">
-          <PhotoPlaceholder
-            title="Early childhood care and learning photo"
-            guidance="Children engaged in age-appropriate play, blocks, books, art, a shared meal, or another permission-cleared learning activity at the center."
-          />
+          <div className="relative mx-auto aspect-[3/4] w-full max-w-md overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+            <Image
+              src="/images/programs/argentina-early-childhood-shared-meal.jpg"
+              alt="Four children sit around a table with plates of food during a shared meal"
+              fill
+              sizes="(min-width: 768px) 448px, 100vw"
+              className="object-cover object-center"
+            />
+          </div>
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Mi Lugar en el Sur</p>
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Comprehensive care for children ages one to three</h2>
