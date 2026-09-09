@@ -151,8 +151,8 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
         title="Education, care, and locally grown resources"
         intro="These cumulative figures reflect the Uganda partnership’s long record of education, care, and locally grown resources."
         stats={[
-          { value: '4,689', label: 'Children educated' },
-          { value: '1,472', label: 'Children cared for through orphan-care programs' },
+          { value: '4,477', label: 'Students enrolled since opening across two schools' },
+          { value: '1,514', label: 'Orphans served through boarding-school residential care' },
           { value: '247', label: 'Tons of farmland produce' },
         ]}
         note="Together, these programs connect learning, protection, nutrition, and local sustainability."
