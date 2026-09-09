@@ -78,22 +78,26 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
       </section>
 
       <ProgramContextSection
-        country="Philippines"
-        title="Helping education stay within reach"
+        country="the Philippines"
+        title="Education and stable care strengthen protection"
         challenges={[
           {
-            text: 'Across the Philippines, many children face barriers to quality learning, and more than 1.5 million young people ages 10 to 19 are out of school.',
+            text: 'From January through June 2026, DSWD Central Visayas recorded 21 trafficking-in-persons cases and seven online sexual abuse or exploitation of children cases. In two May operations in Cebu City, authorities rescued four women and two boys.',
             sourceIndexes: [1],
           },
           {
-            text: 'Child labour remains another serious concern, with hazardous work often separating children from education, protection, and health.',
+            text: 'In Metro Manila, 44 trafficking survivors were residing at the DSWD Marillac Hills center when it observed World Day Against Trafficking in Persons in July 2025.',
             sourceIndexes: [2],
           },
+          {
+            text: 'These figures reflect reported cases and people receiving services, not the full scale of trafficking, but they show that exploitation remains a present concern in both areas.',
+            sourceIndexes: [1, 2],
+          },
         ]}
-        response="Locally led programs in Cebu and Manila respond through residential care, Children’s Hope Centers, education support, vocational preparation, and family-sustaining livelihoods. These connected efforts help children and women remain close to learning, practical opportunity, and dependable care."
+        response="That is why education and orphan care are central to the Philippines program. The Hope Centers in Cebu and Manila help children stay connected to school, nutritious meals, practical support, and trusted adults, while Cebu’s girls home provides stable residential care and long-term educational support for girls who need a safe home. Together, these services reduce some of the pressures that can increase vulnerability and help children build safer futures."
         sources={[
-          { label: 'UNICEF Philippines: Education', url: 'https://www.unicef.org/philippines/education' },
-          { label: 'ILO: How the Philippines is breaking the child labour cycle', url: 'https://www.ilo.org/resource/article/hazardous-work-school-how-philippines-breaking-child-labour-cycle' },
+          { label: 'DSWD-7: Central Visayas trafficking and OSAEC cases, January–June 2026', url: 'https://fo7.dswd.gov.ph/dswd-7-records-21-trafficking-in-persons-7-osaec-cases-from-january-to-june-2026/' },
+          { label: 'DSWD NCR: Marillac Hills trafficking survivors, July 2025', url: 'https://ncr.dswd.gov.ph/2025/07/marillac-hills-national-training-school-for-girls-mh-ntsg-in-alabang-muntinlupa-city-participated-in-the-commemoration-of-the-world-day-against-trafficking-in-persons/' },
         ]}
       />
 
