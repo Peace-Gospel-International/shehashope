@@ -195,7 +195,7 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
               </div>
             ))}
           </div>
-          <p className="mt-5 text-center text-sm text-gray-500 font-serif">Latest available program figures; residential care as of Q3 2026 and cumulative farmland production through Q4 2025.</p>
+          <p className="mt-5 text-center text-sm text-gray-500 font-serif">Residential care as of Q3 2026; cumulative farmland production through Q4 2025.</p>
         </div>
       </section>
 
