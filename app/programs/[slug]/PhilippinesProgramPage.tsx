@@ -3,7 +3,6 @@ import type { Program } from '../programs';
 import {
   CountryPageLayout,
   HopeStatement,
-  PhotoPlaceholder,
   ProgramContextSection,
   ProgramCta,
   ProgramHero,
@@ -166,11 +165,15 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">A Children’s Hope Center that supports school success</h2>
             <p className="mt-5 text-lg leading-8 text-gray-700 font-serif">Launched in 2015, the Cebu Hope Center provides after-school care designed to help children remain enrolled and equipped for school through tutoring, meals, school supplies, uniforms, hygiene items, and recreation.</p>
           </div>
-          <PhotoPlaceholder
-            title="Cebu Children’s Hope Center photo"
-            guidance="A wide image of tutoring, school supplies, a shared meal, recreation, or children preparing for a new school term."
-            className="mt-10 min-h-96"
-          />
+          <div className="relative mt-10 aspect-[1280/853] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+            <Image
+              src="/images/programs/philippines-cebu-hope-center-classroom.jpg"
+              alt="Students work at desks while one girl smiles and writes in a workbook"
+              fill
+              sizes="(min-width: 1024px) 1152px, 100vw"
+              className="object-cover object-center"
+            />
+          </div>
         </div>
       </section>
 
