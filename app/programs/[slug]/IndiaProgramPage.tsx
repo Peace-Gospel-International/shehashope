@@ -298,7 +298,7 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
               <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">A long record of care</p>
               <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Protection, education, and practical support</h2>
               <p className="mt-5 text-lg leading-8 text-gray-700 font-serif">
-                These cumulative figures reflect the India partnership’s reported work from 1993 through 2026.
+                These cumulative figures reflect the India partnership’s long record of protection, care, and locally grown resources.
               </p>
             </div>
 
@@ -308,15 +308,15 @@ export default function IndiaProgramPage({ program }: IndiaProgramPageProps) {
                 <p className="mt-3 text-lg font-semibold text-gray-800 font-sans">Children rescued from child labor</p>
               </div>
               <div className="rounded-2xl bg-white p-8 text-center shadow-md">
-                <p className="text-5xl font-bold text-[#EE0076] font-sans">807</p>
+                <p className="text-5xl font-bold text-[#EE0076] font-sans">819</p>
                 <p className="mt-3 text-lg font-semibold text-gray-800 font-sans">Children cared for through orphan-care programs</p>
               </div>
               <div className="rounded-2xl bg-white p-8 text-center shadow-md">
-                <p className="text-5xl font-bold text-[#EE0076] font-sans">38</p>
+                <p className="text-5xl font-bold text-[#EE0076] font-sans">41</p>
                 <p className="mt-3 text-lg font-semibold text-gray-800 font-sans">Tons of produce harvested</p>
               </div>
             </div>
-            <p className="mt-5 text-center text-sm text-gray-500 font-serif">Program figures reported through 2026.</p>
+            <p className="mt-5 text-center text-sm text-gray-500 font-serif">Together, these programs connect immediate protection with education and long-term opportunity.</p>
           </div>
         </section>
 

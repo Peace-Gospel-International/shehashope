@@ -257,7 +257,7 @@ export function ImpactSection({ eyebrow, title, intro, stats, note }: ImpactSect
           <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">{title}</h2>
           <p className="mt-5 text-lg leading-8 text-gray-700 font-serif">{intro}</p>
         </div>
-        <div className={`mx-auto mt-10 grid max-w-5xl gap-6 ${stats.length === 2 ? 'md:grid-cols-2' : 'md:grid-cols-3'}`}>
+        <div className={`mx-auto mt-10 grid gap-6 ${stats.length === 1 ? 'max-w-sm' : 'max-w-5xl'} ${stats.length === 2 ? 'md:grid-cols-2' : stats.length >= 3 ? 'md:grid-cols-3' : ''}`}>
           {stats.map((stat) => (
             <div key={stat.label} className="rounded-2xl bg-white p-8 text-center shadow-md">
               <p className="text-5xl font-bold text-[#EE0076] font-sans">{stat.value}</p>

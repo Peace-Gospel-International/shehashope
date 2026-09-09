@@ -306,7 +306,7 @@ export default function NepalProgramPage({ program }: NepalProgramPageProps) {
 
             <div className="mx-auto mt-10 grid max-w-4xl gap-6 md:grid-cols-2">
               <div className="rounded-2xl bg-white p-8 text-center shadow-md">
-                <p className="text-5xl font-bold text-[#EE0076] font-sans">229</p>
+                <p className="text-5xl font-bold text-[#EE0076] font-sans">247</p>
                 <p className="mt-3 text-lg font-semibold text-gray-800 font-sans">Rehabilitation home and trade school graduates</p>
               </div>
               <div className="rounded-2xl bg-white p-8 text-center shadow-md">
@@ -335,7 +335,7 @@ export default function NepalProgramPage({ program }: NepalProgramPageProps) {
               <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Education that continues into adulthood</h2>
               <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
                 <p>
-                  From 2008 through 2023, the Nepal orphan home provided care for 28 children. Although the residential home has completed its season of operation, the relationships and commitment continue.
+                  From 2008 through 2023, the Nepal orphan home provided care for 26 children. Although the residential home has completed its season of operation, the relationships and commitment continue.
                 </p>
                 <p>
                   Some former residents are now pursuing college through educational scholarships, completing internships, gaining workplace experience, and taking important steps toward independent adult life. That long arc of support reflects the heart of She Has Hope: walking with each young person toward a future with greater safety and opportunity.

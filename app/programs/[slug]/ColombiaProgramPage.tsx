@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import type { Program } from '../programs';
-import { ProgramContextSection } from './ProgramPageShared';
+import { ImpactSection, ProgramContextSection } from './ProgramPageShared';
 
 type ColombiaProgramPageProps = {
   program: Program;
@@ -195,6 +195,16 @@ export default function ColombiaProgramPage({ program }: ColombiaProgramPageProp
             </div>
           </div>
         </section>
+
+        <ImpactSection
+          eyebrow="Cumulative program reach"
+          title="Care rooted in safety, learning, and opportunity"
+          intro="Since the Colombia partnership began in 2025, Casa Vida has provided girls with consistent care, education, mentoring, and practical opportunities."
+          stats={[
+            { value: '27', label: 'Girls cared for through Casa Vida' },
+          ]}
+          note="This cumulative figure reflects girls cared for since the Colombia partnership began."
+        />
 
         <section className="py-14 md:py-20">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">

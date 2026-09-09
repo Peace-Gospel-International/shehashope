@@ -149,13 +149,13 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
       <ImpactSection
         eyebrow="A long record of service"
         title="Education, care, and locally grown resources"
-        intro="These cumulative figures reflect the Uganda partnership’s reported work through 2026."
+        intro="These cumulative figures reflect the Uganda partnership’s long record of education, care, and locally grown resources."
         stats={[
           { value: '4,689', label: 'Children educated' },
           { value: '1,472', label: 'Children cared for through orphan-care programs' },
-          { value: '215', label: 'Tons of farmland produce' },
+          { value: '247', label: 'Tons of farmland produce' },
         ]}
-        note="Uganda program figures reported through 2026."
+        note="Together, these programs connect learning, protection, nutrition, and local sustainability."
       />
 
       <section className="py-14 md:py-20">
@@ -184,7 +184,7 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Farmland sustainability</p>
-            <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Food that supports more than 70,000 meals each month</h2>
+            <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Food that supports more than 65,000 meals each month</h2>
             <p className="mt-5 text-lg leading-8 text-gray-700 font-serif">Across 15 acres, the local team grows beans, corn, potatoes, oranges, bananas, and passion fruit and also maintains a piggery and free-range poultry project. Together, these resources help supply program meals while marketable crops reinforce local sustainability.</p>
           </div>
           <div className="relative mt-10 aspect-[3/2] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
@@ -215,7 +215,7 @@ export default function UgandaProgramPage({ program }: UgandaProgramPageProps) {
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">Clean water across two campuses, medical care on the main campus</h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-gray-700 font-serif md:text-lg">
               <p>Three wells provide clean water across the two campuses and for members of the surrounding community. One of those wells is located on the main campus.</p>
-              <p>The medical clinic is also located on the main campus and has treated more than 2,500 people from the community and boarding high school since opening in 2012.</p>
+              <p>The medical clinic is also located on the main campus and has treated more than 4,100 people from the community and boarding high school since opening in 2012.</p>
             </div>
           </div>
         </div>
