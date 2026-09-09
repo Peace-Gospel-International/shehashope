@@ -49,10 +49,17 @@ type ProgramContextChallenge = {
   sourceIndexes: number[];
 };
 
+type ProgramContextStat = {
+  value: string;
+  label: string;
+  sourceIndexes: number[];
+};
+
 type ProgramContextSectionProps = {
   country: string;
   title: string;
   challenges: ProgramContextChallenge[];
+  stats?: ProgramContextStat[];
   response: string;
   sources: ProgramContextSource[];
 };
@@ -139,7 +146,7 @@ export function HopeStatement({ children }: { children: React.ReactNode }) {
   );
 }
 
-export function ProgramContextSection({ country, title, challenges, response, sources }: ProgramContextSectionProps) {
+export function ProgramContextSection({ country, title, challenges, stats, response, sources }: ProgramContextSectionProps) {
   return (
     <section className="bg-rose-50 py-10 md:py-14">
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
@@ -171,6 +178,34 @@ export function ProgramContextSection({ country, title, challenges, response, so
                 </span>
               ))}
             </p>
+            {stats && stats.length > 0 ? (
+              <div className={`grid gap-4 py-2 ${stats.length === 2 ? 'sm:grid-cols-2' : 'sm:grid-cols-2 lg:grid-cols-3'}`}>
+                {stats.map((stat) => (
+                  <div key={stat.label} className="rounded-2xl bg-rose-50 p-6 text-center">
+                    <p className="text-4xl font-bold text-[#EE0076] font-sans md:text-5xl">{stat.value}</p>
+                    <p className="mt-3 text-sm leading-6 text-gray-700 font-serif md:text-base">
+                      {stat.label}
+                      {stat.sourceIndexes.map((sourceIndex) => {
+                        const source = sources[sourceIndex - 1];
+                        return source ? (
+                          <sup key={sourceIndex} className="ml-1 font-sans text-xs">
+                            <a
+                              href={source.url}
+                              target="_blank"
+                              rel="noreferrer"
+                              aria-label={`${source.label} source`}
+                              className="font-bold text-[#EE0076] hover:underline"
+                            >
+                              [{sourceIndex}]
+                            </a>
+                          </sup>
+                        ) : null;
+                      })}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            ) : null}
             <p>{response}</p>
           </div>
           <p className="mt-6 border-t border-pink-100 pt-4 text-xs leading-5 text-gray-500 font-sans">
