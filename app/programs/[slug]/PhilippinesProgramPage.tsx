@@ -139,10 +139,15 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
 
       <section className="bg-rose-50 py-14 md:py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 md:grid-cols-2 lg:gap-16 lg:px-8">
-          <PhotoPlaceholder
-            title="Cebu girls home and daily care photo"
-            guidance="A warm shared-learning, meal, recreation, or common-space image that communicates stable residential care without identifying anyone’s history."
-          />
+          <div className="relative aspect-[3/2] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+            <Image
+              src="/images/programs/philippines-cebu-girls-home-group.jpg"
+              alt="Four girls sit closely together outdoors and smile"
+              fill
+              sizes="(min-width: 768px) 50vw, 100vw"
+              className="object-cover object-center"
+            />
+          </div>
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EE0076] font-sans">Cebu · Residential care</p>
             <h2 className="mt-3 text-3xl font-bold text-gray-900 font-sans md:text-4xl">A stable home for girls who need one</h2>
