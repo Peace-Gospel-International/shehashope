@@ -186,7 +186,7 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
           <div className="mx-auto mt-10 grid max-w-5xl gap-6 md:grid-cols-3">
             {[
               ['872', 'Children educated'],
-              ['9', 'Girls in residential care'],
+              ['15', 'Girls served through residential care'],
               ['104', 'Tons of farmland produce'],
             ].map(([value, label]) => (
               <div key={label} className="rounded-2xl bg-white p-8 text-center shadow-md">
