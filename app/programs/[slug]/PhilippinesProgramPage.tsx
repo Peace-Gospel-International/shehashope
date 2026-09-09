@@ -186,8 +186,8 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
           <div className="mx-auto mt-10 grid max-w-5xl gap-6 md:grid-cols-3">
             {[
               ['872', 'Children educated'],
-              ['10', 'Girls in residential care'],
-              ['99', 'Tons of farmland produce'],
+              ['9', 'Girls in residential care'],
+              ['104', 'Tons of farmland produce'],
             ].map(([value, label]) => (
               <div key={label} className="rounded-2xl bg-white p-8 text-center shadow-md">
                 <p className="text-5xl font-bold text-[#EE0076] font-sans">{value}</p>
@@ -195,7 +195,7 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
               </div>
             ))}
           </div>
-          <p className="mt-5 text-center text-sm text-gray-500 font-serif">Cumulative Philippines program figures reported through 2026.</p>
+          <p className="mt-5 text-center text-sm text-gray-500 font-serif">Latest available program figures; residential care as of Q3 2026 and cumulative farmland production through Q4 2025.</p>
         </div>
       </section>
 
