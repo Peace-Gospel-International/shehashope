@@ -117,10 +117,10 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
               <p>Today, the girls home provides residential care, the Hope Center supports children’s education, the women’s trade school develops practical skills, and the farmland enterprise strengthens local sustainability. Together, these distinct programs reinforce one another.</p>
             </div>
           </div>
-          <div className="relative aspect-square overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+          <div className="relative aspect-[1280/921] overflow-hidden rounded-2xl bg-gray-100 shadow-md">
             <Image
-              src="/images/programs/philippines-cebu-community-shared-meal.jpg"
-              alt="A group of women and girls gathers around a dining table filled with a shared meal"
+              src="/images/programs/philippines-cebu-community-school-supplies.jpg"
+              alt="A group of women and girls smile while holding backpacks, shoes, and other school supplies"
               fill
               sizes="(min-width: 768px) 50vw, 100vw"
               className="object-cover object-center"
