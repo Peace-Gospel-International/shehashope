@@ -54,10 +54,15 @@ export default function ArgentinaProgramPage({ program }: ArgentinaProgramPagePr
               <p>This is a prevention-centered program. Rather than presenting it as a direct rescue or survivor-care service, the work strengthens families and community awareness while giving young children a steadier foundation before exploitation can take deeper hold.</p>
             </div>
           </div>
-          <PhotoPlaceholder
-            title="Argentina community or local-team photo"
-            guidance="A people-centered image of the local team, neighborhood community, or family activity that protects children’s privacy and avoids diminishing portrayals."
-          />
+          <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-2xl bg-gray-100 shadow-md">
+            <Image
+              src="/images/programs/argentina-community-gathering.jpg"
+              alt="A woman and child smile at each other while other children and adults gather nearby"
+              fill
+              sizes="(min-width: 768px) 448px, 100vw"
+              className="object-cover object-center"
+            />
+          </div>
         </div>
       </section>
 
