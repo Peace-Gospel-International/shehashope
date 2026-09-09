@@ -82,22 +82,28 @@ export default function PhilippinesProgramPage({ program }: PhilippinesProgramPa
         title="Education and stable care strengthen protection"
         challenges={[
           {
-            text: 'From January through June 2026, DSWD Central Visayas recorded 21 trafficking-in-persons cases and seven online sexual abuse or exploitation of children cases. In two May operations in Cebu City, authorities rescued four women and two boys.',
+            text: 'Current reporting points to a broad, continuing trafficking crisis. In the first quarter of 2026, DSWD recorded 507 cases nationwide; the National Capital Region, which includes Manila, had the highest regional count with 206 trafficking survivors.',
             sourceIndexes: [1],
           },
           {
-            text: 'In Metro Manila, 44 trafficking survivors were residing at the DSWD Marillac Hills center when it observed World Day Against Trafficking in Persons in July 2025.',
+            text: 'Central Visayas, which includes Cebu, recorded 21 trafficking-in-persons cases and seven online child-exploitation cases from January through June 2026.',
             sourceIndexes: [2],
           },
           {
-            text: 'These figures reflect reported cases and people receiving services, not the full scale of trafficking, but they show that exploitation remains a present concern in both areas.',
-            sourceIndexes: [1, 2],
+            text: 'Child labor is also widespread. In May 2026, DOLE was monitoring 2,683 cases in Central Visayas, including 1,218 in Cebu Province.',
+            sourceIndexes: [3],
+          },
+          {
+            text: 'Nationally, PSA estimated that 513,650 children ages 5 to 17 were engaged in child labor in 2025—1.8% of children in that age range. Its latest release reports national rather than comparable city-level figures for Manila.',
+            sourceIndexes: [4],
           },
         ]}
-        response="That is why education and orphan care are central to the Philippines program. The Hope Centers in Cebu and Manila help children stay connected to school, nutritious meals, practical support, and trusted adults, while Cebu’s girls home provides stable residential care and long-term educational support for girls who need a safe home. Together, these services reduce some of the pressures that can increase vulnerability and help children build safer futures."
+        response="These figures show why education and stable care matter in both communities. The Hope Centers in Cebu and Manila help children stay connected to school, meals, practical support, and trusted adults, while Cebu’s girls home provides residential care and long-term educational support. Together, these services address pressures that can increase vulnerability to exploitative work and trafficking and help children build safer futures."
         sources={[
+          { label: 'GMA News, citing DSWD: NCR trafficking survivors, first quarter 2026', url: 'https://www.gmanetwork.com/news/topstories/nation/993326/iacat-calls-for-unity-vs-human-trafficking/story/' },
           { label: 'DSWD-7: Central Visayas trafficking and OSAEC cases, January–June 2026', url: 'https://fo7.dswd.gov.ph/dswd-7-records-21-trafficking-in-persons-7-osaec-cases-from-january-to-june-2026/' },
-          { label: 'DSWD NCR: Marillac Hills trafficking survivors, July 2025', url: 'https://ncr.dswd.gov.ph/2025/07/marillac-hills-national-training-school-for-girls-mh-ntsg-in-alabang-muntinlupa-city-participated-in-the-commemoration-of-the-world-day-against-trafficking-in-persons/' },
+          { label: 'SunStar Cebu, citing DOLE-7: monitored child labor cases, May 2026', url: 'https://www.sunstar.com.ph/cebu/child-labor-cases-still-high' },
+          { label: 'Philippine Statistics Authority: 2025 Working Children Situation', url: 'https://psa.gov.ph/content/2025-working-children-situation-preliminary-results' },
         ]}
       />
 
